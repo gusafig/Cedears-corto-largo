@@ -1,0 +1,30 @@
+name: Actualizar Top Técnico
+
+on:
+  schedule:
+    - cron: '0 22 * * 1-5'  # 22:00 UTC (19:00 hora Argentina), de lunes a viernes
+  workflow_dispatch:        # permite ejecutarlo manualmente desde la pestaña "Actions"
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Calcular el Top Técnico
+        run: python calcular_top_tecnico.py
+
+      - name: Guardar el resultado en el repositorio
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualización automática del top técnico"
+          file_pattern: top_tecnico.csv
