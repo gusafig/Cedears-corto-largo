@@ -9,39 +9,92 @@ Indicadores usados (todos con el mismo peso):
   - Volumen relativo (vs promedio de 20 ruedas)
   - A/D Line (acumulación/distribución), pendiente de las últimas 20 ruedas
 
-Este script está pensado para correr dentro de GitHub Actions, donde sí hay
-acceso a internet para descargar precios. No requiere que el usuario sepa
-programar: una vez subido al repositorio, el workflow lo ejecuta solo.
+Pensado para correr dentro de GitHub Actions. Para evitar que Yahoo Finance
+bloquee los pedidos (algo común cuando vienen muchos seguidos desde
+servidores compartidos como los de GitHub), este script:
+  - pide los precios de a LOTES en vez de ticker por ticker
+  - simula un navegador real en vez de un script
+  - espera un poco entre lotes
+
+Variable de entorno MODO_PRUEBA=true: corre solo sobre un puñado de
+tickers conocidos, para validar rápido que todo funciona antes de
+lanzar la corrida completa sobre los 413.
 """
 
+import os
 import sys
+import time
 import pandas as pd
 import numpy as np
 import yfinance as yf
+
+try:
+    from curl_cffi import requests as cffi_requests
+    SESSION = cffi_requests.Session(impersonate="chrome")
+except Exception:
+    SESSION = None  # si no está disponible, seguimos sin sesión especial
 
 UNIVERSO_CSV = "cedears_byma.csv"
 SALIDA_CSV = "top_tecnico.csv"
 TOP_N = 20
 PERIODO_HISTORIA = "1y"
-MIN_RUEDAS_NECESARIAS = 210  # para poder calcular SMA200 con margen
+MIN_RUEDAS_NECESARIAS = 210
+TAMANO_LOTE = 25
+PAUSA_ENTRE_LOTES = 3  # segundos
+
+MODO_PRUEBA = os.environ.get("MODO_PRUEBA", "false").lower() == "true"
+TICKERS_PRUEBA = ["AAPL", "MSFT", "GOOGL", "TSLA", "AMZN", "MELI", "VALE", "UN", "PBR", "KO"]
 
 
-def obtener_precios(ticker_byma):
-    """
-    Intenta descargar precios para un CEDEAR de BYMA.
-    Prueba variantes de sufijo porque algunos tickers de BYMA cambian de
-    serie periódicamente (ej: re-emisiones) y el sufijo ".BA" simple no
-    siempre alcanza.
-    """
-    variantes = [f"{ticker_byma}.BA", f"{ticker_byma}D.BA"]
-    for variante in variantes:
+def descargar_lote(tickers_base, sufijo):
+    """Descarga un lote de tickers en una sola llamada (menos pedidos = menos riesgo de bloqueo)."""
+    simbolos = [f"{t}{sufijo}" for t in tickers_base]
+    kwargs = dict(period=PERIODO_HISTORIA, progress=False, auto_adjust=True,
+                  group_by="ticker", threads=True)
+    if SESSION is not None:
+        kwargs["session"] = SESSION
+    try:
+        data = yf.download(simbolos, **kwargs)
+    except Exception as e:
+        print(f"  Lote falló ({sufijo}): {e}")
+        return {}
+
+    resultado = {}
+    for base, simbolo in zip(tickers_base, simbolos):
         try:
-            df = yf.download(variante, period=PERIODO_HISTORIA, progress=False, auto_adjust=True)
-            if df is not None and len(df) >= MIN_RUEDAS_NECESARIAS:
-                return df
+            df = data[simbolo] if len(simbolos) > 1 else data
+            if df is not None and not df.dropna(how="all").empty and len(df) >= MIN_RUEDAS_NECESARIAS:
+                resultado[base] = df
         except Exception:
             continue
-    return None
+    return resultado
+
+
+def obtener_precios_universo(tickers):
+    """
+    Recorre todos los tickers en lotes, primero probando el sufijo ".BA",
+    y reintentando solo los que fallaron con la variante "D.BA"
+    (algunos CEDEARs cambian de serie y necesitan ese sufijo).
+    """
+    precios = {}
+    pendientes = list(tickers)
+
+    for sufijo in [".BA", "D.BA"]:
+        if not pendientes:
+            break
+        print(f"Probando sufijo '{sufijo}' para {len(pendientes)} tickers...")
+        nuevos_pendientes = []
+        for i in range(0, len(pendientes), TAMANO_LOTE):
+            lote = pendientes[i:i + TAMANO_LOTE]
+            encontrados = descargar_lote(lote, sufijo)
+            precios.update(encontrados)
+            faltantes = [t for t in lote if t not in encontrados]
+            nuevos_pendientes.extend(faltantes)
+            print(f"  Lote {i // TAMANO_LOTE + 1}: {len(encontrados)}/{len(lote)} OK")
+            time.sleep(PAUSA_ENTRE_LOTES)
+        pendientes = nuevos_pendientes
+
+    return precios, pendientes  # pendientes = los que fallaron con ambos sufijos
 
 
 def calcular_indicadores(df):
@@ -71,7 +124,6 @@ def calcular_indicadores(df):
     vol_promedio_20 = float(volume.rolling(20).mean().iloc[-1])
     vol_relativo = float(volume.iloc[-1]) / vol_promedio_20 if vol_promedio_20 > 0 else np.nan
 
-    # A/D Line: pondera el cierre dentro del rango del día por el volumen
     rango = (high - low).replace(0, np.nan)
     clv = ((close - low) - (high - close)) / rango
     ad = (clv * volume).fillna(0).cumsum()
@@ -93,19 +145,22 @@ def percentil(serie):
 
 def main():
     universo = pd.read_csv(UNIVERSO_CSV)
-    resultados = []
-    fallidos = []
 
-    for _, fila in universo.iterrows():
-        ticker = str(fila["ticker_byma"]).strip()
-        df = obtener_precios(ticker)
-        if df is None:
-            fallidos.append(ticker)
-            continue
+    if MODO_PRUEBA:
+        universo = universo[universo["ticker_byma"].isin(TICKERS_PRUEBA)]
+        print(f"MODO PRUEBA activado: usando {len(universo)} tickers de {len(TICKERS_PRUEBA)} esperados.")
+
+    nombres_por_ticker = dict(zip(universo["ticker_byma"], universo["nombre_empresa"]))
+    tickers = list(nombres_por_ticker.keys())
+
+    precios, fallidos = obtener_precios_universo(tickers)
+
+    resultados = []
+    for ticker, df in precios.items():
         try:
             ind = calcular_indicadores(df)
             ind["ticker_byma"] = ticker
-            ind["nombre_empresa"] = fila["nombre_empresa"]
+            ind["nombre_empresa"] = nombres_por_ticker[ticker]
             resultados.append(ind)
         except Exception:
             fallidos.append(ticker)
@@ -133,12 +188,13 @@ def main():
         "ticker_byma", "nombre_empresa", "puntaje_tecnico", "tendencia",
         "distancia_media_pct", "roc_20d_pct", "macd_hist", "volumen_relativo", "ad_pendiente",
     ]
-    tabla[columnas_salida].head(TOP_N).round(2).to_csv(SALIDA_CSV, index=False)
+    top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
+    top.to_csv(SALIDA_CSV, index=False)
 
-    print(f"Procesados: {len(tabla)} tickers con datos. Fallidos: {len(fallidos)}.")
-    print(f"Top {TOP_N} guardado en {SALIDA_CSV}")
+    print(f"\nProcesados con éxito: {len(tabla)}/{len(tickers)} tickers. Fallidos: {len(fallidos)}.")
+    print(f"Resultado guardado en {SALIDA_CSV}")
     if fallidos:
-        print("Tickers sin datos suficientes (se ignoran, no rompen el proceso):")
+        print("Tickers sin datos suficientes (no rompen el proceso):")
         print(", ".join(fallidos))
 
 
