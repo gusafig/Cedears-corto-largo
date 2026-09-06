@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 22 * * 1-5'  # 22:00 UTC (19:00 hora Argentina), de lunes a viernes
   workflow_dispatch:        # permite ejecutarlo manualmente desde la pestaña "Actions"
+    inputs:
+      modo_prueba:
+        description: 'Correr solo sobre 10 tickers conocidos para probar'
+        type: boolean
+        default: false
 
 jobs:
   actualizar:
@@ -21,6 +26,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Calcular el Top Técnico
+        env:
+          MODO_PRUEBA: ${{ github.event.inputs.modo_prueba || 'false' }}
         run: python calcular_top_tecnico.py
 
       - name: Guardar el resultado en el repositorio
