@@ -120,22 +120,33 @@ def calcular_indicadores(df):
     macd_line = ema12 - ema26
     signal_line = macd_line.ewm(span=9).mean()
     macd_hist = float((macd_line - signal_line).iloc[-1])
+    # Normalizado como % del precio: así una acción de $50.000 y una de $50
+    # con el mismo momentum relativo dan un valor comparable.
+    macd_hist_pct = macd_hist / precio_actual * 100
 
     vol_promedio_20 = float(volume.rolling(20).mean().iloc[-1])
     vol_relativo = float(volume.iloc[-1]) / vol_promedio_20 if vol_promedio_20 > 0 else np.nan
 
+    # A/D Line normalizada: promedio de CLV ponderado por volumen en los
+    # últimos 20 ruedas. Queda acotado entre -1 y 1, comparable entre
+    # empresas sin importar su escala de volumen.
     rango = (high - low).replace(0, np.nan)
     clv = ((close - low) - (high - close)) / rango
-    ad = (clv * volume).fillna(0).cumsum()
-    ad_pendiente = float(ad.iloc[-1] - ad.iloc[-20])
+    clv_reciente = clv.iloc[-20:]
+    volumen_reciente = volume.iloc[-20:]
+    volumen_total = float(volumen_reciente.sum())
+    ad_normalizado = (
+        float((clv_reciente * volumen_reciente).fillna(0).sum() / volumen_total)
+        if volumen_total > 0 else np.nan
+    )
 
     return {
         "tendencia": tendencia,
         "distancia_media_pct": distancia_media,
         "roc_20d_pct": roc,
-        "macd_hist": macd_hist,
+        "macd_hist_pct": macd_hist_pct,
         "volumen_relativo": vol_relativo,
-        "ad_pendiente": ad_pendiente,
+        "ad_normalizado": ad_normalizado,
     }
 
 
@@ -173,9 +184,9 @@ def main():
 
     tabla["pct_distancia"] = percentil(tabla["distancia_media_pct"])
     tabla["pct_roc"] = percentil(tabla["roc_20d_pct"])
-    tabla["pct_macd"] = percentil(tabla["macd_hist"])
+    tabla["pct_macd"] = percentil(tabla["macd_hist_pct"])
     tabla["pct_volumen"] = percentil(tabla["volumen_relativo"])
-    tabla["pct_ad"] = percentil(tabla["ad_pendiente"])
+    tabla["pct_ad"] = percentil(tabla["ad_normalizado"])
     tabla["pct_tendencia"] = tabla["tendencia"] * 100
 
     tabla["puntaje_tecnico"] = tabla[
@@ -186,7 +197,7 @@ def main():
 
     columnas_salida = [
         "ticker_byma", "nombre_empresa", "puntaje_tecnico", "tendencia",
-        "distancia_media_pct", "roc_20d_pct", "macd_hist", "volumen_relativo", "ad_pendiente",
+        "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo", "ad_normalizado",
     ]
     top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
     top.to_csv(SALIDA_CSV, index=False)
