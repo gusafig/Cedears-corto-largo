@@ -1,0 +1,37 @@
+name: Actualizar Top Financiero
+
+on:
+  schedule:
+    - cron: '0 12 * * 6'  # sábados a las 12:00 UTC (09:00 hora Argentina)
+  workflow_dispatch:
+    inputs:
+      modo_prueba:
+        description: 'Correr solo sobre 10 tickers conocidos para probar'
+        type: boolean
+        default: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Calcular el Top Financiero
+        env:
+          MODO_PRUEBA: ${{ github.event.inputs.modo_prueba || 'false' }}
+        run: python calcular_top_financiero.py
+
+      - name: Guardar el resultado en el repositorio
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualización automática del top financiero"
+          file_pattern: top_financiero.csv
