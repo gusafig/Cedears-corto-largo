@@ -115,20 +115,26 @@ def main():
     tabla["pct_deuda_ebitda"] = percentil(tabla["deuda_ebitda"], invertir=True)
     tabla["pct_crecimiento"] = percentil(tabla["crecimiento_ingresos"], invertir=False)
 
-    tabla["puntaje_financiero"] = tabla[
-        ["pct_pe", "pct_ev_ebitda", "pct_roe", "pct_deuda_ebitda", "pct_crecimiento"]
-    ].mean(axis=1, skipna=True)
+    columnas_pct = ["pct_pe", "pct_ev_ebitda", "pct_roe", "pct_deuda_ebitda", "pct_crecimiento"]
+    tabla["n_metricas"] = tabla[columnas_pct].notna().sum(axis=1)
+    tabla["puntaje_financiero"] = tabla[columnas_pct].mean(axis=1, skipna=True)
+
+    MIN_METRICAS = 3
+    excluidos_por_datos = tabla[tabla["n_metricas"] < MIN_METRICAS]["ticker_byma"].tolist()
+    tabla = tabla[tabla["n_metricas"] >= MIN_METRICAS]
 
     tabla = tabla.sort_values("puntaje_financiero", ascending=False)
 
     columnas_salida = [
-        "ticker_byma", "nombre_empresa", "puntaje_financiero",
+        "ticker_byma", "nombre_empresa", "puntaje_financiero", "n_metricas",
         "pe", "ev_ebitda", "roe", "deuda_ebitda", "crecimiento_ingresos",
     ]
     top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
     top.to_csv(SALIDA_CSV, index=False)
 
-    print(f"\nProcesados con éxito: {len(tabla)}/{len(universo)} tickers. Fallidos: {len(fallidos)}.")
+    print(f"\nProcesados con éxito: {len(resultados)}/{len(universo)} tickers. Fallidos: {len(fallidos)}.")
+    if excluidos_por_datos:
+        print(f"Excluidos del ranking por tener menos de {MIN_METRICAS} métricas disponibles: {', '.join(excluidos_por_datos)}")
     print(f"Resultado guardado en {SALIDA_CSV}")
     if fallidos:
         print("Tickers sin datos fundamentales disponibles (no rompen el proceso):")
