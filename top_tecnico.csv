@@ -1,0 +1,21 @@
+ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,distancia_media_pct,roc_20d_pct,macd_hist,volumen_relativo,ad_pendiente
+DISN,The Walt Disney Co.,92.57,1,33.42,33.64,223.62,20.0,696.94
+JNJ,Johnson & Johnson,85.02,1,24.25,7.98,40.62,0.04,35189.58
+HOG,Harley-Davidson Inc.,84.87,1,33.27,14.0,17.74,0.06,760.33
+CRM,Salesforce Inc.,84.47,1,32.84,29.69,235.83,0.01,344783.07
+ADGO,Adecoagro S.A.,83.38,1,22.07,27.29,234.11,0.02,148783.54
+TSM,Taiwan Semiconductor Manufacturing,82.56,1,20.95,3.69,173.51,0.04,30311.45
+BIIB,Biogen Inc.,81.88,1,22.94,9.47,9.04,0.05,5047.26
+BP,BP PCL,80.4,1,16.43,6.28,14.72,0.09,5240.63
+HPQ,Hp Inc,79.62,1,51.07,12.02,205.43,0.0,19789.53
+AMD,"Advanced Micro Devices, Inc.",77.35,1,44.92,2.64,126.38,0.02,4326.07
+TGT,Target Corporation,74.9,1,44.05,11.98,-25.39,0.02,8661.69
+DE,Deere & Co.,74.46,1,22.84,10.35,188.86,0.02,-152.89
+MSTR,Microstrategy Inc Cl A New,73.14,0,,48.06,180.86,,3164966.19
+MU,Micron Technology Inc,72.43,0,,19.32,2600.48,,243374.08
+VZ,Verizon Communications Inc.,71.5,1,14.8,7.17,-50.96,0.06,10199.94
+V,Visa Inc,70.89,1,18.46,6.01,-74.85,0.03,95281.54
+MRK,Merck & Co. Inc.,70.8,1,27.87,11.67,-275.7,0.03,16251.65
+HOOD,Robinhood Markets Inc,70.0,0,,32.62,122.77,,126031.37
+TXR,Ternium S.A.,69.9,1,42.98,10.91,63.59,0.02,-23472.4
+MO,Altria Group Inc.,69.87,1,8.3,5.31,118.59,0.02,69886.41
