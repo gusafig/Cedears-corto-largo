@@ -44,35 +44,59 @@ TICKERS_PRUEBA = ["AAPL", "MSFT", "GOOGL", "TSLA", "AMZN", "MELI", "VALE", "UN",
 # Casos donde el código de BYMA no coincide con el ticker real en la bolsa
 # de origen. Sumar acá cualquier otro caso que se detecte más adelante.
 TICKERS_EXCEPCION = {
-    "UN": "NU",  # NU Holdings (Nubank): BYMA lo codifica como UN, el ticker real es NU
+    "UN": "NU",     # NU Holdings (Nubank)
+    "DISN": "DIS",  # The Walt Disney Company
+    "XROX": "XRX",  # Xerox Holding Corporation
+}
+
+# Sufijo que hay que agregarle al ticker según la bolsa de origen, para que
+# Yahoo Finance lo reconozca (EEUU no necesita sufijo).
+SUFIJOS_POR_MERCADO = {
+    "B3": ".SA",
+    "BOVESPA": ".SA",
+    "FRANKFURT": ".DE",
+    "XETRA": ".DE",
+    "LONDON STOCK EXCHANGE": ".L",
 }
 
 
-def ticker_de_origen(ticker_byma):
-    return TICKERS_EXCEPCION.get(ticker_byma, ticker_byma)
+def ticker_de_origen(ticker_byma, mercado=""):
+    base = TICKERS_EXCEPCION.get(ticker_byma, ticker_byma)
+    base = base.replace(".", "-")  # convención de Yahoo para clases de acciones (ej. BRK-B)
+    sufijo = SUFIJOS_POR_MERCADO.get(str(mercado).strip(), "")
+    return f"{base}{sufijo}"
 
 
-def obtener_fundamentales(ticker_byma):
+def a_numero(valor):
+    """Convierte a float; si no se puede (texto raro, None, etc.), devuelve NaN
+    en vez de romper el cálculo más adelante."""
+    try:
+        return float(valor)
+    except (TypeError, ValueError):
+        return np.nan
+
+
+def obtener_fundamentales(ticker_byma, mercado=""):
     """Descarga los datos fundamentales de la empresa subyacente para un ticker."""
-    simbolo = ticker_de_origen(ticker_byma)
+    simbolo = ticker_de_origen(ticker_byma, mercado)
     try:
         info = yf.Ticker(simbolo, session=SESSION).info if SESSION else yf.Ticker(simbolo).info
     except Exception:
         return None
 
-    if not info or info.get("trailingPE") is None and info.get("enterpriseToEbitda") is None:
+    if not info or (info.get("trailingPE") is None and info.get("enterpriseToEbitda") is None):
         return None
 
-    ebitda = info.get("ebitda")
-    deuda_total = info.get("totalDebt")
+    ebitda = a_numero(info.get("ebitda"))
+    deuda_total = a_numero(info.get("totalDebt"))
     deuda_ebitda = (deuda_total / ebitda) if (ebitda and deuda_total and ebitda > 0) else np.nan
 
     return {
-        "pe": info.get("trailingPE", np.nan),
-        "ev_ebitda": info.get("enterpriseToEbitda", np.nan),
-        "roe": info.get("returnOnEquity", np.nan),
-        "deuda_ebitda": deuda_ebitda,
-        "crecimiento_ingresos": info.get("revenueGrowth", np.nan),
+        "pe": a_numero(info.get("trailingPE")),
+        "ev_ebitda": a_numero(info.get("enterpriseToEbitda")),
+        "roe": a_numero(info.get("returnOnEquity")),
+        "deuda_ebitda": a_numero(deuda_ebitda),
+        "crecimiento_ingresos": a_numero(info.get("revenueGrowth")),
     }
 
 
@@ -94,7 +118,8 @@ def main():
 
     for _, fila in universo.iterrows():
         ticker = str(fila["ticker_byma"]).strip()
-        datos = obtener_fundamentales(ticker)
+        mercado = fila.get("mercado", "")
+        datos = obtener_fundamentales(ticker, mercado)
         if datos is None:
             fallidos.append(ticker)
         else:
@@ -108,6 +133,8 @@ def main():
         sys.exit(1)
 
     tabla = pd.DataFrame(resultados)
+    for columna in ["pe", "ev_ebitda", "roe", "deuda_ebitda", "crecimiento_ingresos"]:
+        tabla[columna] = pd.to_numeric(tabla[columna], errors="coerce")
 
     tabla["pct_pe"] = percentil(tabla["pe"], invertir=True)
     tabla["pct_ev_ebitda"] = percentil(tabla["ev_ebitda"], invertir=True)
