@@ -50,8 +50,8 @@ CEG,CONSTELLATION ENERGY CORPORATION,61.02,0,False,ninguno,ninguna,ninguna,,8.05
 NUE,Nucor Corp,60.98,1,False,ninguno,ninguna,ninguna,28.8,-5.56,-0.03,0.79,0.08,59.85
 ABEV3,Ambev S.A.,60.82,0,False,ninguno,ninguna,ninguna,,6.33,0.59,,0.07,64.88
 RIOT,Riot Platforms,60.73,0,False,ninguno,ninguna,alcista,,9.62,1.47,,-0.03,62.11
-SID,Companhia Siderúrgica Nacional,60.28,0,False,ninguno,ninguna,ninguna,-3.57,44.9,2.43,0.98,0.08,85.82
 SI,Silvergate Bancorp,60.28,0,False,ninguno,ninguna,ninguna,-3.57,44.9,2.43,0.98,0.08,85.82
+SID,Companhia Siderúrgica Nacional,60.28,0,False,ninguno,ninguna,ninguna,-3.57,44.9,2.43,0.98,0.08,85.82
 MFG,Mizuho Financial Group,60.22,0,False,ninguno,ninguna,bajista,,6.76,0.5,,0.16,
 ILF,IShares Latin America 40 ETF,59.73,0,False,ninguno,ninguna,ninguna,,9.01,0.39,,-0.08,77.4
 ORCL,Oracle Corporation,58.99,0,False,ninguno,ninguna,ninguna,0.85,12.25,0.77,2.61,-0.1,68.46
@@ -365,14 +365,14 @@ IP,International Paper Co.,6.6,0,False,ninguno,bajista,bajista,,-11.79,-1.34,,-0
 BKNG,Booking,6.36,0,False,ninguno,ninguna,ninguna,,-11.49,-1.59,,-0.33,32.85
 HWM,Howmet Aerospace Inc.,5.04,0,False,ninguno,ninguna,ninguna,,-17.5,-1.53,,-0.32,
 PDD,PDD HOLDINGS INC,4.8,0,False,ninguno,ninguna,ninguna,,-11.35,-1.03,,-0.56,17.65
-UN,NU Holdings Ltd/Cayman Islands,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
-AOCA,Aluminum Corp Of China,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
-MBT,Mobile Telesystems,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
-ORAN,Orange S.A.,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
-HNPIY,Huaneng Power Intl,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 JCI,Johnson Controls International,0.0,0,False,ninguno,bajista,bajista,,,,,,
+MBT,Mobile Telesystems,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
+HNPIY,Huaneng Power Intl,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
+ORAN,Orange S.A.,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 EA,Electronic Arts Inc,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 SNP,China Petroleum & Chem,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 TIIAY,Telecom Italia S.P.A. Ordinary Shares,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 TTM,Tata Motors Ltd,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
+UN,NU Holdings Ltd/Cayman Islands,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
+AOCA,Aluminum Corp Of China,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
 YZCA,Yanzhou Coal Mining Co. Ltd.,0.0,0,False,ninguno,ninguna,ninguna,,,,,,
