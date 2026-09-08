@@ -8,6 +8,8 @@ Indicadores usados (todos con el mismo peso):
   - Momentum: ROC de 20 ruedas y MACD (histograma)
   - Volumen relativo (vs promedio de 20 ruedas)
   - A/D Line (acumulación/distribución), pendiente de las últimas 20 ruedas
+  - RSI (14 ruedas), tomado como valor actual (además de usarse para
+    detectar divergencias)
 
 Pensado para correr dentro de GitHub Actions. Para evitar que Yahoo Finance
 bloquee los pedidos (algo común cuando vienen muchos seguidos desde
@@ -219,6 +221,7 @@ def calcular_indicadores(df):
     vol_relativo = float(volume.iloc[-1]) / vol_promedio_20 if vol_promedio_20 > 0 else np.nan
 
     rsi = calcular_rsi(close)
+    rsi_actual = float(rsi.iloc[-1])
     divergencia_rsi = detectar_divergencia(close, rsi)
     divergencia_macd = detectar_divergencia(close, macd_line)
 
@@ -244,6 +247,7 @@ def calcular_indicadores(df):
         "macd_hist_pct": macd_hist_pct,
         "volumen_relativo": vol_relativo,
         "ad_normalizado": ad_normalizado,
+        "rsi_actual": rsi_actual,
         "divergencia_rsi": divergencia_rsi,
         "divergencia_macd": divergencia_macd,
     }
@@ -286,10 +290,11 @@ def main():
     tabla["pct_macd"] = percentil(tabla["macd_hist_pct"])
     tabla["pct_volumen"] = percentil(tabla["volumen_relativo"])
     tabla["pct_ad"] = percentil(tabla["ad_normalizado"])
+    tabla["pct_rsi"] = percentil(tabla["rsi_actual"])
     tabla["pct_tendencia"] = tabla["tendencia"] * 100
 
     tabla["puntaje_tecnico"] = tabla[
-        ["pct_tendencia", "pct_distancia", "pct_roc", "pct_macd", "pct_volumen", "pct_ad"]
+        ["pct_tendencia", "pct_distancia", "pct_roc", "pct_macd", "pct_volumen", "pct_ad", "pct_rsi"]
     ].mean(axis=1)
 
     tabla = tabla.sort_values("puntaje_tecnico", ascending=False)
@@ -297,7 +302,8 @@ def main():
     columnas_salida = [
         "ticker_byma", "nombre_empresa", "puntaje_tecnico", "tendencia",
         "cruce_reciente", "tipo_cruce", "divergencia_rsi", "divergencia_macd",
-        "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo", "ad_normalizado",
+        "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo",
+        "ad_normalizado", "rsi_actual",
     ]
     tabla_completa = tabla[columnas_salida].round(2)
     tabla_completa.to_csv(COMPLETO_CSV, index=False)  # todo el universo, para el buscador
