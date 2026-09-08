@@ -132,6 +132,52 @@
   }
   .badge.alcista { background: rgba(94,163,121,0.18); color: var(--accent-green); }
   .badge.bajista { background: rgba(193,88,74,0.18); color: var(--accent-red); }
+
+  .buscador {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2.5rem;
+  }
+  .buscador input {
+    width: 100%;
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.95rem;
+    padding: 0.9rem 1.1rem;
+  }
+  .buscador input:focus { outline: 1px solid var(--accent-gold); }
+  .buscador input::placeholder { color: var(--text-muted); }
+  .resultado-busqueda {
+    border: 1px solid var(--panel-border);
+    border-top: none;
+    padding: 1.2rem;
+    background: var(--panel);
+  }
+  .resultado-busqueda h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    font-weight: 600;
+  }
+  .resultado-busqueda .nombre-empresa {
+    color: var(--text-muted);
+    font-weight: 400;
+    margin-left: 0.6rem;
+  }
+  .resultado-columnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  @media (max-width: 720px) { .resultado-columnas { grid-template-columns: 1fr; } }
+  .etiqueta-resultado {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-gold);
+    margin: 0 0 0.6rem;
+  }
   .empty-state, .vacio {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.78rem;
@@ -170,6 +216,11 @@
     <h1>Dashboard CEDEARs</h1>
     <p>Escaneo de los CEDEARs que cotizan en Argentina, con rankings pensados para dos horizontes de inversión distintos.</p>
   </header>
+
+  <section class="buscador">
+    <input type="text" id="input-buscar" placeholder="Buscar cualquiera de los 413 CEDEARs por ticker o nombre (ej: AAPL, Nubank)...">
+    <div id="resultados-busqueda"></div>
+  </section>
 
   <main>
     <section class="panel">
@@ -308,6 +359,72 @@
 
     cargarTabla('top_financiero.csv', 'cuerpo-financiero', 'puntaje_financiero', 'financiero');
     cargarTabla('top_tecnico.csv', 'cuerpo-tecnico', 'puntaje_tecnico', 'tecnico');
+
+    // --- Buscador sobre el universo completo (los 413, no solo el Top 20) ---
+    const datosCompletos = { tecnico: [], financiero: [] };
+
+    async function cargarCompleto(archivoCsv, clave) {
+      try {
+        const respuesta = await fetch(archivoCsv);
+        if (!respuesta.ok) return;
+        const texto = await respuesta.text();
+        const resultado = Papa.parse(texto, { header: true, dynamicTyping: true, skipEmptyLines: true });
+        datosCompletos[clave] = resultado.data;
+      } catch (error) {
+        // si falla, el buscador simplemente no va a tener esa mitad de datos
+      }
+    }
+
+    function buscar(query) {
+      const q = query.trim().toLowerCase();
+      const contenedor = document.getElementById('resultados-busqueda');
+      if (!q) { contenedor.innerHTML = ''; return; }
+
+      const coincide = (f) =>
+        String(f.ticker_byma ?? '').toLowerCase().includes(q) ||
+        String(f.nombre_empresa ?? '').toLowerCase().includes(q);
+
+      const enTecnico = datosCompletos.tecnico.filter(coincide);
+      const enFinanciero = datosCompletos.financiero.filter(coincide);
+      const tickers = [...new Set([
+        ...enTecnico.map(f => f.ticker_byma),
+        ...enFinanciero.map(f => f.ticker_byma),
+      ])];
+
+      if (tickers.length === 0) {
+        contenedor.innerHTML = '<p class="vacio" style="margin-top:0.8rem;">No se encontraron coincidencias.</p>';
+        return;
+      }
+
+      contenedor.innerHTML = '';
+      tickers.slice(0, 15).forEach((ticker) => {
+        const filaTec = enTecnico.find(f => f.ticker_byma === ticker);
+        const filaFin = enFinanciero.find(f => f.ticker_byma === ticker);
+        const nombre = (filaTec && filaTec.nombre_empresa) || (filaFin && filaFin.nombre_empresa) || '';
+
+        const div = document.createElement('div');
+        div.className = 'resultado-busqueda';
+        div.innerHTML = `
+          <h3>${ticker}<span class="nombre-empresa">${nombre}</span></h3>
+          <div class="resultado-columnas">
+            <div>
+              <p class="etiqueta-resultado">Financiero${filaFin ? ' · ' + num(filaFin.puntaje_financiero) : ' · sin datos'}</p>
+              ${filaFin ? detalleFinanciero(filaFin) : ''}
+            </div>
+            <div>
+              <p class="etiqueta-resultado">Técnico${filaTec ? ' · ' + num(filaTec.puntaje_tecnico) : ' · sin datos'}</p>
+              ${filaTec ? detalleTecnico(filaTec) : ''}
+            </div>
+          </div>
+        `;
+        contenedor.appendChild(div);
+      });
+    }
+
+    document.getElementById('input-buscar').addEventListener('input', (e) => buscar(e.target.value));
+
+    cargarCompleto('completo_tecnico.csv', 'tecnico');
+    cargarCompleto('completo_financiero.csv', 'financiero');
   </script>
 </body>
 </html>

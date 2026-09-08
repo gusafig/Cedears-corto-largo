@@ -35,6 +35,7 @@ except Exception:
 
 UNIVERSO_CSV = "cedears_byma.csv"
 SALIDA_CSV = "top_financiero.csv"
+COMPLETO_CSV = "completo_financiero.csv"
 TOP_N = 20
 PAUSA_ENTRE_TICKERS = 1.5  # segundos
 
@@ -156,13 +157,14 @@ def main():
         "ticker_byma", "nombre_empresa", "puntaje_financiero", "n_metricas",
         "pe", "ev_ebitda", "roe", "deuda_ebitda", "crecimiento_ingresos",
     ]
-    top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
-    top.to_csv(SALIDA_CSV, index=False)
+    tabla_completa = tabla[columnas_salida].round(2)
+    tabla_completa.to_csv(COMPLETO_CSV, index=False)  # todo el universo, para el buscador
+    tabla_completa.head(TOP_N if not MODO_PRUEBA else len(tabla)).to_csv(SALIDA_CSV, index=False)
 
     print(f"\nProcesados con éxito: {len(resultados)}/{len(universo)} tickers. Fallidos: {len(fallidos)}.")
     if excluidos_por_datos:
         print(f"Excluidos del ranking por tener menos de {MIN_METRICAS} métricas disponibles: {', '.join(excluidos_por_datos)}")
-    print(f"Resultado guardado en {SALIDA_CSV}")
+    print(f"Top {TOP_N} guardado en {SALIDA_CSV}, universo completo en {COMPLETO_CSV}")
     if fallidos:
         print("Tickers sin datos fundamentales disponibles (no rompen el proceso):")
         print(", ".join(fallidos))

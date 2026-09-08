@@ -36,6 +36,7 @@ except Exception:
 
 UNIVERSO_CSV = "cedears_byma.csv"
 SALIDA_CSV = "top_tecnico.csv"
+COMPLETO_CSV = "completo_tecnico.csv"
 TOP_N = 20
 PERIODO_HISTORIA = "1y"
 MIN_RUEDAS_NECESARIAS = 210
@@ -298,11 +299,12 @@ def main():
         "cruce_reciente", "tipo_cruce", "divergencia_rsi", "divergencia_macd",
         "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo", "ad_normalizado",
     ]
-    top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
-    top.to_csv(SALIDA_CSV, index=False)
+    tabla_completa = tabla[columnas_salida].round(2)
+    tabla_completa.to_csv(COMPLETO_CSV, index=False)  # todo el universo, para el buscador
+    tabla_completa.head(TOP_N if not MODO_PRUEBA else len(tabla)).to_csv(SALIDA_CSV, index=False)  # solo el Top N
 
     print(f"\nProcesados con éxito: {len(tabla)}/{len(tickers)} tickers. Fallidos: {len(fallidos)}.")
-    print(f"Resultado guardado en {SALIDA_CSV}")
+    print(f"Top {TOP_N} guardado en {SALIDA_CSV}, universo completo en {COMPLETO_CSV}")
     if fallidos:
         print("Tickers sin datos suficientes (no rompen el proceso):")
         print(", ".join(fallidos))
