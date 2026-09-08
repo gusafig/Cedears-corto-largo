@@ -256,6 +256,24 @@
     </section>
   </main>
 
+  <section class="buscador" style="padding-top: 0;">
+    <div class="panel">
+      <h2>Patrones de piso</h2>
+      <p class="horizon">Baja sostenida + estabilización + volumen creciente + RSI/MACD no extendidos</p>
+      <div class="tabla-wrap">
+        <table>
+          <thead>
+            <tr><th>Ticker</th><th>Empresa</th><th class="num">RSI</th><th class="num">Volumen relativo</th></tr>
+          </thead>
+          <tbody id="cuerpo-piso">
+            <tr><td colspan="4" class="vacio">Cargando...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota-actualizacion">Señal aparte del puntaje técnico principal: busca posibles reversiones tempranas, no tendencias ya confirmadas. Tocá una fila para ver el detalle completo.</p>
+    </div>
+  </section>
+
   <footer>
     <span>413 CEDEARs escaneados.</span>
     <span>Repositorio: Cedears-corto-largo</span>
@@ -360,6 +378,56 @@
 
     cargarTabla('top_financiero.csv', 'cuerpo-financiero', 'puntaje_financiero', 'financiero');
     cargarTabla('top_tecnico.csv', 'cuerpo-tecnico', 'puntaje_tecnico', 'tecnico');
+
+    async function cargarPatronesPiso() {
+      const cuerpo = document.getElementById('cuerpo-piso');
+      try {
+        const respuesta = await fetch('completo_tecnico.csv');
+        if (!respuesta.ok) throw new Error('archivo no encontrado');
+        const texto = await respuesta.text();
+        const resultado = Papa.parse(texto, { header: true, dynamicTyping: true, skipEmptyLines: true });
+        const candidatos = resultado.data.filter(f =>
+          f.patron_piso === true || f.patron_piso === 'True' || f.patron_piso === 'TRUE'
+        );
+
+        if (!candidatos.length) {
+          cuerpo.innerHTML = '<tr><td colspan="4" class="vacio">Ningún CEDEAR cumple el patrón hoy. Es una señal poco frecuente por diseño — puede no haber candidatos en muchos días.</td></tr>';
+          return;
+        }
+
+        cuerpo.innerHTML = '';
+        candidatos.forEach((fila) => {
+          const trDato = document.createElement('tr');
+          trDato.className = 'fila-dato';
+          trDato.innerHTML = `
+            <td><span class="flecha">▸</span>${fila.ticker_byma ?? ''}</td>
+            <td>${fila.nombre_empresa ?? ''}</td>
+            <td class="num">${num(fila.rsi_actual)}</td>
+            <td class="num">${num(fila.volumen_relativo, 2)}×</td>
+          `;
+          const trDetalle = document.createElement('tr');
+          trDetalle.className = 'fila-detalle';
+          trDetalle.style.display = 'none';
+          const tdDetalle = document.createElement('td');
+          tdDetalle.colSpan = 4;
+          tdDetalle.innerHTML = detalleTecnico(fila);
+          trDetalle.appendChild(tdDetalle);
+
+          trDato.addEventListener('click', () => {
+            const abierta = trDetalle.style.display !== 'none';
+            trDetalle.style.display = abierta ? 'none' : 'table-row';
+            trDato.classList.toggle('abierta', !abierta);
+          });
+
+          cuerpo.appendChild(trDato);
+          cuerpo.appendChild(trDetalle);
+        });
+      } catch (error) {
+        cuerpo.innerHTML = '<tr><td colspan="4" class="vacio">Todavía no hay datos disponibles.</td></tr>';
+      }
+    }
+
+    cargarPatronesPiso();
 
     // --- Buscador sobre el universo completo (los 413, no solo el Top 20) ---
     const datosCompletos = { tecnico: [], financiero: [] };

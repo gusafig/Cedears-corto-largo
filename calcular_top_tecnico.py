@@ -189,6 +189,44 @@ def detectar_cruce_reciente(sma50, sma200, ventana=VENTANA_CRUCE):
     return cruce_reciente, tipo_cruce
 
 
+def rsi_zona_sana(rsi_actual, centro=55):
+    """Puntúa mejor un RSI moderado, ni sobrevendido ni sobrecomprado/extendido.
+    Devuelve la distancia NEGATIVA al centro: más cerca de 0 = mejor
+    (se percentila después, así que el signo es lo único que importa)."""
+    return -abs(rsi_actual - centro)
+
+
+def detectar_patron_piso(close, volume, rsi_actual, macd_hist_pct,
+                          ventana_larga=125, ventana_piso=20,
+                          caida_minima_pct=-20, rango_maximo_piso_pct=12,
+                          rsi_piso=20, rsi_techo=60):
+    """Detecta un posible 'piso con acumulación': el papel venía en baja
+    sostenida, se estabilizó recientemente, y el volumen está creciendo,
+    con RSI bajo a moderado (viniendo de una baja, es normal que siga bajo)
+    y MACD no extendido. Es una señal DISTINTA del puntaje técnico
+    principal — capta oportunidades de reversión temprana, no de tendencia
+    ya confirmada."""
+    if len(close) < ventana_larga:
+        return False
+    precio_actual = float(close.iloc[-1])
+    precio_referencia = float(close.iloc[-ventana_larga])
+    caida_previa_pct = (precio_actual - precio_referencia) / precio_referencia * 100
+    hubo_baja_sostenida = caida_previa_pct <= caida_minima_pct
+
+    ventana_reciente = close.iloc[-ventana_piso:]
+    rango_reciente_pct = float((ventana_reciente.max() - ventana_reciente.min()) / ventana_reciente.mean() * 100)
+    esta_estabilizado = rango_reciente_pct <= rango_maximo_piso_pct
+
+    vol_reciente = float(volume.iloc[-10:].mean())
+    vol_previo = float(volume.iloc[-30:-10].mean())
+    volumen_creciente = vol_previo > 0 and vol_reciente > vol_previo * 1.1
+
+    rsi_moderado = rsi_piso <= rsi_actual <= rsi_techo
+    macd_no_extendido = abs(macd_hist_pct) < 2.0
+
+    return bool(hubo_baja_sostenida and esta_estabilizado and volumen_creciente and rsi_moderado and macd_no_extendido)
+
+
 def calcular_indicadores(df):
     close = df["Close"]
     volume = df["Volume"]
@@ -201,6 +239,11 @@ def calcular_indicadores(df):
     precio_actual = float(close.iloc[-1])
     sma50_actual = float(sma50.iloc[-1])
     sma200_actual = float(sma200.iloc[-1])
+
+    if pd.isna(precio_actual) or pd.isna(sma50_actual) or pd.isna(sma200_actual):
+        # Datos insuficientes o con demasiados huecos: no calculamos nada
+        # "a medias" con NaN silencioso, mejor tratarlo como fallido.
+        raise ValueError("Datos insuficientes para calcular indicadores (SMA50/SMA200 con NaN)")
 
     tendencia = 1 if sma50_actual > sma200_actual else 0
     distancia_media = (precio_actual - sma200_actual) / sma200_actual * 100
@@ -224,6 +267,8 @@ def calcular_indicadores(df):
     rsi_actual = float(rsi.iloc[-1])
     divergencia_rsi = detectar_divergencia(close, rsi)
     divergencia_macd = detectar_divergencia(close, macd_line)
+    distancia_zona_sana_rsi = rsi_zona_sana(rsi_actual)
+    patron_piso = detectar_patron_piso(close, volume, rsi_actual, macd_hist_pct)
 
     # A/D Line normalizada: promedio de CLV ponderado por volumen en los
     # últimos 20 ruedas. Queda acotado entre -1 y 1, comparable entre
@@ -248,8 +293,10 @@ def calcular_indicadores(df):
         "volumen_relativo": vol_relativo,
         "ad_normalizado": ad_normalizado,
         "rsi_actual": rsi_actual,
+        "distancia_zona_sana_rsi": distancia_zona_sana_rsi,
         "divergencia_rsi": divergencia_rsi,
         "divergencia_macd": divergencia_macd,
+        "patron_piso": patron_piso,
     }
 
 
@@ -290,7 +337,7 @@ def main():
     tabla["pct_macd"] = percentil(tabla["macd_hist_pct"])
     tabla["pct_volumen"] = percentil(tabla["volumen_relativo"])
     tabla["pct_ad"] = percentil(tabla["ad_normalizado"])
-    tabla["pct_rsi"] = percentil(tabla["rsi_actual"])
+    tabla["pct_rsi"] = percentil(tabla["distancia_zona_sana_rsi"])
     tabla["pct_tendencia"] = tabla["tendencia"] * 100
 
     tabla["puntaje_tecnico"] = tabla[
@@ -303,7 +350,7 @@ def main():
         "ticker_byma", "nombre_empresa", "puntaje_tecnico", "tendencia",
         "cruce_reciente", "tipo_cruce", "divergencia_rsi", "divergencia_macd",
         "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo",
-        "ad_normalizado", "rsi_actual",
+        "ad_normalizado", "rsi_actual", "patron_piso",
     ]
     tabla_completa = tabla[columnas_salida].round(2)
     tabla_completa.to_csv(COMPLETO_CSV, index=False)  # todo el universo, para el buscador
