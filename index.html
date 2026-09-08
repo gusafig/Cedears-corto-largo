@@ -217,13 +217,28 @@
       return isNaN(n) ? '—' : n.toFixed(decimales);
     }
 
+    function badgeDivergencia(valor) {
+      if (valor === 'alcista') return '<span class="badge alcista">Alcista</span>';
+      if (valor === 'bajista') return '<span class="badge bajista">Bajista</span>';
+      return '<span class="badge">Ninguna</span>';
+    }
+
     function detalleTecnico(fila) {
       const badge = fila.tendencia == 1
         ? '<span class="badge alcista">Alcista</span>'
         : '<span class="badge bajista">Bajista</span>';
+      let cruce = '<span class="badge">Sin cruce reciente</span>';
+      if (fila.cruce_reciente === true || fila.cruce_reciente === 'True' || fila.cruce_reciente === 'TRUE') {
+        cruce = fila.tipo_cruce === 'dorado'
+          ? '<span class="badge alcista">Cruce dorado (≤15 ruedas)</span>'
+          : '<span class="badge bajista">Cruce de la muerte (≤15 ruedas)</span>';
+      }
       return `
         <div class="grilla-detalle">
           <div><span class="etiqueta">Tendencia (50/200)</span><span class="valor">${badge}</span></div>
+          <div><span class="etiqueta">Cruce reciente</span><span class="valor">${cruce}</span></div>
+          <div><span class="etiqueta">Divergencia RSI</span><span class="valor">${badgeDivergencia(fila.divergencia_rsi)}</span></div>
+          <div><span class="etiqueta">Divergencia MACD</span><span class="valor">${badgeDivergencia(fila.divergencia_macd)}</span></div>
           <div><span class="etiqueta">Distancia a la media</span><span class="valor">${num(fila.distancia_media_pct)}%</span></div>
           <div><span class="etiqueta">Momentum (ROC 20d)</span><span class="valor">${num(fila.roc_20d_pct)}%</span></div>
           <div><span class="etiqueta">Momentum (MACD)</span><span class="valor">${num(fila.macd_hist_pct, 3)}%</span></div>
