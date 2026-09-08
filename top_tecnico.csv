@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual
-CRM,Salesforce Inc.,86.46,1,True,dorado,ninguna,ninguna,31.78,28.65,1.01,0.06,0.39,80.93
-MRK,Merck & Co. Inc.,81.01,1,False,ninguno,ninguna,ninguna,36.24,19.03,-0.17,0.19,0.28,70.75
-TSM,Taiwan Semiconductor Manufacturing,77.82,1,False,ninguno,ninguna,ninguna,21.11,3.82,0.23,0.21,0.12,66.26
-QCOM,Qualcomm Inc.,77.19,1,False,ninguno,ninguna,ninguna,5.44,4.99,0.74,0.41,0.14,67.71
-MGLU3,Magazine Luiza S.A.,76.57,0,False,ninguno,ninguna,ninguna,,31.19,3.06,,0.27,78.42
-BBAS3,Banco do Brasil S.A.,75.54,0,False,ninguno,ninguna,ninguna,,14.6,2.01,,0.31,98.27
-CSNA3,Companhia Siderúrgica Nacional S.A.,75.4,0,False,ninguno,ninguna,ninguna,,33.54,2.45,,0.33,73.73
-VZ,Verizon Communications Inc.,74.54,1,False,ninguno,ninguna,ninguna,15.03,7.38,-0.24,0.43,0.1,67.46
-MSTR,Microstrategy Inc Cl A New,74.09,0,False,ninguno,ninguna,ninguna,,45.87,1.51,,0.23,75.3
-ITUB3,Banco Itaú Unibanco S.A,73.27,0,False,ninguno,ninguna,bajista,,11.65,1.46,,0.22,88.06
-HOOD,Robinhood Markets Inc,72.68,0,False,ninguno,ninguna,alcista,,29.24,1.67,,0.2,74.18
-NVDA,Nvidia Corporation,71.98,1,False,ninguno,ninguna,ninguna,22.82,6.82,0.37,0.19,-0.14,61.2
-MOS,The Mosaic Co,71.8,0,False,ninguno,ninguna,ninguna,,10.33,0.65,,0.3,78.24
-IBIT,ISHARES BITCOIN TRUST,71.46,0,False,ninguno,ninguna,bajista,,26.54,0.34,,0.24,78.39
-AAPL,Apple Inc.,71.0,1,False,ninguno,ninguna,ninguna,17.06,4.03,0.23,0.23,-0.03,60.61
-MO,Altria Group Inc.,70.79,1,False,ninguno,ninguna,ninguna,8.53,5.54,0.45,0.1,0.18,66.01
-AMD,"Advanced Micro Devices, Inc.",69.77,1,False,ninguno,ninguna,ninguna,43.98,1.97,0.12,0.21,0.03,49.87
-JMIA,Adr Jumia Technologies Ag,69.28,0,False,ninguno,ninguna,ninguna,,21.71,0.74,,0.15,70.0
-MELI,Mercadolibre Inc.,69.09,1,True,dorado,ninguna,ninguna,10.59,8.15,-0.03,0.13,0.12,70.45
-TGT,Target Corporation,68.97,1,False,ninguno,ninguna,ninguna,37.42,6.79,-0.55,0.14,0.04,63.42
+INTC,Intel Corporation,86.85,1,False,ninguno,ninguna,ninguna,43.52,7.57,1.41,2.61,0.03,71.72
+AMD,"Advanced Micro Devices, Inc.",86.6,1,False,ninguno,ninguna,ninguna,51.26,7.02,0.59,2.92,0.09,66.34
+GLW,Corning Inc.,83.27,1,False,ninguno,ninguna,ninguna,20.03,5.45,1.11,3.67,0.03,67.19
+CRM,Salesforce Inc.,82.35,1,True,dorado,ninguna,ninguna,30.07,27.09,0.51,0.59,0.39,75.86
+TSM,Taiwan Semiconductor Manufacturing,81.2,1,False,ninguno,ninguna,ninguna,22.34,4.5,0.41,1.63,0.12,70.04
+CSNA3,Companhia Siderúrgica Nacional S.A.,75.52,0,False,ninguno,ninguna,alcista,,34.07,2.12,,0.34,69.83
+SIEGY,Siemens Ag Adr,74.25,0,False,ninguno,ninguna,ninguna,,979.5,4.33,,0.58,
+MOS,The Mosaic Co,73.98,0,False,ninguno,ninguna,ninguna,,15.75,0.76,,0.31,77.93
+MGLU3,Magazine Luiza S.A.,73.44,0,False,ninguno,ninguna,ninguna,,30.52,2.84,,0.11,73.91
+DISN,The Walt Disney Co.,73.11,0,False,ninguno,ninguna,ninguna,,33.64,1.96,,0.74,
+MSTR,Microstrategy Inc Cl A New,72.7,0,False,ninguno,ninguna,ninguna,,42.76,1.09,,0.22,67.93
+BBAS3,Banco do Brasil S.A.,71.69,0,False,ninguno,ninguna,ninguna,,18.31,1.89,,0.06,92.63
+HOOD,Robinhood Markets Inc,71.55,0,False,ninguno,ninguna,ninguna,,24.9,1.41,,0.16,67.46
+PETR3,Petrobras - Petróleo Brasileiro S.A.,70.97,0,False,ninguno,ninguna,ninguna,,14.47,0.78,,0.28,67.53
+ADGO,Adecoagro S.A.,70.42,0,False,ninguno,ninguna,ninguna,,30.76,1.1,,0.31,
+RBLX,Roblox Corp.,69.81,0,False,ninguno,ninguna,ninguna,,23.82,2.25,,0.01,77.85
+FCX,Freeport Mcmoran Copper & Gold Inc.,69.57,1,False,ninguno,ninguna,ninguna,30.99,11.76,-0.65,0.7,0.15,65.52
+HUT,Hut 8 Mining Corp.,69.11,0,False,ninguno,ninguna,alcista,,11.91,2.31,,0.14,65.35
+ANF,Abercrombie & Fitch Co,68.27,0,False,ninguno,ninguna,ninguna,,28.67,1.21,,0.15,
+IBIT,ISHARES BITCOIN TRUST,68.04,0,False,ninguno,ninguna,bajista,,24.23,0.03,,0.24,69.48
