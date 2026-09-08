@@ -45,6 +45,75 @@ PAUSA_ENTRE_LOTES = 3  # segundos
 MODO_PRUEBA = os.environ.get("MODO_PRUEBA", "false").lower() == "true"
 TICKERS_PRUEBA = ["AAPL", "MSFT", "GOOGL", "TSLA", "AMZN", "MELI", "VALE", "UN", "PBR", "KO"]
 
+VENTANA_DIVERGENCIA = 90  # ruedas hacia atrás para buscar divergencias recientes
+UMBRAL_PIVOTE_PCT = 3.0   # % mínimo de movimiento para contar como un giro real (evita ruido)
+
+
+def calcular_rsi(close, periodo=14):
+    delta = close.diff()
+    ganancia = delta.clip(lower=0)
+    perdida = -delta.clip(upper=0)
+    media_ganancia = ganancia.rolling(periodo).mean()
+    media_perdida = perdida.rolling(periodo).mean()
+    rs = media_ganancia / media_perdida
+    return 100 - (100 / (1 + rs))
+
+
+def encontrar_pivotes(serie, umbral_pct=UMBRAL_PIVOTE_PCT):
+    """Zigzag simple: solo cuenta un giro si el precio se movió al menos
+    `umbral_pct`% desde el último pivote. Evita que ruido chico del día a
+    día se confunda con un máximo/mínimo real."""
+    valores = serie.reset_index(drop=True).values
+    if len(valores) < 3:
+        return []
+    pivotes = []
+    tendencia = None
+    ultimo_idx, ultimo_val = 0, valores[0]
+
+    for i in range(1, len(valores)):
+        if tendencia in (None, 'subiendo') and valores[i] >= ultimo_val:
+            ultimo_val, ultimo_idx = valores[i], i
+            if tendencia is None and (valores[i] - valores[0]) / valores[0] * 100 >= umbral_pct:
+                tendencia = 'subiendo'
+        elif tendencia in (None, 'bajando') and valores[i] <= ultimo_val:
+            ultimo_val, ultimo_idx = valores[i], i
+            if tendencia is None and (valores[i] - valores[0]) / valores[0] * 100 <= -umbral_pct:
+                tendencia = 'bajando'
+        elif tendencia == 'subiendo':
+            if (valores[i] - ultimo_val) / ultimo_val * 100 <= -umbral_pct:
+                pivotes.append((ultimo_idx, ultimo_val, 'max'))
+                tendencia, ultimo_val, ultimo_idx = 'bajando', valores[i], i
+        elif tendencia == 'bajando':
+            if (valores[i] - ultimo_val) / ultimo_val * 100 >= umbral_pct:
+                pivotes.append((ultimo_idx, ultimo_val, 'min'))
+                tendencia, ultimo_val, ultimo_idx = 'subiendo', valores[i], i
+
+    pivotes.append((ultimo_idx, ultimo_val, 'max' if tendencia == 'subiendo' else 'min'))
+    return pivotes
+
+
+def detectar_divergencia(close, oscilador, ventana=VENTANA_DIVERGENCIA):
+    """Compara los dos últimos mínimos (o máximos) del precio contra el
+    oscilador (RSI o línea MACD) para detectar divergencia alcista o bajista."""
+    close_r = close.iloc[-ventana:].reset_index(drop=True)
+    osc_r = oscilador.iloc[-ventana:].reset_index(drop=True)
+    if osc_r.isna().all():
+        return "ninguna"
+
+    pivotes = encontrar_pivotes(close_r)
+    minimos = [p for p in pivotes if p[2] == 'min']
+    maximos = [p for p in pivotes if p[2] == 'max']
+
+    if len(minimos) >= 2:
+        (i1, v1, _), (i2, v2, _) = minimos[-2], minimos[-1]
+        if v2 < v1 and not pd.isna(osc_r.iloc[i1]) and not pd.isna(osc_r.iloc[i2]) and osc_r.iloc[i2] > osc_r.iloc[i1]:
+            return "alcista"
+    if len(maximos) >= 2:
+        (i1, v1, _), (i2, v2, _) = maximos[-2], maximos[-1]
+        if v2 > v1 and not pd.isna(osc_r.iloc[i1]) and not pd.isna(osc_r.iloc[i2]) and osc_r.iloc[i2] < osc_r.iloc[i1]:
+            return "bajista"
+    return "ninguna"
+
 
 def descargar_lote(tickers_base, sufijo):
     """Descarga un lote de tickers en una sola llamada (menos pedidos = menos riesgo de bloqueo)."""
@@ -97,6 +166,26 @@ def obtener_precios_universo(tickers):
     return precios, pendientes  # pendientes = los que fallaron con ambos sufijos
 
 
+VENTANA_CRUCE = 15  # ruedas hacia atrás para considerar un cruce "reciente"
+
+
+def detectar_cruce_reciente(sma50, sma200, ventana=VENTANA_CRUCE):
+    """Devuelve si SMA50 y SMA200 se cruzaron en las últimas `ventana` ruedas,
+    y de qué tipo: 'dorado' (SMA50 pasa por ENCIMA, señal alcista) o
+    'de la muerte' (SMA50 pasa por DEBAJO, señal bajista)."""
+    diferencia = (sma50 - sma200).iloc[-(ventana + 1):]
+    cruce_reciente, tipo_cruce = False, "ninguno"
+    for i in range(1, len(diferencia)):
+        anterior, actual = diferencia.iloc[i - 1], diferencia.iloc[i]
+        if pd.isna(anterior) or pd.isna(actual):
+            continue
+        if anterior <= 0 and actual > 0:
+            cruce_reciente, tipo_cruce = True, "dorado"
+        elif anterior >= 0 and actual < 0:
+            cruce_reciente, tipo_cruce = True, "de la muerte"
+    return cruce_reciente, tipo_cruce
+
+
 def calcular_indicadores(df):
     close = df["Close"]
     volume = df["Volume"]
@@ -112,6 +201,7 @@ def calcular_indicadores(df):
 
     tendencia = 1 if sma50_actual > sma200_actual else 0
     distancia_media = (precio_actual - sma200_actual) / sma200_actual * 100
+    cruce_reciente, tipo_cruce = detectar_cruce_reciente(sma50, sma200)
 
     roc = (precio_actual - float(close.iloc[-21])) / float(close.iloc[-21]) * 100
 
@@ -126,6 +216,10 @@ def calcular_indicadores(df):
 
     vol_promedio_20 = float(volume.rolling(20).mean().iloc[-1])
     vol_relativo = float(volume.iloc[-1]) / vol_promedio_20 if vol_promedio_20 > 0 else np.nan
+
+    rsi = calcular_rsi(close)
+    divergencia_rsi = detectar_divergencia(close, rsi)
+    divergencia_macd = detectar_divergencia(close, macd_line)
 
     # A/D Line normalizada: promedio de CLV ponderado por volumen en los
     # últimos 20 ruedas. Queda acotado entre -1 y 1, comparable entre
@@ -142,11 +236,15 @@ def calcular_indicadores(df):
 
     return {
         "tendencia": tendencia,
+        "cruce_reciente": cruce_reciente,
+        "tipo_cruce": tipo_cruce,
         "distancia_media_pct": distancia_media,
         "roc_20d_pct": roc,
         "macd_hist_pct": macd_hist_pct,
         "volumen_relativo": vol_relativo,
         "ad_normalizado": ad_normalizado,
+        "divergencia_rsi": divergencia_rsi,
+        "divergencia_macd": divergencia_macd,
     }
 
 
@@ -197,6 +295,7 @@ def main():
 
     columnas_salida = [
         "ticker_byma", "nombre_empresa", "puntaje_tecnico", "tendencia",
+        "cruce_reciente", "tipo_cruce", "divergencia_rsi", "divergencia_macd",
         "distancia_media_pct", "roc_20d_pct", "macd_hist_pct", "volumen_relativo", "ad_normalizado",
     ]
     top = tabla[columnas_salida].head(TOP_N if not MODO_PRUEBA else len(tabla)).round(2)
