@@ -34,4 +34,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Actualización automática del top financiero"
-          file_pattern: top_financiero.csv
+          file_pattern: top_financiero.csv completo_financiero.csv
