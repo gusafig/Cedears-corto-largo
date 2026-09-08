@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard CEDEARs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0E2429;
+    --panel: #15323A;
+    --panel-border: #24474F;
+    --text: #EDE6D6;
+    --text-muted: #8FA8AD;
+    --accent-gold: #C9A227;
+    --accent-green: #5EA37A;
+    --accent-red: #C1584A;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .ticker {
+    display: flex;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--panel-border);
+    background: #0A1A1E;
+  }
+  .ticker span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    padding: 0.6rem 1.1rem;
+    border-right: 1px solid var(--panel-border);
+    white-space: nowrap;
+  }
+  header.hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 3rem;
+  }
+  header.hero h1 {
+    font-weight: 600;
+    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    line-height: 1.05;
+    margin: 0 0 1.1rem;
+  }
+  header.hero p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-width: 46ch;
+    margin: 0;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  @media (max-width: 720px) {
+    main { grid-template-columns: 1fr; }
+  }
+  .panel {
+    border: 1px solid var(--panel-border);
+    background: var(--panel);
+    padding: 2rem;
+  }
+  .panel h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 0 0.35rem;
+  }
+  .panel .horizon {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.03em;
+    margin: 0 0 1.5rem;
+  }
+  .tabla-wrap { overflow-x: auto; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.82rem;
+  }
+  thead th {
+    text-align: left;
+    color: var(--text-muted);
+    font-weight: 500;
+    padding: 0 0 0.6rem;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  thead th.num, tbody td.num { text-align: right; }
+  tbody td { padding: 0.55rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  tbody tr.fila-dato { cursor: pointer; }
+  tbody tr.fila-dato:hover td { color: var(--text); background: rgba(201,162,39,0.06); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody td.puntaje { color: var(--accent-gold); font-weight: 600; }
+  tbody td.rango { color: var(--text-muted); }
+  .flecha { display: inline-block; width: 1em; color: var(--text-muted); transition: transform 0.15s ease; }
+  tr.abierta .flecha { transform: rotate(90deg); }
+  .fila-detalle td {
+    background: rgba(0,0,0,0.15);
+    padding: 0.9rem 0.5rem 1rem 1.6rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .grilla-detalle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.6rem 1.2rem;
+  }
+  .grilla-detalle div { display: flex; flex-direction: column; gap: 0.15rem; }
+  .grilla-detalle .etiqueta { color: var(--text-muted); font-size: 0.72rem; }
+  .grilla-detalle .valor { color: var(--text); font-size: 0.88rem; }
+  .badge {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2px;
+    font-size: 0.75rem;
+  }
+  .badge.alcista { background: rgba(94,163,121,0.18); color: var(--accent-green); }
+  .badge.bajista { background: rgba(193,88,74,0.18); color: var(--accent-red); }
+  .empty-state, .vacio {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-left: 2px solid var(--accent-gold);
+    padding-left: 0.9rem;
+  }
+  .nota-actualizacion {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin: 1.25rem 0 0;
+  }
+  footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+    border-top: 1px solid var(--panel-border);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
+</head>
+<body>
+  <div class="ticker">
+    <span>NU</span><span>PAGS</span><span>MELI</span><span>STNE</span><span>VALE</span>
+  </div>
+
+  <header class="hero">
+    <h1>Dashboard CEDEARs</h1>
+    <p>Escaneo de los CEDEARs que cotizan en Argentina, con rankings pensados para dos horizontes de inversión distintos.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Financiero</h2>
+      <p class="horizon">Para decisiones de largo plazo</p>
+      <div class="tabla-wrap">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Ticker</th><th>Empresa</th><th class="num">Puntaje</th></tr>
+          </thead>
+          <tbody id="cuerpo-financiero">
+            <tr><td colspan="4" class="vacio">Cargando...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota-actualizacion">Se actualiza automáticamente todas las semanas. Tocá una fila para ver el detalle.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Técnico</h2>
+      <p class="horizon">Para decisiones de corto plazo</p>
+      <div class="tabla-wrap">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Ticker</th><th>Empresa</th><th class="num">Puntaje</th></tr>
+          </thead>
+          <tbody id="cuerpo-tecnico">
+            <tr><td colspan="4" class="vacio">Cargando...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="nota-actualizacion">Se actualiza automáticamente todos los días hábiles. Tocá una fila para ver el detalle.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>413 CEDEARs escaneados.</span>
+    <span>Repositorio: Cedears-corto-largo</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script>
+    function num(valor, decimales = 1) {
+      const n = Number(valor);
+      return isNaN(n) ? '—' : n.toFixed(decimales);
+    }
+
+    function detalleTecnico(fila) {
+      const badge = fila.tendencia == 1
+        ? '<span class="badge alcista">Alcista</span>'
+        : '<span class="badge bajista">Bajista</span>';
+      return `
+        <div class="grilla-detalle">
+          <div><span class="etiqueta">Tendencia (50/200)</span><span class="valor">${badge}</span></div>
+          <div><span class="etiqueta">Distancia a la media</span><span class="valor">${num(fila.distancia_media_pct)}%</span></div>
+          <div><span class="etiqueta">Momentum (ROC 20d)</span><span class="valor">${num(fila.roc_20d_pct)}%</span></div>
+          <div><span class="etiqueta">Momentum (MACD)</span><span class="valor">${num(fila.macd_hist_pct, 3)}%</span></div>
+          <div><span class="etiqueta">Volumen relativo</span><span class="valor">${num(fila.volumen_relativo, 2)}×</span></div>
+          <div><span class="etiqueta">Acumulación/Distribución</span><span class="valor">${num(fila.ad_normalizado, 2)}</span></div>
+        </div>`;
+    }
+
+    function detalleFinanciero(fila) {
+      return `
+        <div class="grilla-detalle">
+          <div><span class="etiqueta">P/E</span><span class="valor">${num(fila.pe)}</span></div>
+          <div><span class="etiqueta">EV/EBITDA</span><span class="valor">${num(fila.ev_ebitda)}</span></div>
+          <div><span class="etiqueta">ROE</span><span class="valor">${num(fila.roe * 100)}%</span></div>
+          <div><span class="etiqueta">Deuda / EBITDA</span><span class="valor">${num(fila.deuda_ebitda)}</span></div>
+          <div><span class="etiqueta">Crecimiento de ingresos</span><span class="valor">${num(fila.crecimiento_ingresos * 100)}%</span></div>
+          <div><span class="etiqueta">Métricas disponibles</span><span class="valor">${fila.n_metricas ?? '—'} de 5</span></div>
+        </div>`;
+    }
+
+    async function cargarTabla(archivoCsv, idCuerpo, columnaPuntaje, tipo) {
+      const cuerpo = document.getElementById(idCuerpo);
+      const armarDetalle = tipo === 'tecnico' ? detalleTecnico : detalleFinanciero;
+      try {
+        const respuesta = await fetch(archivoCsv);
+        if (!respuesta.ok) throw new Error('archivo no encontrado');
+        const texto = await respuesta.text();
+        const resultado = Papa.parse(texto, { header: true, dynamicTyping: true, skipEmptyLines: true });
+        const filas = resultado.data;
+
+        if (!filas.length) throw new Error('sin filas');
+
+        cuerpo.innerHTML = '';
+        filas.forEach((fila, i) => {
+          const puntaje = Number(fila[columnaPuntaje]);
+
+          const trDato = document.createElement('tr');
+          trDato.className = 'fila-dato';
+          trDato.innerHTML = `
+            <td class="rango"><span class="flecha">▸</span>${i + 1}</td>
+            <td>${fila.ticker_byma ?? ''}</td>
+            <td>${fila.nombre_empresa ?? ''}</td>
+            <td class="num puntaje">${isNaN(puntaje) ? '-' : puntaje.toFixed(1)}</td>
+          `;
+
+          const trDetalle = document.createElement('tr');
+          trDetalle.className = 'fila-detalle';
+          trDetalle.style.display = 'none';
+          const tdDetalle = document.createElement('td');
+          tdDetalle.colSpan = 4;
+          tdDetalle.innerHTML = armarDetalle(fila);
+          trDetalle.appendChild(tdDetalle);
+
+          trDato.addEventListener('click', () => {
+            const abierta = trDetalle.style.display !== 'none';
+            trDetalle.style.display = abierta ? 'none' : 'table-row';
+            trDato.classList.toggle('abierta', !abierta);
+          });
+
+          cuerpo.appendChild(trDato);
+          cuerpo.appendChild(trDetalle);
+        });
+      } catch (error) {
+        cuerpo.innerHTML = '<tr><td colspan="4" class="vacio">Todavía no hay datos disponibles. Van a aparecer apenas corra el próximo cálculo automático.</td></tr>';
+      }
+    }
+
+    cargarTabla('top_financiero.csv', 'cuerpo-financiero', 'puntaje_financiero', 'financiero');
+    cargarTabla('top_tecnico.csv', 'cuerpo-tecnico', 'puntaje_tecnico', 'tecnico');
+  </script>
+</body>
+</html>
