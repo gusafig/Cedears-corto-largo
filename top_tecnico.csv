@@ -1,21 +1,21 @@
-ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual
-INTC,Intel Corporation,86.85,1,False,ninguno,ninguna,ninguna,43.52,7.57,1.41,2.61,0.03,71.72
-AMD,"Advanced Micro Devices, Inc.",86.6,1,False,ninguno,ninguna,ninguna,51.26,7.02,0.59,2.92,0.09,66.34
-GLW,Corning Inc.,83.27,1,False,ninguno,ninguna,ninguna,20.03,5.45,1.11,3.67,0.03,67.19
-CRM,Salesforce Inc.,82.35,1,True,dorado,ninguna,ninguna,30.07,27.09,0.51,0.59,0.39,75.86
-TSM,Taiwan Semiconductor Manufacturing,81.2,1,False,ninguno,ninguna,ninguna,22.34,4.5,0.41,1.63,0.12,70.04
-CSNA3,Companhia Siderúrgica Nacional S.A.,75.52,0,False,ninguno,ninguna,alcista,,34.07,2.12,,0.34,69.83
-SIEGY,Siemens Ag Adr,74.25,0,False,ninguno,ninguna,ninguna,,979.5,4.33,,0.58,
-MOS,The Mosaic Co,73.98,0,False,ninguno,ninguna,ninguna,,15.75,0.76,,0.31,77.93
-MGLU3,Magazine Luiza S.A.,73.44,0,False,ninguno,ninguna,ninguna,,30.52,2.84,,0.11,73.91
-DISN,The Walt Disney Co.,73.11,0,False,ninguno,ninguna,ninguna,,33.64,1.96,,0.74,
-MSTR,Microstrategy Inc Cl A New,72.7,0,False,ninguno,ninguna,ninguna,,42.76,1.09,,0.22,67.93
-BBAS3,Banco do Brasil S.A.,71.69,0,False,ninguno,ninguna,ninguna,,18.31,1.89,,0.06,92.63
-HOOD,Robinhood Markets Inc,71.55,0,False,ninguno,ninguna,ninguna,,24.9,1.41,,0.16,67.46
-PETR3,Petrobras - Petróleo Brasileiro S.A.,70.97,0,False,ninguno,ninguna,ninguna,,14.47,0.78,,0.28,67.53
-ADGO,Adecoagro S.A.,70.42,0,False,ninguno,ninguna,ninguna,,30.76,1.1,,0.31,
-RBLX,Roblox Corp.,69.81,0,False,ninguno,ninguna,ninguna,,23.82,2.25,,0.01,77.85
-FCX,Freeport Mcmoran Copper & Gold Inc.,69.57,1,False,ninguno,ninguna,ninguna,30.99,11.76,-0.65,0.7,0.15,65.52
-HUT,Hut 8 Mining Corp.,69.11,0,False,ninguno,ninguna,alcista,,11.91,2.31,,0.14,65.35
-ANF,Abercrombie & Fitch Co,68.27,0,False,ninguno,ninguna,ninguna,,28.67,1.21,,0.15,
-IBIT,ISHARES BITCOIN TRUST,68.04,0,False,ninguno,ninguna,bajista,,24.23,0.03,,0.24,69.48
+ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
+AMD,"Advanced Micro Devices, Inc.",82.23,1,False,ninguno,ninguna,ninguna,51.26,7.02,0.59,2.92,0.09,66.34,False
+GLW,Corning Inc.,77.0,1,False,ninguno,ninguna,ninguna,20.03,5.45,1.11,3.67,0.03,67.19,False
+INTC,Intel Corporation,76.66,1,False,ninguno,ninguna,ninguna,43.52,7.57,1.41,2.61,0.03,71.72,False
+TSM,Taiwan Semiconductor Manufacturing,73.87,1,False,ninguno,ninguna,ninguna,22.34,4.5,0.41,1.63,0.12,70.04,False
+CRM,Salesforce Inc.,72.82,1,True,dorado,ninguna,ninguna,30.07,27.09,0.51,0.59,0.39,75.86,False
+MRK,Merck & Co. Inc.,72.82,1,False,ninguno,ninguna,ninguna,30.97,15.11,-0.41,0.47,0.3,46.9,False
+V,Visa Inc,72.13,1,False,ninguno,bajista,bajista,15.16,2.45,-0.47,0.92,0.19,54.95,False
+CAT,Caterpillar Inc,71.78,1,False,ninguno,ninguna,ninguna,10.61,-2.24,0.37,1.31,0.12,54.89,False
+FCX,Freeport Mcmoran Copper & Gold Inc.,68.64,1,False,ninguno,ninguna,ninguna,30.99,11.76,-0.65,0.7,0.15,65.52,False
+MO,Altria Group Inc.,67.94,1,False,ninguno,ninguna,ninguna,7.47,5.76,0.3,0.44,0.19,60.96,False
+PG,Procter & Gamble,67.25,1,False,ninguno,ninguna,ninguna,3.61,0.91,0.12,1.13,0.09,57.69,False
+CVX,Chevron Corp.,65.51,1,False,ninguno,ninguna,ninguna,21.55,7.83,-0.05,0.57,-0.05,62.36,False
+NUE,Nucor Corp,64.11,1,False,ninguno,ninguna,ninguna,28.8,-5.56,-0.03,0.79,0.08,59.85,False
+GOOGL,Alphabet Inc.,63.76,1,False,ninguno,alcista,alcista,5.17,-1.06,-0.14,2.07,0.03,47.24,False
+JPM,J.P. Morgan & Chase Co.,62.37,1,False,ninguno,ninguna,ninguna,16.05,-1.67,-0.26,1.2,-0.09,49.29,False
+MSFT,Microsoft Corp.,59.58,1,True,dorado,bajista,bajista,19.58,-1.36,-0.82,0.91,-0.03,57.63,False
+HMY,Harmony Gold Mining Company Ltd.,56.45,1,True,dorado,ninguna,ninguna,15.88,4.54,-1.54,0.34,0.14,46.46,False
+AMZN,"Amazon.Com, Inc.",55.75,1,False,ninguno,ninguna,ninguna,12.21,-4.85,-0.46,1.58,-0.01,43.11,False
+SBUX,Starbucks Corporation,55.4,1,False,ninguno,bajista,bajista,8.96,-3.85,-0.65,2.17,-0.04,44.87,False
+ARCO,Arcos Dorados Holdings Inc.,54.01,1,False,ninguno,ninguna,ninguna,4.71,3.67,0.3,0.8,-0.29,64.46,False
