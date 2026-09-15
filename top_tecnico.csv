@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-AMD,"Advanced Micro Devices, Inc.",74.22,1,False,ninguno,ninguna,ninguna,53.08,2.45,1.23,1.46,0.09,69.48,False
-TSM,Taiwan Semiconductor Manufacturing,72.82,1,False,ninguno,ninguna,ninguna,20.25,3.25,0.35,0.77,0.25,66.67,False
-MRK,Merck & Co. Inc.,71.08,1,False,ninguno,ninguna,ninguna,26.38,8.02,-1.04,1.48,0.26,39.51,False
-XOM,Exxon Mobil Corporation,70.73,1,False,ninguno,bajista,bajista,19.42,5.76,-0.03,1.48,-0.16,52.8,False
-INTC,Intel Corporation,70.38,1,False,ninguno,ninguna,ninguna,40.09,1.92,1.81,1.36,0.13,74.03,False
-MSFT,Microsoft Corp.,70.38,1,False,ninguno,bajista,bajista,20.66,1.93,-0.8,0.81,0.22,54.67,False
-MO,Altria Group Inc.,69.69,1,False,ninguno,ninguna,ninguna,8.61,6.41,0.18,0.31,0.25,51.85,False
-CRM,Salesforce Inc.,66.9,1,True,dorado,ninguna,ninguna,29.73,28.21,-0.6,0.17,0.38,71.48,False
-CAT,Caterpillar Inc,64.81,1,False,ninguno,ninguna,ninguna,9.86,-3.07,0.44,0.55,0.17,52.39,False
-CVX,Chevron Corp.,64.46,1,False,ninguno,bajista,ninguna,23.15,8.65,0.06,0.66,-0.07,69.34,False
-GOOGL,Alphabet Inc.,64.46,1,False,ninguno,alcista,ninguna,5.44,-0.43,-0.15,1.78,0.23,42.63,False
-FCX,Freeport Mcmoran Copper & Gold Inc.,64.11,1,False,ninguno,ninguna,ninguna,20.94,8.53,-1.06,1.1,0.19,35.0,False
-V,Visa Inc,63.41,1,False,ninguno,bajista,bajista,16.15,3.9,-0.49,0.76,0.26,37.06,False
-PG,Procter & Gamble,60.28,1,False,ninguno,ninguna,ninguna,3.49,1.78,-0.08,0.84,0.14,46.11,False
-SID,Companhia Siderúrgica Nacional,59.93,0,False,ninguno,ninguna,ninguna,-2.2,44.06,2.07,2.66,0.14,70.32,False
-SI,Silvergate Bancorp,59.93,0,False,ninguno,ninguna,ninguna,-2.2,44.06,2.07,2.66,0.14,70.32,False
-JPM,J.P. Morgan & Chase Co.,59.58,1,False,ninguno,ninguna,ninguna,17.1,-0.16,-0.25,0.74,-0.0,50.38,False
-NUE,Nucor Corp,59.23,1,False,ninguno,ninguna,ninguna,29.48,-2.05,-0.06,0.21,0.1,63.45,False
-IBM,International Business Machines,58.19,0,False,ninguno,ninguna,ninguna,-2.4,4.66,0.37,2.41,0.19,61.21,False
-HMY,Harmony Gold Mining Company Ltd.,58.19,1,True,dorado,ninguna,ninguna,17.67,7.45,-1.08,0.82,0.16,34.85,False
+GOOGL,Alphabet Inc.,75.96,1,False,ninguno,alcista,bajista,8.58,2.61,0.13,1.16,0.26,51.18,False
+TSM,Taiwan Semiconductor Manufacturing,75.96,1,False,ninguno,ninguna,ninguna,16.1,-0.1,0.11,1.95,0.16,51.19,False
+MSFT,Microsoft Corp.,74.56,1,False,ninguno,ninguna,ninguna,22.87,3.86,-0.6,1.06,0.23,57.85,False
+MO,Altria Group Inc.,74.56,1,False,ninguno,ninguna,ninguna,10.84,8.73,0.31,0.66,0.23,61.54,False
+AMD,"Advanced Micro Devices, Inc.",74.22,1,False,ninguno,ninguna,ninguna,45.66,-2.08,1.02,0.82,0.07,54.42,False
+CRM,Salesforce Inc.,73.52,1,True,dorado,ninguna,ninguna,35.32,33.86,-0.44,0.98,0.4,77.67,False
+MSI,"Motorola Solutions, Inc.",73.52,1,False,ninguno,ninguna,ninguna,17.72,3.66,-0.64,11.48,0.31,43.27,False
+XOM,Exxon Mobil Corporation,71.78,1,False,ninguno,bajista,bajista,18.1,4.8,-0.04,1.04,-0.2,55.12,False
+INTC,Intel Corporation,68.64,1,False,ninguno,ninguna,ninguna,31.44,-3.96,1.43,0.66,0.12,62.4,False
+NUE,Nucor Corp,67.25,1,False,ninguno,ninguna,ninguna,26.45,-4.09,-0.16,1.01,0.05,55.56,False
+CVX,Chevron Corp.,65.51,1,False,ninguno,bajista,ninguna,21.81,7.69,-0.02,0.89,-0.08,71.16,False
+V,Visa Inc,65.16,1,False,ninguno,bajista,bajista,16.97,4.72,-0.37,0.7,0.25,40.38,False
+T,At &T Inc.,63.07,1,True,dorado,bajista,bajista,10.95,7.99,-0.24,0.4,-0.04,56.44,False
+IBM,International Business Machines,60.28,0,False,ninguno,ninguna,ninguna,0.4,7.58,0.63,2.62,0.23,64.14,False
+CAT,Caterpillar Inc,59.93,1,False,ninguno,ninguna,ninguna,4.74,-7.44,0.21,1.17,0.15,41.99,False
+PG,Procter & Gamble,58.89,1,False,ninguno,ninguna,ninguna,3.74,2.04,-0.03,0.54,0.11,50.54,False
+FCX,Freeport Mcmoran Copper & Gold Inc.,58.89,1,False,ninguno,ninguna,ninguna,17.58,5.78,-1.36,0.93,0.21,26.26,False
+GLW,Corning Inc.,58.54,1,False,ninguno,alcista,alcista,2.55,-12.36,0.67,4.62,-0.22,46.93,False
+MRK,Merck & Co. Inc.,57.84,1,False,ninguno,ninguna,ninguna,26.57,8.4,-1.1,0.26,0.25,28.99,False
+AMZN,"Amazon.Com, Inc.",57.49,1,False,ninguno,ninguna,ninguna,10.69,-1.91,-0.44,0.85,0.13,42.86,False
