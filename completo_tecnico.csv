@@ -1,65 +1,65 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-NUE,Nucor Corp,87.5,1,False,ninguno,ninguna,ninguna,29.75,6.7,0.02,3.3,0.12,58.87,False
-INTC,Intel Corporation,87.28,1,False,ninguno,ninguna,ninguna,35.69,9.86,0.98,1.25,0.15,62.01,False
-EBAY,Ebay Inc.,86.38,1,False,ninguno,ninguna,ninguna,14.74,7.77,0.66,1.93,0.28,64.52,False
-AMD,"Advanced Micro Devices, Inc.",81.7,1,False,ninguno,ninguna,ninguna,50.05,11.27,0.91,0.71,0.08,61.42,False
-PG,Procter & Gamble,76.12,1,False,ninguno,ninguna,ninguna,4.65,2.96,0.09,1.11,0.22,60.71,False
-AAPL,Apple Inc.,75.0,1,False,ninguno,bajista,ninguna,21.6,6.24,0.41,0.62,0.1,65.33,False
-QCOM,Qualcomm Inc.,74.55,1,False,ninguno,ninguna,ninguna,14.68,15.7,1.18,1.42,0.01,73.4,False
-MO,Altria Group Inc.,74.55,1,False,ninguno,ninguna,ninguna,10.29,7.67,0.34,0.56,0.19,63.59,False
-WFC,Wells Fargo & Co.,74.55,1,False,ninguno,ninguna,bajista,7.14,2.13,-0.08,2.23,0.02,55.0,False
-SHEL,Royal Dutch Shell Plc,74.55,1,False,ninguno,ninguna,bajista,19.68,4.44,0.19,1.98,-0.06,66.07,False
-TXN,Texas Instruments Inc,74.55,1,False,ninguno,ninguna,ninguna,11.63,-1.13,0.48,3.91,-0.01,44.99,False
-VZ,Verizon Communications Inc.,74.33,1,False,ninguno,bajista,ninguna,13.34,1.85,-0.28,2.66,0.01,51.39,False
-CRM,Salesforce Inc.,72.99,1,True,dorado,ninguna,ninguna,30.5,22.73,-0.69,0.25,0.37,47.04,False
-TSM,Taiwan Semiconductor Manufacturing,72.99,1,False,ninguno,ninguna,ninguna,15.17,2.28,-0.25,1.58,0.15,43.18,False
-T,At &T Inc.,72.54,1,True,dorado,bajista,bajista,8.44,3.93,-0.17,1.03,0.07,53.68,False
-GOOGL,Alphabet Inc.,72.54,1,False,ninguno,alcista,bajista,6.6,0.74,0.24,0.62,0.22,51.06,False
-V,Visa Inc,70.98,1,False,ninguno,bajista,bajista,15.59,2.62,-0.3,0.93,0.24,39.8,False
-XOM,Exxon Mobil Corporation,70.98,1,False,ninguno,ninguna,bajista,17.01,0.23,-0.01,2.43,-0.28,59.76,False
-MSFT,Microsoft Corp.,64.96,1,False,ninguno,ninguna,ninguna,18.88,2.52,-0.7,0.67,0.19,41.3,False
-JPM,J.P. Morgan & Chase Co.,64.29,1,False,ninguno,ninguna,ninguna,14.12,-1.22,-0.39,0.95,0.05,44.84,False
-CVX,Chevron Corp.,64.29,1,False,ninguno,ninguna,ninguna,21.1,4.19,-0.09,0.59,-0.08,66.28,False
-MRK,Merck & Co. Inc.,63.39,1,False,ninguno,ninguna,ninguna,26.3,-3.78,-1.11,1.73,0.17,39.3,False
-FCX,Freeport Mcmoran Copper & Gold Inc.,61.61,1,False,ninguno,ninguna,ninguna,16.37,1.55,-1.58,1.95,0.21,27.42,False
-BSBR,Banco Santander (Brasil) S.A.,60.71,0,False,ninguno,bajista,bajista,3.82,6.16,-0.29,5.8,0.02,51.65,False
-CAT,Caterpillar Inc,60.71,1,False,ninguno,ninguna,ninguna,4.46,-2.83,-0.04,0.79,0.16,38.19,False
-ARCO,Arcos Dorados Holdings Inc.,59.6,1,False,ninguno,ninguna,ninguna,-1.66,0.2,-0.44,1.6,0.09,41.7,False
-MSI,"Motorola Solutions, Inc.",59.38,1,False,ninguno,ninguna,ninguna,13.65,-2.8,-0.66,2.55,0.02,34.97,False
-AMZN,"Amazon.Com, Inc.",56.92,1,False,ninguno,ninguna,ninguna,7.32,-6.42,-0.65,2.25,0.04,39.76,False
-TGT,Target Corporation,55.13,1,False,ninguno,ninguna,ninguna,29.65,-1.43,-1.15,1.16,0.03,30.34,False
-IBM,International Business Machines,55.13,0,False,ninguno,ninguna,ninguna,-3.88,1.52,0.52,1.07,0.13,49.65,False
-AXP,American Express Co,52.9,1,False,ninguno,ninguna,ninguna,-2.1,-6.81,-0.31,2.9,0.04,29.3,False
-GLW,Corning Inc.,51.34,1,False,ninguno,alcista,alcista,2.47,-4.52,-0.44,2.19,-0.22,43.01,False
-SID,Companhia Siderúrgica Nacional,51.34,0,False,ninguno,ninguna,ninguna,-5.06,38.45,0.17,0.15,0.16,62.17,False
-SI,Silvergate Bancorp,51.34,0,False,ninguno,ninguna,ninguna,-5.06,38.45,0.17,0.15,0.16,62.17,False
-VALE,Vale S.A.,49.78,1,False,ninguno,ninguna,ninguna,-2.53,2.91,-0.88,2.08,-0.08,31.23,False
-NVDA,Nvidia Corporation,47.77,1,False,ninguno,alcista,ninguna,13.04,-0.63,-0.84,0.7,-0.17,36.29,False
-MELI,Mercadolibre Inc.,47.1,1,False,ninguno,ninguna,ninguna,4.31,-2.19,-0.97,0.9,-0.01,37.58,False
-PFE,Pfizer Inc.,46.88,1,False,ninguno,ninguna,ninguna,9.89,-1.79,-0.78,0.55,-0.09,41.91,False
-DD,Dupont de Nemours Inc.,46.43,1,False,ninguno,ninguna,ninguna,-2.28,-7.24,-0.39,7.6,-0.19,28.51,False
-ERIC,Lm Ericsson Telephone Co.,45.98,0,False,ninguno,ninguna,ninguna,-4.05,-1.31,0.07,0.02,0.25,46.67,False
-LMT,Lockheed Martin Corporation,45.76,1,False,ninguno,ninguna,ninguna,1.16,-7.94,-0.2,1.19,-0.13,34.32,False
-HMY,Harmony Gold Mining Company Ltd.,45.54,1,True,dorado,ninguna,ninguna,9.53,-7.93,-1.61,0.62,0.11,36.38,False
-SBUX,Starbucks Corporation,45.31,1,False,ninguno,bajista,bajista,4.07,-5.81,-1.01,3.37,-0.05,18.48,False
-AMAT,Applied Materials Inc.,45.09,1,False,ninguno,alcista,alcista,3.59,-15.45,-0.56,1.36,0.09,26.94,False
-RIO,Rio Tinto Plc,44.87,1,False,ninguno,bajista,ninguna,6.29,-3.29,-1.16,2.2,-0.05,19.41,False
-LLY,Eli Lilly and Company,44.64,1,False,ninguno,ninguna,ninguna,11.6,-10.18,-0.35,0.88,-0.36,36.19,False
-TSLA,"Tesla, Inc.",43.75,0,False,ninguno,ninguna,ninguna,-5.33,3.47,-0.12,0.44,-0.0,51.54,False
-COST,Costco Wholesale Corp,43.08,1,False,ninguno,ninguna,bajista,-2.37,-5.83,-0.41,0.98,-0.08,32.35,False
-JD,"Jd.Com, Inc.",41.52,1,False,ninguno,ninguna,ninguna,-2.54,-7.08,-0.23,0.31,0.06,29.05,False
-ADBE,Adobe Systems Incorporated,41.07,1,True,dorado,ninguna,ninguna,-0.46,-6.85,-1.51,0.68,0.15,27.85,False
-RTX,Raytheon Technologies Corp,40.85,1,False,ninguno,bajista,bajista,6.58,-9.71,-0.55,1.22,-0.13,15.62,False
-AAP,Advanced Auto Parts Inc,40.62,1,False,ninguno,alcista,alcista,-15.64,-26.6,0.89,0.19,-0.13,42.89,False
-DEO,Diageo PLC,39.73,1,False,ninguno,bajista,bajista,6.51,-5.05,-0.72,0.54,-0.09,33.41,False
-AMGN,Amgen Inc.,39.73,1,False,ninguno,ninguna,ninguna,9.43,-14.19,-2.24,4.47,-0.27,18.22,False
-WMT,Walmart Inc.,39.51,0,False,ninguno,alcista,ninguna,-4.49,-4.83,0.39,0.78,-0.02,65.77,False
-BIDU,"Baidu, Inc.",37.72,0,False,ninguno,ninguna,alcista,-23.22,-3.23,-0.12,1.19,0.14,30.67,False
-CDE,Coeur Mining Inc.,35.27,0,False,ninguno,ninguna,ninguna,4.33,-7.91,-2.05,2.89,0.16,26.56,False
-PYPL,"Paypal Holdings, Inc.",32.59,1,False,ninguno,ninguna,ninguna,8.82,-12.78,-0.81,0.56,-0.53,28.74,False
-NFLX,"Netflix, Inc.",32.14,0,False,ninguno,ninguna,ninguna,-6.3,-3.15,-0.7,0.67,0.07,41.95,False
-HD,The Home Depot Inc.,31.47,1,False,ninguno,ninguna,ninguna,-7.15,-11.06,-0.59,1.13,-0.5,23.46,False
-GLOB,Globant S.A.,29.69,0,False,ninguno,bajista,bajista,-12.97,-1.73,-0.44,0.43,-0.04,43.64,False
-ORCL,Oracle Corporation,26.56,0,False,ninguno,alcista,ninguna,-9.67,0.83,-1.13,0.81,-0.28,42.11,False
-NKE,Nike Inc.,26.12,0,False,ninguno,ninguna,ninguna,-24.86,-11.42,-0.49,3.1,-0.21,32.37,False
-HL,Hecla Mining Co .,16.29,0,False,ninguno,ninguna,ninguna,-1.85,-11.37,-2.49,0.54,-0.02,29.6,False
+EBAY,Ebay Inc.,87.5,1,False,ninguno,ninguna,ninguna,17.95,8.66,0.86,1.33,0.32,63.71,False
+INTC,Intel Corporation,87.05,1,False,ninguno,bajista,ninguna,45.42,18.7,1.31,3.57,0.15,71.47,False
+AAPL,Apple Inc.,86.16,1,False,ninguno,bajista,ninguna,23.09,9.0,0.45,1.54,0.19,63.89,False
+AMD,"Advanced Micro Devices, Inc.",83.71,1,False,ninguno,ninguna,ninguna,58.15,17.01,1.17,1.59,0.1,69.7,False
+TSM,Taiwan Semiconductor Manufacturing,81.03,1,False,ninguno,ninguna,ninguna,17.91,3.93,-0.14,1.07,0.15,55.0,False
+GOOGL,Alphabet Inc.,79.46,1,False,ninguno,alcista,bajista,7.54,2.52,0.3,1.15,0.23,48.51,False
+PG,Procter & Gamble,77.68,1,False,ninguno,ninguna,ninguna,4.75,3.43,0.14,1.02,0.24,59.01,False
+MO,Altria Group Inc.,77.01,1,False,ninguno,ninguna,ninguna,8.77,4.37,0.26,1.09,0.02,52.91,False
+NUE,Nucor Corp,76.79,1,False,ninguno,ninguna,ninguna,30.68,10.48,0.15,0.34,0.14,60.92,False
+QCOM,Qualcomm Inc.,75.89,1,False,ninguno,ninguna,ninguna,16.71,18.36,1.18,1.28,0.01,75.3,False
+BSBR,Banco Santander (Brasil) S.A.,74.33,1,True,dorado,bajista,bajista,6.4,7.99,-0.22,1.07,0.05,54.76,False
+MSFT,Microsoft Corp.,69.64,1,False,ninguno,ninguna,ninguna,20.39,4.02,-0.64,0.93,0.19,38.56,False
+TXN,Texas Instruments Inc,68.53,1,False,ninguno,ninguna,ninguna,9.93,-2.29,0.35,3.54,-0.17,47.72,False
+TGT,Target Corporation,67.86,1,False,ninguno,ninguna,ninguna,32.76,1.34,-0.89,1.24,0.1,42.71,False
+WFC,Wells Fargo & Co.,67.41,1,False,ninguno,ninguna,bajista,6.71,4.06,-0.26,0.2,0.22,48.95,False
+JPM,J.P. Morgan & Chase Co.,67.19,1,False,ninguno,ninguna,ninguna,13.72,-0.43,-0.43,3.02,0.04,40.34,False
+CVX,Chevron Corp.,66.96,1,False,ninguno,ninguna,ninguna,20.58,3.08,-0.21,0.49,-0.03,62.65,False
+CRM,Salesforce Inc.,66.07,1,True,dorado,ninguna,ninguna,26.6,18.81,-1.06,0.41,0.35,38.1,False
+MRK,Merck & Co. Inc.,65.85,1,False,ninguno,ninguna,ninguna,27.78,-0.59,-0.94,0.54,0.25,46.23,False
+CAT,Caterpillar Inc,65.62,1,False,ninguno,ninguna,ninguna,6.0,-1.28,0.03,0.72,0.12,47.19,False
+NVDA,Nvidia Corporation,63.62,1,False,ninguno,alcista,ninguna,15.58,1.81,-0.65,1.08,-0.14,50.79,False
+SHEL,Royal Dutch Shell Plc,63.17,1,False,ninguno,ninguna,bajista,19.33,2.55,0.05,0.29,-0.05,65.25,False
+XOM,Exxon Mobil Corporation,60.94,1,False,ninguno,ninguna,bajista,16.62,-1.29,-0.12,0.5,-0.26,58.8,False
+V,Visa Inc,60.49,1,False,ninguno,bajista,bajista,14.8,1.36,-0.34,0.34,0.21,33.68,False
+AMZN,"Amazon.Com, Inc.",56.47,1,False,ninguno,ninguna,ninguna,9.31,-2.79,-0.54,1.09,0.06,33.04,False
+VZ,Verizon Communications Inc.,55.8,1,False,ninguno,bajista,ninguna,10.02,-1.48,-0.6,1.68,-0.13,34.8,False
+AAP,Advanced Auto Parts Inc,55.36,1,False,ninguno,alcista,alcista,-15.09,0.16,0.77,0.24,0.08,45.25,False
+T,At &T Inc.,55.13,1,True,dorado,bajista,bajista,6.14,1.28,-0.41,0.42,0.03,42.29,False
+IBM,International Business Machines,54.46,0,False,ninguno,ninguna,ninguna,-4.23,2.39,0.32,0.87,0.12,50.18,False
+AXP,American Express Co,54.02,1,False,ninguno,ninguna,ninguna,-2.92,-5.64,-0.45,4.23,0.14,27.78,False
+FCX,Freeport Mcmoran Copper & Gold Inc.,53.79,1,False,ninguno,ninguna,ninguna,18.93,0.53,-1.36,0.4,0.14,35.33,False
+LMT,Lockheed Martin Corporation,53.79,1,False,ninguno,ninguna,ninguna,0.87,-5.3,-0.07,1.54,-0.06,33.6,False
+GLW,Corning Inc.,53.57,1,False,ninguno,alcista,alcista,4.49,-2.04,-0.52,1.01,-0.26,48.24,False
+ERIC,Lm Ericsson Telephone Co.,53.35,0,False,ninguno,ninguna,ninguna,-1.25,2.25,0.19,0.02,0.72,55.76,False
+LLY,Eli Lilly and Company,52.9,1,False,ninguno,ninguna,ninguna,12.7,-6.98,-0.16,0.78,-0.33,42.66,False
+WMT,Walmart Inc.,52.23,0,False,ninguno,alcista,ninguna,-5.69,3.11,0.3,0.63,0.08,58.46,False
+SI,Silvergate Bancorp,51.34,0,False,ninguno,ninguna,ninguna,-7.14,35.62,-0.27,0.67,0.16,63.78,False
+SID,Companhia Siderúrgica Nacional,51.34,0,False,ninguno,ninguna,ninguna,-7.14,35.62,-0.27,0.67,0.16,63.78,False
+TSLA,"Tesla, Inc.",50.89,0,False,ninguno,ninguna,ninguna,-3.24,7.04,-0.04,0.56,-0.01,56.38,False
+PFE,Pfizer Inc.,48.88,1,False,ninguno,ninguna,ninguna,10.12,-0.36,-0.74,0.36,-0.11,42.34,False
+HMY,Harmony Gold Mining Company Ltd.,48.66,1,True,dorado,ninguna,ninguna,13.64,-8.73,-1.34,0.4,0.05,47.03,False
+DD,Dupont de Nemours Inc.,48.44,1,False,ninguno,ninguna,ninguna,-1.9,-7.67,-0.22,3.88,-0.25,32.11,False
+ARCO,Arcos Dorados Holdings Inc.,48.21,1,False,ninguno,ninguna,ninguna,-2.21,-1.49,-0.57,0.78,-0.01,34.53,False
+AMAT,Applied Materials Inc.,47.77,1,False,ninguno,alcista,alcista,4.08,-15.05,-0.58,2.38,-0.02,31.98,False
+VALE,Vale S.A.,45.76,1,False,ninguno,ninguna,ninguna,-0.62,2.4,-0.9,0.54,-0.1,40.0,False
+MSI,"Motorola Solutions, Inc.",45.09,1,False,ninguno,ninguna,ninguna,12.52,-2.72,-0.73,0.08,0.04,32.68,False
+CDE,Coeur Mining Inc.,43.97,0,False,ninguno,ninguna,ninguna,9.53,-4.56,-1.79,1.6,0.15,40.43,False
+ADBE,Adobe Systems Incorporated,43.53,1,True,dorado,ninguna,ninguna,0.14,-6.68,-1.42,0.75,0.16,26.57,False
+JD,"Jd.Com, Inc.",43.53,1,False,ninguno,ninguna,ninguna,-3.6,-8.67,-0.24,1.08,-0.03,20.95,False
+RTX,Raytheon Technologies Corp,43.08,1,False,ninguno,bajista,bajista,4.22,-8.53,-0.56,1.83,-0.16,13.2,False
+MELI,Mercadolibre Inc.,39.73,1,False,ninguno,ninguna,ninguna,3.09,-4.61,-1.06,0.93,-0.07,28.48,False
+BIDU,"Baidu, Inc.",39.06,0,False,ninguno,ninguna,alcista,-22.19,-1.88,-0.08,0.92,0.15,31.97,False
+COST,Costco Wholesale Corp,39.06,1,False,ninguno,ninguna,bajista,-2.38,-3.95,-0.39,0.47,-0.08,23.76,False
+ORCL,Oracle Corporation,36.83,0,False,ninguno,alcista,ninguna,-5.05,6.88,-0.83,0.72,-0.25,48.92,False
+RIO,Rio Tinto Plc,35.94,1,False,ninguno,bajista,ninguna,8.34,-3.46,-1.04,0.35,-0.18,31.03,False
+PYPL,"Paypal Holdings, Inc.",35.71,1,False,ninguno,ninguna,ninguna,8.38,-15.51,-0.75,0.17,-0.62,44.32,False
+SBUX,Starbucks Corporation,35.71,1,False,ninguno,bajista,bajista,3.28,-6.19,-0.95,0.66,-0.06,13.81,False
+DEO,Diageo PLC,34.15,1,False,ninguno,bajista,bajista,5.69,-7.34,-0.66,0.11,-0.1,28.07,False
+NFLX,"Netflix, Inc.",30.13,0,False,ninguno,ninguna,ninguna,-7.34,-4.84,-0.83,1.12,0.01,34.51,False
+AMGN,Amgen Inc.,28.79,1,False,ninguno,ninguna,ninguna,10.01,-12.13,-1.98,0.39,-0.29,20.66,False
+GLOB,Globant S.A.,27.9,0,False,ninguno,bajista,bajista,-14.67,-4.17,-0.61,0.73,-0.07,39.17,False
+HD,The Home Depot Inc.,27.68,1,False,ninguno,ninguna,ninguna,-7.34,-8.89,-0.55,0.45,-0.52,20.7,False
+NKE,Nike Inc.,26.56,0,False,ninguno,ninguna,ninguna,-23.4,-8.83,-0.36,2.3,-0.12,25.93,False
+HL,Hecla Mining Co .,25.67,0,False,ninguno,ninguna,ninguna,4.19,-7.95,-2.14,0.51,-0.02,41.27,False
