@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-GILD,"Gilead Sciences, Inc.",84.59,1,False,ninguno,ninguna,ninguna,16.82,3.35,-0.24,2.55,0.12,59.16,False
-AMD,"Advanced Micro Devices, Inc.",83.46,1,False,ninguno,ninguna,ninguna,59.63,17.43,1.37,0.84,0.1,70.77,False
-INTC,Intel Corporation,83.46,1,False,ninguno,bajista,ninguna,44.82,21.25,1.48,0.76,0.19,72.13,False
-TSM,Taiwan Semiconductor Manufacturing,82.33,1,False,ninguno,ninguna,ninguna,19.12,3.91,0.0,0.72,0.18,61.02,False
-TMO,Thermo Fisher Scientific Inc.,81.2,1,False,ninguno,bajista,bajista,26.68,3.96,0.39,0.55,0.17,63.91,False
-JNJ,Johnson & Johnson,79.51,1,False,ninguno,ninguna,bajista,18.57,0.42,-0.3,0.81,0.08,56.42,False
-BRKB,Berkshire Hathaway Inc.,79.14,1,False,ninguno,ninguna,ninguna,8.61,3.06,0.05,0.7,0.11,56.0,False
-MO,Altria Group Inc.,77.82,1,False,ninguno,ninguna,ninguna,8.97,5.7,0.21,0.62,0.06,56.55,False
-GGB,Gerdau S.A.,76.69,1,False,ninguno,ninguna,ninguna,20.84,14.29,0.2,0.43,-0.04,58.99,False
-MSFT,Microsoft Corp.,75.56,1,False,ninguno,ninguna,ninguna,19.89,2.73,-0.62,1.12,0.13,41.36,False
-PG,Procter & Gamble,72.37,1,False,ninguno,ninguna,ninguna,4.0,1.3,0.11,0.39,0.12,52.47,False
-BSBR,Banco Santander (Brasil) S.A.,72.18,1,True,dorado,bajista,bajista,3.3,1.26,-0.38,1.24,0.06,51.82,False
-CVX,Chevron Corp.,71.99,1,False,ninguno,ninguna,ninguna,18.87,1.66,-0.38,0.46,-0.04,53.77,False
-CAT,Caterpillar Inc,71.62,1,False,ninguno,ninguna,ninguna,7.31,-2.35,0.17,0.56,0.11,53.03,False
-JPM,J.P. Morgan & Chase Co.,71.05,1,False,ninguno,ninguna,ninguna,13.8,-0.64,-0.42,1.15,0.1,42.81,False
-C,Citigroup Inc,68.61,1,False,ninguno,ninguna,bajista,10.5,0.68,-0.38,0.58,0.07,50.9,False
-AMZN,"Amazon.Com, Inc.",68.42,1,False,ninguno,ninguna,ninguna,10.71,-1.57,-0.36,1.16,0.06,43.2,False
-UGP,Ultrapar Participações S.A.,67.48,1,False,ninguno,bajista,ninguna,47.52,13.77,0.23,0.28,-0.06,77.11,False
-ROST,"Ross Stores, Inc.",65.98,1,False,ninguno,alcista,ninguna,10.68,-4.69,-0.03,2.43,-0.18,47.24,False
-MRK,Merck & Co. Inc.,65.41,1,False,ninguno,ninguna,ninguna,27.12,-3.62,-0.83,0.4,0.24,47.03,False
+EBAY,Ebay Inc.,84.75,1,False,ninguno,ninguna,ninguna,12.99,1.14,0.7,2.59,0.1,57.45,False
+DISN,The Walt Disney Co.,84.49,1,False,ninguno,ninguna,ninguna,33.23,33.45,1.6,20.0,0.71,100.0,False
+HPQ,Hp Inc,83.37,1,False,ninguno,ninguna,ninguna,46.85,14.76,-0.21,0.67,0.32,56.14,False
+INTC,Intel Corporation,83.26,1,False,ninguno,ninguna,ninguna,61.26,39.34,2.03,1.78,0.2,79.87,False
+DE,Deere & Co.,83.16,1,False,ninguno,ninguna,ninguna,23.72,5.41,-0.23,2.1,0.06,56.55,False
+AMD,"Advanced Micro Devices, Inc.",82.41,1,False,ninguno,ninguna,ninguna,77.07,34.53,1.94,1.86,0.19,82.49,False
+TMO,Thermo Fisher Scientific Inc.,82.2,1,False,ninguno,bajista,bajista,27.94,4.55,0.45,4.57,0.24,77.95,False
+GRMN,Garmin Ltd.,81.24,1,False,ninguno,ninguna,ninguna,20.47,-4.45,-0.19,2.69,0.16,55.57,False
+AMZN,"Amazon.Com, Inc.",80.6,1,False,ninguno,ninguna,ninguna,12.48,-1.63,-0.13,2.73,0.12,55.38,False
+QCOM,Qualcomm Inc.,79.74,1,False,ninguno,bajista,ninguna,20.02,22.11,0.95,2.03,0.03,73.02,False
+AAPL,Apple Inc.,78.68,1,False,ninguno,bajista,ninguna,23.61,8.97,0.45,0.68,0.21,67.03,False
+TXR,Ternium S.A.,77.72,1,False,ninguno,ninguna,ninguna,31.34,2.96,-0.57,2.17,-0.03,56.36,False
+SIEGY,Siemens Ag Adr,77.35,1,False,ninguno,ninguna,ninguna,451.76,955.9,-2.94,1.36,0.43,50.0,False
+BAYN,Bayer AG,77.29,1,False,ninguno,ninguna,ninguna,304.52,8.7,-2.96,2.72,0.1,58.22,False
+ADI,Analog Devices,77.19,1,False,ninguno,ninguna,ninguna,12.96,3.08,0.56,1.1,0.32,67.91,False
+TSM,Taiwan Semiconductor Manufacturing,76.87,1,False,ninguno,bajista,ninguna,21.82,8.41,0.24,0.74,0.2,67.68,False
+AMAT,Applied Materials Inc.,76.01,1,False,ninguno,alcista,alcista,15.61,-3.84,0.48,1.51,0.01,58.23,False
+TXN,Texas Instruments Inc,75.91,1,False,ninguno,ninguna,ninguna,15.3,4.71,0.63,1.74,-0.04,65.21,False
+MSFT,Microsoft Corp.,75.48,1,False,ninguno,ninguna,ninguna,21.3,2.38,-0.51,1.08,0.15,51.2,False
+GGB,Gerdau S.A.,75.16,1,False,ninguno,ninguna,ninguna,22.35,16.45,0.13,0.54,0.01,59.27,False
