@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-EBAY,Ebay Inc.,85.28,1,False,ninguno,ninguna,ninguna,13.92,4.51,0.48,1.88,0.15,59.97,False
-DISN,The Walt Disney Co.,84.59,1,False,ninguno,ninguna,ninguna,32.75,32.97,1.58,20.0,0.36,100.0,False
-AAPL,Apple Inc.,82.38,1,False,ninguno,bajista,ninguna,22.92,7.06,0.35,0.78,0.15,62.84,False
-ITUB,Itaú Unibanco Holding S.A.,81.2,1,False,ninguno,ninguna,ninguna,6.36,7.88,0.19,1.26,0.15,53.57,False
-MMM,3M Company,80.88,1,False,ninguno,ninguna,ninguna,11.47,-5.27,0.3,4.06,0.25,57.02,False
-CAT,Caterpillar Inc,80.24,1,False,ninguno,ninguna,ninguna,8.09,-1.36,0.46,1.72,0.18,58.21,False
-TSM,Taiwan Semiconductor Manufacturing,80.02,1,False,ninguno,bajista,ninguna,22.55,7.01,0.55,0.57,0.22,67.91,False
-HPQ,Hp Inc,79.59,1,False,ninguno,ninguna,ninguna,43.75,5.06,-0.84,1.33,0.28,52.03,False
-DE,Deere & Co.,79.27,1,False,ninguno,bajista,bajista,28.3,11.79,0.08,0.72,0.11,65.77,False
-AMAT,Applied Materials Inc.,79.16,1,False,ninguno,alcista,alcista,17.43,-1.38,1.28,1.13,0.11,63.6,False
-ABBV,AbbVie Inc.,79.05,1,False,ninguno,bajista,ninguna,20.98,0.95,0.21,1.44,-0.03,57.78,False
-PG,Procter & Gamble,78.84,1,False,ninguno,bajista,ninguna,5.17,1.35,0.17,1.56,0.09,56.21,False
-INTC,Intel Corporation,78.2,1,False,ninguno,ninguna,ninguna,60.32,38.37,2.49,0.39,0.26,77.86,False
-TRVV,The Travelers Cos. Inc.,77.87,1,False,ninguno,ninguna,ninguna,25.76,0.52,-0.04,16.0,-0.18,52.43,False
-MRK,Merck & Co. Inc.,76.69,1,False,ninguno,ninguna,ninguna,28.24,-3.22,-0.34,3.5,0.14,45.65,False
-BIIB,Biogen Inc.,75.94,1,False,ninguno,bajista,bajista,23.32,2.41,0.28,0.51,-0.07,55.7,False
-QCOM,Qualcomm Inc.,75.3,1,False,ninguno,bajista,ninguna,22.14,20.37,1.16,0.56,0.06,75.23,False
-AMD,"Advanced Micro Devices, Inc.",75.19,1,False,ninguno,ninguna,ninguna,75.55,27.64,2.41,0.37,0.19,82.32,False
-ADI,Analog Devices,74.87,1,False,ninguno,ninguna,ninguna,13.53,3.52,0.89,0.34,0.35,67.2,False
-GRMN,Garmin Ltd.,74.87,1,False,ninguno,ninguna,ninguna,24.38,-0.29,0.26,0.3,0.69,64.53,False
+DISN,The Walt Disney Co.,83.97,1,False,ninguno,ninguna,ninguna,35.8,36.04,1.69,20.0,0.42,100.0,False
+INTC,Intel Corporation,82.98,1,False,ninguno,ninguna,ninguna,67.21,39.82,2.56,1.12,0.29,78.67,False
+TSM,Taiwan Semiconductor Manufacturing,81.91,1,False,ninguno,bajista,ninguna,23.9,6.45,0.64,0.64,0.24,65.95,False
+LLY,Eli Lilly and Company,79.48,1,False,ninguno,ninguna,ninguna,17.23,1.96,0.53,5.01,0.02,66.19,False
+GRMN,Garmin Ltd.,78.88,1,False,ninguno,ninguna,ninguna,28.08,3.12,0.59,0.49,0.7,69.93,False
+AMD,"Advanced Micro Devices, Inc.",78.42,1,False,ninguno,ninguna,ninguna,79.84,33.54,2.41,0.55,0.24,82.32,False
+TMO,Thermo Fisher Scientific Inc.,77.51,1,False,ninguno,ninguna,bajista,33.08,8.63,0.64,0.64,0.31,86.21,False
+MRK,Merck & Co. Inc.,77.51,1,False,ninguno,ninguna,ninguna,29.01,-0.17,-0.26,0.71,0.17,51.23,False
+GOOGL,Alphabet Inc.,77.05,1,False,ninguno,ninguna,ninguna,7.08,1.38,0.22,0.83,0.11,56.67,False
+SAN,Banco Santander S.A,76.75,1,False,ninguno,bajista,bajista,17.99,-1.15,-0.49,15.7,0.68,45.4,False
+ROST,"Ross Stores, Inc.",76.14,1,False,ninguno,alcista,ninguna,15.15,3.54,0.56,1.56,-0.12,63.21,False
+JNJ,Johnson & Johnson,75.53,1,False,ninguno,ninguna,bajista,19.23,2.67,-0.08,0.9,-0.01,51.11,False
+PG,Procter & Gamble,75.53,1,False,ninguno,bajista,ninguna,4.93,2.81,0.16,1.0,0.08,58.11,False
+UGP,Ultrapar Participações S.A.,75.23,1,False,ninguno,bajista,ninguna,44.0,17.25,-0.17,0.87,-0.12,61.8,False
+CVX,Chevron Corp.,74.77,1,False,ninguno,ninguna,ninguna,17.82,3.85,-0.7,1.54,0.03,51.66,False
+XOM,Exxon Mobil Corporation,73.1,1,False,ninguno,ninguna,ninguna,16.11,4.23,-0.35,2.47,-0.15,59.4,False
+ADI,Analog Devices,72.95,1,False,ninguno,ninguna,ninguna,13.23,3.16,0.88,0.12,0.35,65.64,False
+BP,BP PCL,72.8,1,False,ninguno,ninguna,ninguna,13.57,5.46,-0.44,4.15,-0.23,56.91,False
+GILD,"Gilead Sciences, Inc.",72.8,1,False,ninguno,bajista,bajista,16.78,1.47,-0.03,0.46,-0.04,54.55,False
+ITUB,Itaú Unibanco Holding S.A.,72.64,1,False,ninguno,ninguna,ninguna,5.39,8.4,-0.01,0.29,0.16,52.4,False
