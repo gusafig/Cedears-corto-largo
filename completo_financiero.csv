@@ -1,308 +1,308 @@
 ticker_byma,nombre_empresa,puntaje_financiero,n_metricas,pe,ev_ebitda,roe,deuda_ebitda,crecimiento_ingresos
-SMSN,Samsung Electronics Co. Ltd.,92.38,5,2.9,-0.67,0.31,0.1,1.3
-HMY,Harmony Gold Mining Company Ltd.,91.92,5,7.04,0.3,0.48,0.21,0.49
-KGC,Kinross Gold Corp,84.63,5,10.68,5.86,0.37,0.14,0.3
-GFI,Gold Fields Ltd.,84.5,5,8.66,10.72,0.59,0.37,0.79
-PBR,Petrobras (ADR),82.79,5,5.25,1.84,0.3,1.51,0.42
-B,Barrick Gold Corp,82.49,5,11.2,6.17,0.27,0.36,0.44
-PETR3,Petrobras - Petróleo Brasileiro S.A.,81.86,5,5.26,4.12,0.3,1.51,0.42
-VIST,Vista Energy S.A.B. de C.V.,79.81,5,9.51,5.3,0.3,1.75,1.02
-PDD,PDD HOLDINGS INC,78.5,5,8.5,-3.44,0.23,0.05,0.08
-EQNR,Equinor Asa,77.84,5,11.95,5.33,0.21,0.77,0.37
-UN,NU Holdings Ltd/Cayman Islands,76.04,3,18.7,,0.32,,0.52
-SHEL,Royal Dutch Shell Plc,74.63,5,10.6,5.31,0.14,1.27,0.45
-AEM,Agnico Eagle Mines Limited,74.05,5,17.09,9.64,0.23,0.03,0.35
-PAAS,Pan American Silver Corp.,74.04,5,14.79,9.41,0.22,0.4,0.38
-MU,Micron Technology Inc,73.66,5,22.94,16.53,0.67,0.09,3.46
-DECK,DECKERS OUTDOOR CORPORATION,73.35,5,11.16,7.21,0.43,0.36,0.06
-ITUB,Itaú Unibanco Holding S.A.,73.34,3,10.0,,0.21,,0.18
-TSM,Taiwan Semiconductor Manufacturing,73.12,5,32.46,4.93,0.4,0.34,0.36
-GPRK,Geopark Ltd.,72.86,5,7.77,3.49,0.29,2.45,0.2
-ADBE,Adobe Systems Incorporated,72.46,5,13.89,10.19,0.62,0.69,0.13
-NEM,Newmont Corporation,72.42,5,15.54,7.43,0.26,0.33,0.15
-ITUB3,Banco Itaú Unibanco S.A,72.15,3,11.04,,0.21,,0.18
-GS,"The Goldman Sachs Group, Inc",71.29,3,14.56,,0.17,,0.42
-UGP,Ultrapar Participações S.A.,70.26,5,11.84,2.24,0.2,2.14,0.22
-PRIO3,Petro Rio S.A.,69.55,5,13.26,5.73,0.14,2.02,1.11
-TTE,TotalEnergies SE,69.4,5,11.37,5.95,0.14,1.59,0.28
-JPM,J.P. Morgan & Chase Co.,69.37,3,14.99,,0.18,,0.3
-HL,Hecla Mining Co .,69.33,5,22.8,12.63,0.22,0.02,0.52
-RIO,Rio Tinto Plc,69.2,5,13.19,7.76,0.19,1.0,0.16
-XP,XP Inc,68.87,3,10.16,,0.23,,0.11
-NTES,"Netease, Inc",68.56,5,15.49,4.94,0.2,0.29,0.08
-RKLB,Rocket Lab Corp,68.53,3,,-242.27,-0.08,,0.62
-ARCO,Arcos Dorados Holdings Inc.,68.4,5,6.12,5.74,0.36,3.59,0.14
-ZM,Zoom Video Communications Inc.,68.39,5,8.24,14.03,0.32,0.05,0.05
-HHPD,Hon Hai Precision Industry Co. Ltd.,68.3,5,7.35,0.37,0.13,3.23,0.41
-PAGS,Pagseguro Digital Ltd,67.76,5,6.34,0.32,0.15,0.19,-0.0
-OXY,Occidental Petroleum Corp.,67.61,5,17.36,5.7,0.11,1.07,0.53
-ASR,"Grupo Aeroportuario Del Sureste , S.A.B. de C.V.",67.38,5,12.67,1.89,0.23,1.75,0.1
-ANF,Abercrombie & Fitch Co,67.36,5,11.72,7.01,0.41,1.4,0.05
-TEN,Tenaris,67.36,5,5.28,6.17,0.17,4.06,0.54
-RGTI,RIGETTI COMPUTING INC,67.08,3,,-55.88,-0.44,,1.85
-CDE,Coeur Mining Inc.,66.77,5,16.61,12.26,0.13,0.44,1.26
-ASTS,AST SpaceMobile Inc,66.7,3,,-46.15,-0.46,,26.27
-NVDA,Nvidia Corporation,66.52,5,28.1,26.5,1.17,0.19,1.06
-YELP,Yelp Inc.,66.22,5,9.48,5.3,0.18,0.6,0.01
-NMR,"Nomura Holdings, Inc",66.18,3,11.85,,0.11,,0.31
-GOOGL,Alphabet Inc.,66.01,5,17.55,24.09,0.49,0.7,0.24
-BMNR,"Bitmine Inmersion Technologies, Inc.",65.82,3,,-52.16,-1.51,,21.68
-ABEV,Ambev S.A.,65.67,5,14.7,1.14,0.18,0.11,0.0
-CAAP,Corporación America Airports S.A.,65.54,5,13.42,5.53,0.17,1.45,0.12
-STNE,StoneCo Ltd,65.52,5,3.6,1.61,0.34,2.49,0.02
-BHP,Bhp Group Ltd,65.43,5,22.35,7.84,0.24,0.95,0.18
-HUT,Hut 8 Mining Corp.,64.91,3,,-25.24,-0.43,,0.81
-TIMB,Tim Participações S.A.,64.91,5,10.8,1.85,0.17,1.45,0.06
-PSX,Phillips 66,64.9,5,15.6,12.76,0.23,2.07,0.53
-AXP,American Express Co,64.46,3,18.91,,0.34,,0.13
-CVX,Chevron Corp.,64.24,5,20.16,8.79,0.12,0.73,0.54
-ACN,Accenture,64.14,5,14.47,8.56,0.24,0.65,0.06
-TIMS3,TIM S.A.,63.49,5,10.81,5.14,0.17,1.45,0.06
-SCCO,Southern Copper Corp,63.34,5,29.34,16.82,0.5,0.87,0.41
-URBN,Urban Outfitters INC.,63.21,5,11.74,8.92,0.21,1.56,0.1
-MFG,Mizuho Financial Group,63.13,3,15.19,,0.12,,0.35
-XOM,Exxon Mobil Corporation,63.04,5,21.05,10.46,0.13,0.62,0.44
-HSBC,Hsbc Holdings Plc,62.83,3,14.55,,0.13,,0.25
-SNOW,Snowflake Inc.,62.79,3,,-113.46,-0.48,,0.35
-SCHW,Charles Schwab,62.72,3,19.17,,0.2,,0.21
-KB,Kb Financial Group Inc.,62.67,3,10.35,,0.1,,0.18
-SBS,Companhia de Saneamento Basico do Estado de Sao Paulo-Sabesp,62.64,5,11.54,3.49,0.19,3.4,0.14
-BX,Blackstone Inc.,62.6,3,27.96,,0.31,,0.29
-TCOM,TRIP.COM Group Ltd.,62.15,5,7.87,-2.21,0.16,2.36,0.06
-AKO.B,Embotelladora Andina S.A.,62.09,3,16.22,,0.24,,0.11
-FSLR,First Solar Inc.,62.03,5,12.07,8.18,0.19,0.08,-0.04
-CLS,CELESTICA INC,61.86,5,34.61,24.78,0.53,0.63,0.62
-HPQ,Hp Inc,61.78,4,13.13,8.02,,2.23,0.12
-BCS,Barclays Bank Plc,61.24,3,9.6,,0.1,,0.16
-UAL,United Airlines Holdings Inc.,61.08,5,10.18,7.38,0.23,4.75,0.16
-PYPL,"Paypal Holdings, Inc.",61.07,5,9.91,7.4,0.24,2.2,0.05
-LREN3,Lojas Renner S.A.,61.07,5,7.45,5.2,0.14,1.41,0.01
-BA,The Boeing Company,60.9,4,71.55,-64.05,1.74,,0.08
-SONY,Sony Group Corporation,60.71,5,19.71,0.12,0.13,0.9,0.08
-VIV,Telefônica Brasil S.A.,60.64,5,14.94,1.51,0.1,0.99,0.08
-ABEV3,Ambev S.A.,60.61,5,14.93,8.32,0.18,0.11,0.0
-DAL,Delta Air Lines,60.53,5,13.2,9.12,0.2,2.81,0.19
-BMY,Bristol-Myers Squibb Company,60.34,5,13.89,8.6,0.47,2.38,0.06
-RBLX,Roblox Corp.,60.24,3,,-39.08,-4.32,,0.36
-META,Meta Platforms Inc,60.17,5,25.07,15.67,0.3,1.02,0.28
-ING,Ing Groep Nv,60.16,3,13.74,,0.17,,0.11
-INFY,Infosys Limited,60.04,5,13.36,19.07,0.32,0.21,0.03
-AMX,America Movil,59.93,5,13.04,2.36,0.22,2.18,0.03
-NUE,Nucor Corp,59.51,5,19.84,10.9,0.15,1.25,0.23
-MUFG,Mitsubishi Ufj Financial Group,59.36,3,15.22,,0.09,,0.29
-BBDC3,Banco Bradesco S.A.,59.2,3,7.21,,0.14,,0.07
-AMZN,"Amazon.Com, Inc.",59.13,5,20.41,16.96,0.31,1.49,0.2
-SNAP,Snap Inc.,59.06,3,,-74.64,-0.16,,0.19
-BSBR,Banco Santander (Brasil) S.A.,58.87,3,16.91,,0.11,,0.29
-SBSP3,Cia Saneamento Básico de SP,58.59,5,11.47,8.58,0.19,3.4,0.14
-BBD,Banco Bradesco S.A.,58.34,3,8.17,,0.14,,0.07
-VIVT3,Telefônica Brasil S.A.,58.3,5,15.1,5.48,0.1,0.99,0.08
-NFLX,"Netflix, Inc.",58.27,5,22.58,20.81,0.5,1.13,0.13
-HDB,Hdfc Bank Limited.,58.11,3,16.2,,0.14,,0.17
-MSFT,Microsoft Corp.,57.94,5,27.48,19.14,0.34,0.66,0.18
-LMT,Lockheed Martin Corporation,57.9,5,19.68,14.45,0.89,2.12,0.1
-LLY,Eli Lilly and Company,57.73,5,38.75,25.74,1.02,1.32,0.48
-TEM,TEMPUS AI INC,57.69,3,,-75.88,-0.67,,0.22
-GSK,GSK Plc.,57.64,5,15.94,10.66,0.33,1.69,0.05
-CCL,Carnival,57.51,5,9.84,7.38,0.27,3.58,0.05
-UBER,Uber Technologies Inc.,57.24,5,15.46,20.66,0.37,1.97,0.12
-PLTR,Palantir Technologies Inc,56.68,5,151.83,156.91,0.38,0.08,0.93
-V,Visa Inc,56.63,5,31.34,22.11,0.61,0.77,0.14
-E,Eni Spa,56.59,5,12.41,8.04,0.11,2.79,0.18
-ADS,Adidas AG,56.27,5,18.24,11.15,0.24,2.24,0.13
-MA,Mastercard Inc.,55.99,5,31.06,22.89,2.41,1.11,0.14
-AVY,Avery Dennison Corp.,55.98,5,18.35,10.77,0.31,2.46,0.11
-LRCX,Lam Research Corp,55.97,5,50.02,41.55,0.65,0.48,0.3
-SPOT,Spotify Technology S.A.,55.86,5,27.93,36.61,0.44,0.17,0.14
-ADP,Automatic Data Processing Inc.,55.83,5,24.81,17.01,0.72,0.86,0.07
-USB,U.S. Bancorp,55.8,3,11.99,,0.13,,0.1
-AVGO,Broadcom Inc.,55.76,5,45.67,33.34,0.44,1.14,0.86
-AAPL,Apple Inc.,55.59,5,38.59,29.34,1.49,0.5,0.16
-HON,Honeywell International Inc.,55.58,5,7.94,10.75,0.47,4.11,0.04
-LYG,Lloyds Banking Group Plc,54.9,3,13.51,,0.11,,0.12
-KMB,Kimberly-Clark Corp.,54.84,5,19.34,10.99,1.05,1.88,0.01
-IBN,Icici Bank Ltd.,54.83,3,17.48,,0.16,,0.11
-C,Citigroup Inc,54.78,3,14.2,,0.09,,0.16
-ROST,"Ross Stores, Inc.",54.52,5,27.4,19.92,0.43,1.3,0.13
-PATH,UIPATH INC,54.46,5,19.99,31.28,0.2,0.43,0.13
-RENT3,Localiza Rent A Car S.A.,54.43,5,11.49,8.62,0.13,5.25,0.24
-PEP,Pepsico Inc,54.34,5,17.01,11.64,0.52,2.82,0.06
-AIG,American International Group (AIG),54.33,5,13.75,4.67,0.07,1.12,0.0
-LVS,Las Vegas Sands Corp,54.26,5,15.5,8.22,1.23,3.29,-0.01
-WFC,Wells Fargo & Co.,54.11,3,12.52,,0.13,,0.1
-AMAT,Applied Materials Inc.,54.03,5,38.33,34.56,0.41,0.72,0.25
-STLA,Stellantis,54.01,3,,-110.5,-0.29,,0.13
-TGT,Target Corporation,53.75,5,16.43,9.97,0.26,2.23,0.05
-HOOD,Robinhood Markets Inc,53.62,3,53.02,,0.24,,0.32
-EBAY,Ebay Inc.,53.49,5,23.5,17.31,0.47,2.31,0.15
-ALAB,Astera Labs Inc,53.47,5,149.38,180.1,0.26,0.16,1.04
-SAN,Banco Santander S.A,53.44,3,14.17,,0.13,,0.1
-BP,BP PCL,53.41,5,21.23,13.13,0.09,1.85,0.48
-ASML,ASML HOLDING NV,53.26,5,57.81,2657.25,0.54,0.15,0.21
-MO,Altria Group Inc.,53.0,4,14.64,8.79,,1.56,0.01
-GRMN,Garmin Ltd.,52.98,5,28.25,21.81,0.22,0.1,0.11
-T,At &T Inc.,52.72,5,8.38,7.57,0.18,3.69,0.02
-UNP,Union Pacific Corp.,52.19,5,22.62,15.14,0.4,2.42,0.12
-GLOB,Globant S.A.,52.1,5,13.9,4.95,0.05,1.32,0.0
-RIOT,Riot Platforms,51.94,3,,-10.37,-0.48,,0.14
-TJX,TJX Companies Inc/The,51.74,5,23.61,16.65,0.62,1.61,0.05
-FMX,Fomento Economico Mexicano - Femsa,51.7,5,23.42,2.51,0.15,2.45,0.09
-VRTX,VERTEX PHARMACEUTICALS INC,51.54,5,29.59,24.11,0.24,0.39,0.12
-SNA,Snap-On Inc,51.51,5,18.98,13.38,0.18,0.93,0.04
-HD,The Home Depot Inc.,51.3,5,21.01,14.62,1.04,2.56,0.06
-TM,Toyota Motor Corporation,51.21,5,8.5,6.28,0.12,7.85,0.1
-ERIC,Lm Ericsson Telephone Co.,51.19,3,13.56,,0.26,,-0.06
-ORCL,Oracle Corporation,51.14,5,23.14,16.95,0.41,4.91,0.3
-KEP,Korea Electric Power Corp.,51.13,5,2.49,5.17,0.17,5.36,-0.0
-JMIA,Adr Jumia Technologies Ag,51.05,3,,-15.45,-2.16,,0.14
-ABNB,Airbnb Inc,50.77,5,37.86,32.03,0.35,0.9,0.16
-FDX,Fedex Corp,50.65,5,16.37,8.55,0.15,3.63,0.12
-TXN,Texas Instruments Inc,50.5,5,40.46,26.32,0.35,1.48,0.23
-JOYY,JOYY Inc.,50.28,5,18.66,15.93,-0.25,0.43,0.16
-GE,General Electric Co.,50.08,5,37.02,29.31,0.48,1.76,0.21
-HAL,Halliburton Co.,50.0,5,17.61,8.27,0.15,1.98,0.04
-AMGN,Amgen Inc.,49.69,5,23.98,14.58,0.91,3.32,0.1
-SUZ,Suzano Papel E Celulose S.A.,49.64,5,7.31,4.27,0.18,5.01,-0.13
-HSY,The Hershey Company,49.55,5,23.2,14.42,0.33,2.18,0.07
-PG,Procter & Gamble,49.52,5,22.11,14.8,0.3,1.42,0.02
-BKNG,Booking,49.47,4,18.66,12.47,,2.01,0.08
-CL,Colgate Palmolive Co,49.2,5,34.44,15.34,2.67,1.58,0.05
-SYY,Sysco Corp.,49.17,5,21.6,11.38,0.78,3.35,0.05
-BAK,Braskem SA,49.02,3,,7.5,,8.18,0.22
-QCOM,Qualcomm Inc.,48.96,5,20.33,16.14,0.34,1.27,-0.04
-HAPV3,Hapvida Participacoes E Investimentos S.A.,48.77,4,,4.21,-0.0,6.12,0.41
-CSCO,Cisco Systems Inc,48.66,5,32.89,23.98,0.27,1.67,0.18
-TMUS,T-mobile,48.64,5,17.61,8.67,0.18,3.5,0.08
-CAT,Caterpillar Inc,48.34,5,34.84,25.3,0.57,2.78,0.24
-SHOP,Shopify Inc.,48.19,5,86.82,67.04,0.16,0.07,0.34
-COST,Costco Wholesale Corp,47.98,5,45.04,27.94,0.29,0.6,0.12
-SUZB3,Suzano S.A.,47.91,5,7.3,6.67,0.18,5.01,-0.13
-NIO,NIO Inc.,47.86,4,,1.54,-0.45,8.5,0.69
-XPEV,XPENG INC,47.82,3,,-6.75,-0.11,,0.08
-HWM,Howmet Aerospace Inc.,47.78,5,49.5,34.25,0.35,1.67,0.24
-AZN,Astrazeneca Plc,47.43,5,24.86,14.32,0.22,1.63,0.06
-SE,Sea Ltd.,47.42,5,39.3,22.34,0.15,1.54,0.48
-NKE,Nike Inc.,47.27,5,16.91,11.1,0.22,2.24,-0.01
-VALE,Vale S.A.,47.26,5,28.42,1.88,0.04,1.42,0.06
-NVS,Novartis Ag,47.22,5,21.17,13.36,0.3,2.12,0.01
-MMM,3M Company,47.19,5,29.52,14.41,0.82,2.03,0.02
-FMCC,Freddie Mac (Federal Home Loan),47.04,3,inf,,0.18,,0.34
-GGB,Gerdau S.A.,46.94,5,22.45,1.96,0.04,1.52,0.02
-MSI,"Motorola Solutions, Inc.",46.69,5,36.09,22.57,0.92,2.56,0.13
-RACE,Ferrari,46.37,5,38.15,29.66,0.45,1.28,0.08
-VZ,Verizon Communications Inc.,46.29,5,12.52,7.69,0.16,3.79,-0.01
-VALE3,Vale S.A.,45.98,5,28.66,5.14,0.04,1.42,0.06
-CEG,CONSTELLATION ENERGY CORPORATION,45.9,5,24.87,14.41,0.15,3.11,0.23
-JNJ,Johnson & Johnson,45.4,5,31.36,19.47,0.26,1.41,0.07
-CX,Cemex S.A.B. de CV,44.93,5,28.74,6.53,0.04,2.12,0.12
-BABA,Alibaba Group Holding Limited,44.66,5,25.56,2.11,0.06,2.68,0.09
-BBAS3,Banco do Brasil S.A.,44.22,3,10.79,,0.11,,0.0
-MELI,Mercadolibre Inc.,44.17,5,48.54,25.2,0.28,3.39,0.5
-VST,VISTRA CORPORATION,43.86,5,23.68,10.5,0.43,3.09,-0.06
-ADI,Analog Devices,43.74,5,44.62,27.29,0.12,1.32,0.4
-MSTR,Microstrategy Inc Cl A New,43.73,3,,-2.14,-0.64,,0.07
-CRM,Salesforce Inc.,43.52,5,21.79,17.58,0.19,3.29,0.11
-DOCU,DocuSign Inc.,43.45,5,42.12,27.88,0.18,0.41,0.09
-SPGI,S&P Global Inc,43.44,5,24.68,16.73,0.14,1.93,0.1
-AMD,"Advanced Micro Devices, Inc.",43.21,5,142.81,94.65,0.1,0.45,0.5
-MDT,Medtronic Public Limited Company,43.12,5,22.69,13.24,0.11,2.7,0.14
-SAP,Sap Se,43.02,5,27.17,289.43,0.18,0.85,0.09
+SMSN,Samsung Electronics Co. Ltd.,92.45,5,2.88,-0.67,0.31,0.1,1.3
+HMY,Harmony Gold Mining Company Ltd.,91.98,5,6.63,0.29,0.48,0.21,0.49
+KGC,Kinross Gold Corp,85.7,5,9.52,5.19,0.37,0.14,0.3
+GFI,Gold Fields Ltd.,85.32,5,8.22,10.19,0.59,0.37,0.79
+PBR,Petrobras (ADR),82.71,5,5.14,1.83,0.3,1.51,0.42
+B,Barrick Gold Corp,82.4,5,11.08,6.11,0.27,0.36,0.44
+PETR3,Petrobras - Petróleo Brasileiro S.A.,81.86,5,5.25,4.1,0.3,1.51,0.42
+VIST,Vista Energy S.A.B. de C.V.,80.15,5,8.87,5.05,0.3,1.75,1.02
+PDD,PDD HOLDINGS INC,78.55,5,8.36,-3.46,0.23,0.05,0.08
+EQNR,Equinor Asa,78.36,5,11.43,5.11,0.21,0.77,0.37
+UN,NU Holdings Ltd/Cayman Islands,75.95,3,18.62,,0.32,,0.52
+PAAS,Pan American Silver Corp.,74.81,5,14.21,9.03,0.22,0.4,0.38
+AEM,Agnico Eagle Mines Limited,74.39,5,16.64,9.39,0.23,0.03,0.35
+SHEL,Royal Dutch Shell Plc,74.33,5,10.58,5.37,0.14,1.27,0.45
+ITUB,Itaú Unibanco Holding S.A.,73.54,3,10.01,,0.21,,0.18
+ADBE,Adobe Systems Incorporated,73.45,5,13.14,9.36,0.62,0.68,0.13
+DECK,DECKERS OUTDOOR CORPORATION,73.14,5,11.17,7.24,0.43,0.36,0.06
+NEM,Newmont Corporation,72.85,5,15.31,7.31,0.26,0.33,0.15
+GPRK,Geopark Ltd.,72.82,5,7.89,3.52,0.29,2.45,0.2
+TSM,Taiwan Semiconductor Manufacturing,72.19,5,33.55,5.14,0.4,0.34,0.36
+ITUB3,Banco Itaú Unibanco S.A,72.12,3,10.97,,0.21,,0.18
+MU,Micron Technology Inc,71.75,5,24.45,17.63,0.67,0.09,3.46
+GS,"The Goldman Sachs Group, Inc",71.55,3,14.45,,0.17,,0.42
+UGP,Ultrapar Participações S.A.,70.69,5,11.09,2.19,0.2,2.14,0.22
+PRIO3,Petro Rio S.A.,69.9,5,12.42,5.48,0.14,2.02,1.11
+RIO,Rio Tinto Plc,69.44,5,12.8,7.56,0.19,1.0,0.16
+HL,Hecla Mining Co .,69.33,5,22.46,12.13,0.22,0.02,0.52
+JPM,J.P. Morgan & Chase Co.,69.3,3,14.7,,0.18,,0.3
+TTE,TotalEnergies SE,69.12,5,11.38,5.95,0.14,1.59,0.28
+XP,XP Inc,68.85,3,10.31,,0.23,,0.11
+NTES,"Netease, Inc",68.55,5,15.39,4.88,0.2,0.29,0.08
+RKLB,Rocket Lab Corp,68.53,3,,-279.56,-0.08,,0.62
+ARCO,Arcos Dorados Holdings Inc.,68.39,5,5.89,5.64,0.36,3.59,0.14
+HHPD,Hon Hai Precision Industry Co. Ltd.,68.36,5,7.35,0.37,0.13,3.23,0.41
+ZM,Zoom Video Communications Inc.,68.18,5,8.33,14.24,0.32,0.05,0.05
+PAGS,Pagseguro Digital Ltd,67.82,5,6.28,0.31,0.15,0.19,-0.0
+OXY,Occidental Petroleum Corp.,67.81,5,16.77,5.56,0.11,1.07,0.53
+TEN,Tenaris,67.77,5,4.68,5.83,0.17,4.06,0.54
+ANF,Abercrombie & Fitch Co,67.35,5,11.72,7.01,0.41,1.4,0.05
+ASR,"Grupo Aeroportuario Del Sureste , S.A.B. de C.V.",67.09,5,13.02,1.89,0.23,1.75,0.1
+CDE,Coeur Mining Inc.,66.99,5,16.15,11.92,0.13,0.44,1.26
+RGTI,RIGETTI COMPUTING INC,66.96,3,,-59.32,-0.44,,1.85
+ASTS,AST SpaceMobile Inc,66.82,3,,-48.58,-0.46,,26.27
+YELP,Yelp Inc.,66.73,5,8.71,4.88,0.18,0.6,0.01
+NVDA,Nvidia Corporation,66.5,5,28.49,26.83,1.17,0.19,1.06
+GOOGL,Alphabet Inc.,66.16,5,17.27,23.69,0.49,0.7,0.24
+NMR,"Nomura Holdings, Inc",66.14,3,11.84,,0.11,,0.31
+PSX,Phillips 66,66.06,5,14.6,12.06,0.23,2.07,0.53
+BMNR,"Bitmine Inmersion Technologies, Inc.",65.82,3,,-55.38,-1.51,,21.68
+ABEV,Ambev S.A.,65.64,5,14.55,1.13,0.18,0.11,0.0
+STNE,StoneCo Ltd,65.58,5,3.54,1.61,0.34,2.49,0.02
+BHP,Bhp Group Ltd,65.42,5,21.96,7.73,0.24,0.95,0.18
+TIMB,Tim Participações S.A.,65.16,5,10.5,1.82,0.17,1.45,0.06
+CAAP,Corporación America Airports S.A.,65.04,5,13.57,5.59,0.17,1.45,0.12
+HUT,Hut 8 Mining Corp.,64.91,3,,-24.94,-0.43,,0.81
+AXP,American Express Co,64.58,3,18.73,,0.34,,0.13
+ACN,Accenture,64.56,5,14.07,8.31,0.24,0.65,0.06
+CVX,Chevron Corp.,64.55,5,19.64,8.59,0.12,0.73,0.54
+FSLR,First Solar Inc.,64.13,5,10.96,7.36,0.19,0.08,-0.04
+TIMS3,TIM S.A.,63.93,5,10.34,4.96,0.17,1.45,0.06
+SCHW,Charles Schwab,63.93,3,18.04,,0.2,,0.21
+BX,Blackstone Inc.,63.54,3,26.55,,0.31,,0.29
+HPQ,Hp Inc,63.28,4,11.95,7.42,,2.23,0.12
+HSBC,Hsbc Holdings Plc,63.2,3,14.42,,0.13,,0.25
+URBN,Urban Outfitters INC.,63.05,5,11.79,8.96,0.21,1.56,0.1
+SBS,Companhia de Saneamento Basico do Estado de Sao Paulo-Sabesp,63.05,5,11.02,3.46,0.19,3.4,0.14
+XOM,Exxon Mobil Corporation,63.04,5,20.67,10.29,0.13,0.62,0.44
+SNOW,Snowflake Inc.,62.79,3,,-114.65,-0.48,,0.35
+KB,Kb Financial Group Inc.,62.64,3,10.31,,0.1,,0.18
+SCCO,Southern Copper Corp,62.42,5,30.57,17.52,0.5,0.87,0.41
+MFG,Mizuho Financial Group,62.3,3,15.59,,0.12,,0.35
+TCOM,TRIP.COM Group Ltd.,62.2,5,7.63,-2.28,0.16,2.36,0.06
+BCS,Barclays Bank Plc,61.11,3,9.73,,0.1,,0.16
+AKO.B,Embotelladora Andina S.A.,61.08,3,17.06,,0.24,,0.11
+LREN3,Lojas Renner S.A.,60.91,5,7.41,5.18,0.14,1.41,0.01
+BA,The Boeing Company,60.82,4,71.51,-64.01,1.74,,0.08
+CLS,CELESTICA INC,60.8,5,38.03,27.19,0.53,0.63,0.62
+VIV,Telefônica Brasil S.A.,60.52,5,14.68,1.48,0.1,0.99,0.08
+INFY,Infosys Limited,60.43,5,12.96,18.5,0.32,0.21,0.03
+ABEV3,Ambev S.A.,60.38,5,14.87,8.28,0.18,0.11,0.0
+BMY,Bristol-Myers Squibb Company,60.3,5,13.85,8.58,0.47,2.38,0.06
+UAL,United Airlines Holdings Inc.,60.24,5,10.67,7.62,0.23,4.75,0.16
+RBLX,Roblox Corp.,60.24,3,,-37.91,-4.32,,0.36
+SONY,Sony Group Corporation,60.2,5,20.13,0.12,0.13,0.9,0.08
+PYPL,"Paypal Holdings, Inc.",60.01,5,10.38,7.75,0.24,2.2,0.05
+ING,Ing Groep Nv,59.94,3,13.9,,0.17,,0.11
+AMX,America Movil,59.56,5,13.11,2.35,0.22,2.18,0.03
+AMZN,"Amazon.Com, Inc.",59.55,5,20.09,16.7,0.31,1.49,0.2
+NUE,Nucor Corp,59.52,5,19.75,10.85,0.15,1.25,0.23
+DAL,Delta Air Lines,59.29,5,14.09,9.59,0.2,2.81,0.19
+BBDC3,Banco Bradesco S.A.,59.09,3,7.2,,0.14,,0.07
+SNAP,Snap Inc.,59.06,3,,-73.37,-0.16,,0.19
+BSBR,Banco Santander (Brasil) S.A.,58.79,3,16.94,,0.11,,0.29
+LMT,Lockheed Martin Corporation,58.46,5,19.16,14.12,0.89,2.12,0.1
+SBSP3,Cia Saneamento Básico de SP,58.43,5,11.32,8.49,0.19,3.4,0.14
+BBD,Banco Bradesco S.A.,58.43,3,8.12,,0.14,,0.07
+MUFG,Mitsubishi Ufj Financial Group,58.41,3,15.76,,0.09,,0.29
+VIVT3,Telefônica Brasil S.A.,58.39,5,14.69,5.34,0.1,0.99,0.08
+NFLX,"Netflix, Inc.",58.22,5,22.37,20.63,0.5,1.13,0.13
+HDB,Hdfc Bank Limited.,58.03,3,16.09,,0.14,,0.17
+LLY,Eli Lilly and Company,57.82,5,39.69,26.4,1.02,1.32,0.48
+TEM,TEMPUS AI INC,57.8,3,,-82.58,-0.67,,0.22
+META,Meta Platforms Inc,57.77,5,28.33,17.66,0.3,1.02,0.28
+GSK,GSK Plc.,57.67,5,15.83,10.48,0.33,1.69,0.05
+UBER,Uber Technologies Inc.,57.4,5,15.27,20.42,0.37,1.97,0.12
+CCL,Carnival,57.22,5,10.02,7.45,0.27,3.58,0.05
+MSFT,Microsoft Corp.,57.18,5,28.74,20.0,0.34,0.66,0.18
+ADP,Automatic Data Processing Inc.,57.03,5,24.1,16.54,0.72,0.86,0.07
+V,Visa Inc,56.73,5,31.24,22.06,0.61,0.77,0.14
+PLTR,Palantir Technologies Inc,56.68,5,162.11,167.77,0.38,0.08,0.93
+E,Eni Spa,56.29,5,12.52,8.05,0.11,2.79,0.18
+MA,Mastercard Inc.,55.97,5,31.24,22.98,2.41,1.11,0.14
+AVGO,Broadcom Inc.,55.92,5,45.58,32.9,0.44,1.14,0.86
+USB,U.S. Bancorp,55.87,3,11.84,,0.13,,0.1
+SPOT,Spotify Technology S.A.,55.85,5,28.16,36.65,0.44,0.17,0.14
+PATH,UIPATH INC,55.67,5,18.6,28.65,0.2,0.43,0.13
+LRCX,Lam Research Corp,55.64,5,54.63,45.48,0.65,0.48,0.3
+AVY,Avery Dennison Corp.,55.6,5,18.62,10.91,0.31,2.46,0.11
+AAPL,Apple Inc.,55.55,5,39.07,29.77,1.49,0.5,0.16
+ADS,Adidas AG,55.48,5,18.81,11.43,0.24,2.24,0.13
+HON,Honeywell International Inc.,55.29,5,8.17,10.98,0.47,4.11,0.04
+PEP,Pepsico Inc,54.64,5,16.86,11.56,0.52,2.82,0.06
+KMB,Kimberly-Clark Corp.,54.64,5,19.45,11.04,1.05,1.88,0.01
+LVS,Las Vegas Sands Corp,54.62,5,15.11,8.08,1.23,3.29,-0.01
+IBN,Icici Bank Ltd.,54.53,3,17.34,,0.16,,0.11
+LYG,Lloyds Banking Group Plc,54.52,3,13.74,,0.11,,0.12
+AIG,American International Group (AIG),54.5,5,13.53,4.6,0.07,1.12,0.0
+EBAY,Ebay Inc.,54.29,5,22.67,16.75,0.47,2.31,0.15
+WFC,Wells Fargo & Co.,54.28,3,12.06,,0.13,,0.1
+C,Citigroup Inc,54.07,3,14.47,,0.09,,0.16
+STLA,Stellantis,54.01,3,,-108.46,-0.29,,0.13
+HOOD,Robinhood Markets Inc,53.64,3,52.83,,0.24,,0.32
+ROST,"Ross Stores, Inc.",53.63,5,28.59,20.75,0.43,1.3,0.13
+TGT,Target Corporation,53.62,5,16.33,9.93,0.26,2.23,0.05
+BP,BP PCL,53.46,5,21.12,13.02,0.09,1.85,0.48
+RENT3,Localiza Rent A Car S.A.,53.36,5,12.17,8.88,0.13,5.25,0.24
+AMAT,Applied Materials Inc.,53.31,5,41.85,37.72,0.41,0.72,0.25
+ALAB,Astera Labs Inc,53.27,5,178.74,217.41,0.26,0.16,1.04
+ASML,ASML HOLDING NV,53.2,5,60.24,2758.53,0.54,0.15,0.21
+SAN,Banco Santander S.A,53.16,3,14.28,,0.13,,0.1
+MO,Altria Group Inc.,52.95,4,14.49,8.7,,1.56,0.01
+ORCL,Oracle Corporation,52.62,5,21.49,16.03,0.41,4.91,0.3
+GLOB,Globant S.A.,52.6,5,13.48,4.83,0.05,1.32,0.0
+T,At &T Inc.,52.58,5,8.38,7.57,0.18,3.69,0.02
+UNP,Union Pacific Corp.,52.32,5,22.17,14.88,0.4,2.42,0.12
+ERIC,Lm Ericsson Telephone Co.,52.01,3,12.88,,0.26,,-0.06
+RIOT,Riot Platforms,51.94,3,,-10.05,-0.48,,0.14
+HD,The Home Depot Inc.,51.86,5,20.53,14.35,1.04,2.56,0.06
+GRMN,Garmin Ltd.,51.85,5,30.39,23.49,0.22,0.1,0.11
+SNA,Snap-On Inc,51.58,5,18.84,13.27,0.18,0.93,0.04
+TJX,TJX Companies Inc/The,51.52,5,24.09,17.0,0.62,1.61,0.05
+VRTX,VERTEX PHARMACEUTICALS INC,51.49,5,30.24,25.0,0.24,0.39,0.12
+ABNB,Airbnb Inc,51.47,5,35.95,30.16,0.35,0.9,0.16
+FDX,Fedex Corp,51.41,5,15.41,8.19,0.15,3.63,0.12
+TM,Toyota Motor Corporation,51.2,5,8.6,6.27,0.12,7.85,0.1
+FMX,Fomento Economico Mexicano - Femsa,51.1,5,24.26,2.52,0.15,2.45,0.09
+JMIA,Adr Jumia Technologies Ag,51.05,3,,-15.28,-2.16,,0.14
+KEP,Korea Electric Power Corp.,50.98,5,2.47,5.17,0.17,5.36,-0.0
+HAL,Halliburton Co.,50.41,5,17.15,8.09,0.15,1.98,0.04
+TXN,Texas Instruments Inc,50.3,5,42.2,27.42,0.35,1.48,0.23
+HSY,The Hershey Company,49.89,5,22.73,14.17,0.33,2.18,0.07
+SUZ,Suzano Papel E Celulose S.A.,49.76,5,6.9,4.23,0.18,5.01,-0.13
+JOYY,JOYY Inc.,49.76,5,18.9,16.24,-0.25,0.43,0.16
+SYY,Sysco Corp.,49.49,5,21.15,11.32,0.78,3.35,0.05
+BKNG,Booking,49.46,4,18.22,12.19,,2.01,0.08
+GE,General Electric Co.,49.35,5,38.62,30.47,0.48,1.76,0.21
+CL,Colgate Palmolive Co,49.29,5,33.88,15.12,2.67,1.58,0.05
+PG,Procter & Gamble,49.27,5,22.09,14.79,0.3,1.42,0.02
+BAK,Braskem SA,49.12,3,,7.49,,8.18,0.22
+CSCO,Cisco Systems Inc,48.84,5,32.04,23.38,0.27,1.67,0.18
+TMUS,T-mobile,48.79,5,17.3,8.58,0.18,3.5,0.08
+HAPV3,Hapvida Participacoes E Investimentos S.A.,48.77,4,,4.22,-0.0,6.12,0.41
+CAT,Caterpillar Inc,48.36,5,35.34,25.65,0.57,2.78,0.24
+SE,Sea Ltd.,48.18,5,38.44,21.81,0.15,1.54,0.48
+SUZB3,Suzano S.A.,48.04,5,6.85,6.49,0.18,5.01,-0.13
+AMGN,Amgen Inc.,48.0,5,25.77,15.49,0.91,3.32,0.1
+SHOP,Shopify Inc.,47.99,5,96.11,74.43,0.16,0.07,0.34
+NIO,NIO Inc.,47.95,4,,1.48,-0.45,8.5,0.69
+XPEV,XPENG INC,47.82,3,,-6.39,-0.11,,0.08
+VALE,Vale S.A.,47.81,5,27.22,1.85,0.04,1.42,0.06
+HWM,Howmet Aerospace Inc.,47.73,5,50.0,34.65,0.35,1.67,0.24
+COST,Costco Wholesale Corp,47.68,5,44.45,27.6,0.28,0.6,0.11
+AZN,Astrazeneca Plc,47.33,5,24.94,14.36,0.22,1.63,0.06
+MSI,"Motorola Solutions, Inc.",47.0,5,35.97,22.5,0.92,2.56,0.13
+FMCC,Freddie Mac (Federal Home Loan),46.98,3,inf,,0.18,,0.34
+NKE,Nike Inc.,46.94,5,17.02,11.17,0.22,2.24,-0.01
+MMM,3M Company,46.93,5,30.12,14.7,0.82,2.03,0.02
+GGB,Gerdau S.A.,46.87,5,22.05,1.94,0.04,1.52,0.02
+VALE3,Vale S.A.,46.59,5,27.22,4.99,0.04,1.42,0.06
+NVS,Novartis Ag,46.34,5,21.97,13.78,0.3,2.12,0.01
+VZ,Verizon Communications Inc.,46.26,5,12.26,7.61,0.16,3.79,-0.01
+RACE,Ferrari,46.19,5,38.73,29.99,0.45,1.28,0.08
+QCOM,Qualcomm Inc.,46.0,5,23.08,18.26,0.34,1.27,-0.04
+CEG,CONSTELLATION ENERGY CORPORATION,45.39,5,25.71,14.79,0.15,3.11,0.23
+JNJ,Johnson & Johnson,45.37,5,31.46,19.55,0.26,1.41,0.07
+BABA,Alibaba Group Holding Limited,45.29,5,24.83,2.03,0.06,2.68,0.09
+CX,Cemex S.A.B. de CV,45.21,5,27.74,6.38,0.04,2.12,0.12
+BBAS3,Banco do Brasil S.A.,44.84,3,10.04,,0.11,,0.0
+MELI,Mercadolibre Inc.,44.33,5,47.57,24.75,0.28,3.39,0.5
+CRM,Salesforce Inc.,44.06,5,21.41,17.33,0.19,3.29,0.11
+SDA,SunCar Technology Group Inc,43.98,5,17.47,10.62,0.07,5.49,0.21
+VST,VISTRA CORPORATION,43.97,5,23.35,10.39,0.43,3.09,-0.06
+DOCU,DocuSign Inc.,43.74,5,41.16,27.22,0.18,0.41,0.09
+MSTR,Microstrategy Inc Cl A New,43.73,3,,-2.19,-0.64,,0.07
+SPGI,S&P Global Inc,43.69,5,24.58,16.66,0.14,1.93,0.1
+MDT,Medtronic Public Limited Company,43.64,5,21.83,12.81,0.11,2.7,0.14
+ADI,Analog Devices,43.08,5,46.75,28.54,0.12,1.32,0.4
+AMD,"Advanced Micro Devices, Inc.",43.08,5,161.29,106.74,0.1,0.45,0.5
 EA,Electronic Arts Inc,42.89,5,59.74,30.36,0.16,1.08,0.19
-EOAN,E.On Se,42.82,5,13.47,9.1,0.16,4.3,-0.0
-KO,The Coca Cola Company,42.7,5,26.5,24.11,0.42,2.6,0.07
-MUX,McEwen Mining Inc,42.68,5,15.08,42.07,0.14,4.49,0.27
-UL,Unilever PLC - Sponsored,42.65,5,21.17,14.84,0.32,2.95,0.0
-DISN,The Walt Disney Co.,42.53,5,21.17,10.73,0.08,2.2,0.07
-PBI,Pitney Bowes Inc,42.2,4,13.7,7.98,,4.11,-0.02
-WEGE3,Weg S.A.,41.89,5,34.75,25.39,0.31,0.69,-0.01
-BAS,Basf SE,41.7,5,21.78,9.84,0.06,4.06,0.16
-SLB,Schlumberger Ltd,41.44,5,24.94,11.61,0.13,1.74,0.05
-ROKU,Roku,41.36,5,64.83,35.79,0.13,0.82,0.22
-ARM,ARM Holdings Plc,40.94,5,278.39,273.52,0.13,0.46,0.22
-EFX,Equifax Inc.,40.74,5,27.92,12.52,0.14,2.84,0.11
-MRVL,Marvell Technology Inc,40.65,5,80.08,75.62,0.17,1.85,0.36
-IBM,International Business Machines,40.48,5,21.1,16.6,0.34,3.96,0.01
-MRNA,Moderna Inc,40.39,3,,-26.26,-0.39,,0.02
-AAL,American Airlines Group Inc,40.01,3,,10.66,,10.6,0.16
-WMT,Walmart Inc.,39.68,5,38.67,20.8,0.22,1.7,0.06
-AEG,Aegon N.V.,39.25,3,12.05,,0.11,,-0.08
-BKR,Baker Hughes Co,38.87,5,18.41,11.62,0.16,3.36,-0.02
-DOW,DOW Inc,38.6,4,,9.45,-0.06,4.9,0.2
-PAC,"Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",38.46,5,18.93,79.87,0.28,2.89,0.04
-TWLO,Twilio Inc,38.25,5,33.68,71.74,0.13,2.13,0.22
-GILD,"Gilead Sciences, Inc.",38.16,4,,14.2,-0.21,1.8,0.1
-FCX,Freeport Mcmoran Copper & Gold Inc.,37.97,5,35.07,12.68,0.15,1.08,-0.07
-RTX,Raytheon Technologies Corp,37.65,5,34.15,18.48,0.12,2.44,0.14
-JD,"Jd.Com, Inc.",37.43,5,17.95,-1.37,0.07,8.93,-0.03
-LND,Brasilagro - Co Brasileira de Propriedades Agrícolas,37.25,3,,-31.33,-0.04,,-0.15
+SAP,Sap Se,42.81,5,27.68,291.13,0.18,0.85,0.09
+KO,The Coca Cola Company,42.74,5,26.37,24.0,0.42,2.6,0.07
+EOAN,E.On Se,42.72,5,13.32,9.06,0.16,4.3,-0.0
+MUX,McEwen Mining Inc,42.64,5,15.1,42.12,0.14,4.49,0.27
+PBI,Pitney Bowes Inc,42.4,4,13.32,7.86,,4.11,-0.02
+UL,Unilever PLC - Sponsored,42.25,5,21.57,14.98,0.32,2.95,0.0
+WEGE3,Weg S.A.,42.12,5,34.28,25.04,0.31,0.69,-0.01
+EFX,Equifax Inc.,41.79,5,26.03,11.87,0.14,2.84,0.11
+BAS,Basf SE,41.74,5,21.27,9.68,0.06,4.06,0.16
+DISN,The Walt Disney Co.,41.5,5,21.89,11.02,0.08,2.2,0.07
+ROKU,Roku,41.45,5,64.42,35.54,0.13,0.82,0.22
+SLB,Schlumberger Ltd,41.42,5,25.14,11.7,0.13,1.74,0.05
+IBM,International Business Machines,41.15,5,20.05,16.37,0.34,3.96,0.01
+ARM,ARM Holdings Plc,40.87,5,313.45,308.38,0.13,0.46,0.22
+MRNA,Moderna Inc,40.74,3,,-34.42,-0.39,,0.02
+MRVL,Marvell Technology Inc,40.59,5,87.02,81.06,0.17,1.85,0.36
+WMT,Walmart Inc.,39.77,5,38.98,21.03,0.22,1.7,0.06
+AAL,American Airlines Group Inc,39.41,3,,10.84,,10.6,0.16
+AEG,Aegon N.V.,39.1,3,12.01,,0.11,,-0.08
+BKR,Baker Hughes Co,38.75,5,18.59,11.74,0.16,3.36,-0.02
+DOW,DOW Inc,38.69,4,,9.32,-0.06,4.9,0.2
+GILD,"Gilead Sciences, Inc.",38.16,4,,14.28,-0.21,1.8,0.1
+RTX,Raytheon Technologies Corp,37.95,5,33.35,18.09,0.12,2.44,0.14
+FCX,Freeport Mcmoran Copper & Gold Inc.,37.93,5,35.45,12.79,0.15,1.08,-0.07
+JD,"Jd.Com, Inc.",37.31,5,17.67,-1.48,0.07,8.93,-0.03
+PAC,"Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",37.29,5,20.74,84.91,0.28,2.89,0.04
+TWLO,Twilio Inc,37.27,5,38.04,81.56,0.13,2.13,0.22
+LND,Brasilagro - Co Brasileira de Propriedades Agrícolas,37.13,3,,-31.22,-0.04,,-0.15
 HMC,Honda Motor Co. Ltd,36.9,4,,7.16,-0.01,11.21,0.14
-ORLY,O'reilly Automotive Inc,36.8,4,26.89,18.67,,2.3,0.08
-ISRG,Intuitive Surgical inc,36.6,4,45.05,32.02,0.17,,0.18
-PM,Philip Morris International,36.59,4,25.91,18.82,,2.73,0.1
-ECL,Ecolab Inc,36.57,5,36.22,20.4,0.22,3.37,0.1
-MBG,Mercedes-Benz Group AG,36.37,5,8.33,10.61,0.06,8.52,-0.03
-CAH,Cardinal Health Inc,36.1,4,31.17,13.6,,2.36,0.06
-GLW,Corning Inc.,36.05,5,68.87,33.48,0.17,2.3,0.17
-PHG,Koninklijke Philips N.V.,35.92,5,18.84,12.35,0.1,3.09,0.0
-BSN,Danone,35.61,5,20.06,10.67,0.12,3.86,0.01
-XROX,Xerox Holding Corporation,35.32,4,,8.62,-0.97,8.26,0.22
-ABT,Abbott Labs,34.94,5,33.21,17.58,0.11,2.8,0.13
-JCI,Johnson Controls International,34.78,5,40.36,22.12,0.14,2.19,0.09
-UNH,UnitedHealth Group Inc.,34.55,5,24.21,14.53,0.14,2.75,0.0
-HOG,Harley-Davidson Inc.,34.52,5,14.41,8.75,0.06,5.4,-0.06
-CVS,CVS Health,34.45,5,23.44,10.56,0.06,4.57,0.07
-TSLA,"Tesla, Inc.",33.76,5,334.19,131.28,0.05,1.5,0.26
-MDLZ,Mondelez,33.63,5,22.29,16.13,0.13,3.63,0.04
-MCD,Mcdonald'S Corp.,33.4,4,20.17,15.37,,3.66,0.04
-PFE,Pfizer Inc.,33.16,5,36.39,8.26,0.05,2.5,0.03
-PANW,Palo Alto Networks Inc,33.04,5,908.95,190.32,0.02,1.65,0.34
-TEAM,ATLASSIAN CORPORATION,32.83,4,,111.37,-0.04,2.83,0.28
-KEEL,Bitfarms Ltd.,32.8,3,,-47.99,-0.76,,-0.5
-NOW,SERVICENOW INC,32.67,5,84.67,49.65,0.14,2.92,0.24
-IP,International Paper Co.,32.55,4,,6.98,-0.16,2.52,-0.02
-INTC,Intel Corporation,32.37,4,,34.69,-0.11,3.0,0.25
-VRSN,"Verisign, Inc.",32.26,4,32.91,24.18,,1.97,0.06
-BB,Blackberry Limited,32.13,5,79.9,48.96,0.08,2.38,0.26
-AI,C3.AI INC,32.03,3,,-2.45,-0.6,,-0.26
-ABBV,AbbVie Inc.,31.98,4,74.56,17.26,,2.3,0.1
-SWKS,Skyworks Solutions,31.71,5,45.99,15.04,0.05,0.77,-0.03
-SDA,SunCar Technology Group Inc,31.62,5,inf,11.12,0.03,5.95,0.28
-BIDU,"Baidu, Inc.",31.3,4,,0.03,-0.01,4.83,-0.04
-CRWV,CoreWeave Inc,31.28,4,,24.0,-0.44,13.62,1.12
-SID,Companhia Siderúrgica Nacional,31.15,4,,6.07,-0.12,7.37,0.06
-SPCE,Virgin Galactic,30.9,3,,-1.95,-0.75,,-0.67
-PSO,Pearson Plc,30.9,5,23.45,18.41,0.09,2.92,0.03
-MRK,Merck & Co. Inc.,30.8,5,117.5,14.17,0.07,1.87,0.05
-TMO,Thermo Fisher Scientific Inc.,30.73,5,35.08,23.81,0.14,3.62,0.1
-CSNA3,Companhia Siderúrgica Nacional S.A.,30.62,4,,6.93,-0.12,7.37,0.06
-DD,Dupont de Nemours Inc.,30.18,5,55.13,11.98,0.02,2.01,0.04
+MBG,Mercedes-Benz Group AG,36.62,5,7.82,10.4,0.06,8.52,-0.03
+PM,Philip Morris International,36.4,4,26.16,18.98,,2.73,0.1
+ORLY,O'reilly Automotive Inc,36.34,4,27.34,18.94,,2.3,0.08
+CAH,Cardinal Health Inc,36.21,4,30.5,13.32,,2.36,0.06
+ECL,Ecolab Inc,36.18,5,37.47,21.08,0.22,3.37,0.1
+ISRG,Intuitive Surgical inc,36.11,4,46.52,33.02,0.17,,0.18
+BSN,Danone,35.68,5,19.72,10.53,0.12,3.86,0.01
+GLW,Corning Inc.,35.64,5,72.56,34.87,0.17,2.3,0.17
+BB,Blackberry Limited,35.63,5,63.15,40.87,0.11,1.94,0.26
+XROX,Xerox Holding Corporation,35.22,4,,8.59,-0.97,8.26,0.22
+PHG,Koninklijke Philips N.V.,35.18,5,19.05,12.46,0.1,3.09,0.0
+ABT,Abbott Labs,35.12,5,32.78,17.38,0.11,2.8,0.13
+HOG,Harley-Davidson Inc.,34.61,5,14.14,8.63,0.06,5.4,-0.06
+UNH,UnitedHealth Group Inc.,34.61,5,24.22,14.52,0.14,2.75,0.0
+MCD,Mcdonald'S Corp.,34.42,4,19.2,14.81,,3.66,0.04
+JCI,Johnson Controls International,34.17,5,42.43,23.09,0.14,2.19,0.09
+CVS,CVS Health,33.89,5,23.52,10.58,0.06,4.57,0.07
+TSLA,"Tesla, Inc.",33.69,5,344.55,134.16,0.05,1.5,0.26
+MDLZ,Mondelez,33.57,5,22.07,16.0,0.13,3.63,0.04
+VRSN,"Verisign, Inc.",33.34,4,31.32,22.97,,1.97,0.06
+PANW,Palo Alto Networks Inc,33.04,5,914.0,196.18,0.02,1.65,0.34
+TEAM,ATLASSIAN CORPORATION,32.91,4,,108.89,-0.04,2.83,0.28
+NOW,SERVICENOW INC,32.74,5,84.76,49.71,0.14,2.92,0.24
+KEEL,Bitfarms Ltd.,32.68,3,,-45.77,-0.76,,-0.5
+PFE,Pfizer Inc.,32.55,5,37.72,8.49,0.05,2.5,0.03
+IP,International Paper Co.,32.46,4,,7.05,-0.16,2.52,-0.02
+INTC,Intel Corporation,32.18,4,,39.0,-0.11,3.0,0.25
+AI,C3.AI INC,32.03,3,,-2.51,-0.6,,-0.26
+ABBV,AbbVie Inc.,31.99,4,74.46,17.28,,2.3,0.1
+SWKS,Skyworks Solutions,31.45,5,46.29,15.14,0.05,0.77,-0.03
+BIDU,"Baidu, Inc.",31.3,4,,-0.01,-0.01,4.83,-0.04
+SID,Companhia Siderúrgica Nacional,31.06,4,,6.07,-0.12,7.37,0.06
+CRWV,CoreWeave Inc,30.92,4,,24.91,-0.44,13.62,1.12
+SPCE,Virgin Galactic,30.9,3,,-2.02,-0.75,,-0.67
+CSNA3,Companhia Siderúrgica Nacional S.A.,30.62,4,,6.94,-0.12,7.37,0.06
+TIIAY,Telecom Italia S.P.A. Ordinary Shares,30.52,5,48.24,8.0,0.04,3.61,0.06
+MRK,Merck & Co. Inc.,30.46,5,119.02,14.34,0.07,1.87,0.05
+TMO,Thermo Fisher Scientific Inc.,30.34,5,36.37,24.55,0.14,3.62,0.1
 TV,Grupo Televisa S.A.,30.17,4,,2.6,-0.08,3.99,-0.03
-TIIAY,Telecom Italia S.P.A. Ordinary Shares,30.01,5,52.24,8.4,0.04,3.61,0.06
-FNMA,"Fed. Natl, Mortgage - Fannie Mae",29.78,3,129.5,,0.14,,0.09
-BIIB,Biogen Inc.,29.63,5,38.35,11.58,0.05,2.49,0.03
-SIEGY,Siemens Ag Adr,29.6,5,26.42,22.47,0.12,3.99,0.07
-BAYN,Bayer AG,29.56,4,,7.97,-0.06,3.79,0.01
-ETSY,Etsy Inc.,28.87,4,22.97,18.3,,6.53,0.06
-AAP,Advanced Auto Parts Inc,28.46,5,23.77,8.07,0.05,8.95,-0.0
-MOS,The Mosaic Co,27.43,4,,7.99,-0.05,3.54,-0.06
-UPST,Upstart Hldgs Inc,27.02,5,48.08,35.05,0.08,17.88,0.42
-PINS,Pinterest,26.52,5,54.71,33.03,0.06,3.78,0.18
-PCAR,Paccar Inc.,26.14,5,24.69,20.55,0.13,4.53,0.0
-IFF,International Flavors & Fragrances Inc.,26.03,4,,14.08,-0.06,3.29,0.02
-NGG,National Grid Plc,24.75,5,17.49,71.68,0.08,6.79,0.02
-DE,Deere & Co.,24.67,5,38.02,28.15,0.18,7.51,0.05
-DHR,Danaher Corp,24.58,5,37.76,21.48,0.08,3.47,0.06
-NATU3,NATURA COSMETICOS SA,24.28,4,,8.96,-0.02,3.96,-0.08
-DEO,Diageo PLC,23.76,5,27.43,136.89,0.15,3.45,-0.02
-VOD,Vodafone Group Plc,22.97,3,,13.62,0.0,6.08,
-GM,General Motors Co,22.89,5,36.7,10.8,0.03,7.82,0.02
-MGLU3,Magazine Luiza S.A.,22.52,5,53.18,7.8,0.01,5.88,-0.03
-TRIP,"Tripadvisor, Inc.",20.7,4,,9.89,-0.0,8.13,-0.07
-XYZ,Square Inc.,18.38,5,136.21,29.86,0.02,4.63,0.09
-GT,Goodyear Tire & Rubber co./the,17.89,4,,9.13,-0.62,8.36,-0.05
-SBUX,Starbucks Corporation,14.58,4,55.39,22.7,,3.98,-0.01
-CAR,Avis Budget Group Inc.,11.95,3,,21.37,,18.92,-0.01
-BIOX,Bioceres Crop Solutions Corp.,10.26,4,,17.07,-0.28,14.83,-0.23
-F,Ford Motor Company,8.21,4,,25.37,-0.18,21.37,-0.04
-COIN,Coinbase Global Inc,5.75,4,,70.23,-0.08,9.53,-0.17
-IREN,Iren Ltd,2.46,4,,530.38,-0.23,204.44,-0.27
+ETSY,Etsy Inc.,30.11,4,21.66,17.49,,6.53,0.06
+PSO,Pearson Plc,30.09,5,24.44,18.84,0.09,2.92,0.03
+FNMA,"Fed. Natl, Mortgage - Fannie Mae",29.78,3,116.75,,0.14,,0.09
+DD,Dupont de Nemours Inc.,29.69,5,56.53,12.22,0.02,2.01,0.04
+BAYN,Bayer AG,28.85,4,,8.15,-0.06,3.79,0.01
+AAP,Advanced Auto Parts Inc,28.85,5,23.31,7.99,0.05,8.95,-0.0
+BIIB,Biogen Inc.,28.83,5,40.72,12.12,0.05,2.49,0.03
+SIEGY,Siemens Ag Adr,28.57,5,28.01,23.41,0.12,3.99,0.07
+MOS,The Mosaic Co,27.69,4,,7.72,-0.05,3.54,-0.06
+UPST,Upstart Hldgs Inc,27.45,5,45.79,34.04,0.08,17.88,0.42
+PCAR,Paccar Inc.,27.19,5,23.43,19.79,0.13,4.53,0.0
+PINS,Pinterest,26.32,5,55.59,33.56,0.06,3.78,0.18
+IFF,International Flavors & Fragrances Inc.,25.49,4,,14.45,-0.06,3.29,0.02
+NATU3,NATURA COSMETICOS SA,25.26,4,,8.3,-0.02,3.96,-0.08
+DE,Deere & Co.,24.76,5,38.32,28.36,0.18,7.51,0.05
+NGG,National Grid Plc,24.51,5,17.43,70.57,0.08,6.79,0.02
+DHR,Danaher Corp,23.73,5,40.02,22.59,0.08,3.47,0.06
+DEO,Diageo PLC,23.47,5,27.87,139.9,0.15,3.45,-0.02
+GM,General Motors Co,23.13,5,36.89,10.82,0.03,7.82,0.02
+VOD,Vodafone Group Plc,23.08,3,,13.45,0.0,6.08,
+MGLU3,Magazine Luiza S.A.,21.07,5,61.45,8.29,0.01,5.88,-0.03
+TRIP,"Tripadvisor, Inc.",20.79,4,,9.43,-0.0,8.13,-0.07
+XYZ,Square Inc.,18.39,5,136.46,29.92,0.02,4.63,0.09
+GT,Goodyear Tire & Rubber co./the,17.89,4,,9.15,-0.62,8.36,-0.05
+SBUX,Starbucks Corporation,15.12,4,54.83,22.51,,3.98,-0.01
+CAR,Avis Budget Group Inc.,11.95,3,,21.15,,18.92,-0.01
+BIOX,Bioceres Crop Solutions Corp.,10.53,4,,17.12,-0.28,14.83,-0.23
+F,Ford Motor Company,8.3,4,,25.11,-0.18,21.37,-0.04
+COIN,Coinbase Global Inc,5.84,4,,70.56,-0.08,9.53,-0.17
+IREN,Iren Ltd,2.46,4,,504.13,-0.23,204.44,-0.27
