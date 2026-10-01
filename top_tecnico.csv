@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-CAT,Caterpillar Inc,88.42,1,False,ninguno,ninguna,ninguna,9.88,7.61,0.69,2.02,0.34,57.17,False
-INTC,Intel Corporation,87.67,1,False,ninguno,ninguna,ninguna,50.06,32.18,1.23,0.59,0.23,59.72,False
-TRVV,The Travelers Cos. Inc.,86.92,1,False,ninguno,ninguna,ninguna,25.83,1.56,-0.26,14.53,0.49,57.65,False
-MRK,Merck & Co. Inc.,83.61,1,False,ninguno,ninguna,ninguna,28.79,1.18,-0.11,3.02,0.21,59.86,False
-TSM,Taiwan Semiconductor Manufacturing,82.56,1,False,ninguno,bajista,ninguna,24.95,11.85,0.66,0.67,0.34,66.44,False
-ITUB,Itaú Unibanco Holding S.A.,81.35,1,False,ninguno,ninguna,ninguna,5.44,6.86,-0.31,3.87,0.32,54.72,False
-MMM,3M Company,81.35,1,False,ninguno,ninguna,ninguna,10.7,0.44,0.52,3.3,0.14,60.17,False
-ADI,Analog Devices,81.35,1,False,ninguno,ninguna,ninguna,17.14,14.01,1.09,0.6,0.36,71.11,False
-AMD,"Advanced Micro Devices, Inc.",81.2,1,False,ninguno,ninguna,ninguna,70.42,34.02,1.53,0.39,0.25,69.93,False
-MSFT,Microsoft Corp.,79.1,1,False,ninguno,ninguna,bajista,24.37,3.32,0.1,1.0,0.15,65.73,False
-SCCO,Southern Copper Corp,78.65,1,False,ninguno,ninguna,ninguna,17.91,2.09,0.26,1.7,0.09,43.62,False
-V,Visa Inc,78.05,1,False,ninguno,bajista,bajista,14.71,0.06,-0.1,2.46,0.0,55.13,False
-GRMN,Garmin Ltd.,77.14,1,False,ninguno,ninguna,ninguna,24.62,6.54,0.69,0.29,0.69,71.84,False
-JNJ,Johnson & Johnson,74.89,1,False,ninguno,ninguna,ninguna,16.99,-0.21,-0.03,2.42,-0.14,58.16,False
-GOOGL,Alphabet Inc.,74.59,1,False,ninguno,ninguna,ninguna,6.5,3.53,0.11,0.62,0.17,61.56,False
-BRKB,Berkshire Hathaway Inc.,74.29,1,False,ninguno,ninguna,ninguna,7.91,1.43,-0.08,1.22,0.03,52.02,False
-KO,The Coca Cola Company,74.14,1,False,ninguno,ninguna,ninguna,14.9,0.29,-0.14,1.33,-0.02,52.56,False
-DISN,The Walt Disney Co.,73.16,1,False,ninguno,ninguna,ninguna,35.7,35.94,1.69,20.0,-0.29,100.0,False
-ROST,"Ross Stores, Inc.",72.63,1,False,ninguno,alcista,ninguna,13.8,3.87,0.62,1.76,-0.17,67.86,False
-LLY,Eli Lilly and Company,72.48,1,False,ninguno,ninguna,ninguna,16.44,3.58,0.67,0.58,0.13,76.47,False
+INTC,Intel Corporation,82.83,1,False,ninguno,ninguna,ninguna,54.9,35.75,0.94,0.48,0.24,67.99,False
+ITUB,Itaú Unibanco Holding S.A.,82.52,1,False,ninguno,bajista,bajista,11.51,7.7,0.05,0.87,0.32,61.75,False
+LLY,Eli Lilly and Company,81.46,1,False,ninguno,ninguna,ninguna,14.35,1.63,0.51,1.58,0.1,66.38,False
+TSM,Taiwan Semiconductor Manufacturing,80.24,1,False,ninguno,bajista,ninguna,24.41,11.31,0.6,0.56,0.31,70.32,False
+CAT,Caterpillar Inc,79.94,1,False,ninguno,ninguna,ninguna,7.52,3.6,0.57,0.54,0.17,55.05,False
+MSFT,Microsoft Corp.,79.03,1,False,ninguno,ninguna,bajista,25.45,5.01,0.15,0.65,0.16,66.82,False
+AMD,"Advanced Micro Devices, Inc.",77.66,1,False,ninguno,ninguna,ninguna,70.99,36.09,1.16,0.35,0.27,75.41,False
+AMZN,"Amazon.Com, Inc.",77.51,1,False,ninguno,ninguna,ninguna,9.25,-0.8,-0.08,1.21,0.15,50.94,False
+GRMN,Garmin Ltd.,76.9,1,False,ninguno,ninguna,ninguna,23.72,6.16,0.55,0.2,0.68,69.48,False
+GOOGL,Alphabet Inc.,76.75,1,False,ninguno,ninguna,ninguna,7.86,3.98,0.14,0.71,0.16,62.6,False
+ADI,Analog Devices,76.75,1,False,ninguno,ninguna,ninguna,16.85,13.72,1.01,0.31,0.37,71.98,False
+MMM,3M Company,75.99,1,False,ninguno,ninguna,ninguna,8.07,-1.12,0.33,0.57,0.13,54.83,False
+DISN,The Walt Disney Co.,75.76,1,False,ninguno,ninguna,ninguna,35.99,36.23,1.7,20.0,-0.16,100.0,False
+MRK,Merck & Co. Inc.,75.38,1,False,ninguno,ninguna,ninguna,25.41,-2.41,-0.26,0.54,0.19,56.17,False
+GILD,"Gilead Sciences, Inc.",74.62,1,False,ninguno,ninguna,bajista,15.76,1.35,-0.1,1.17,-0.02,66.21,False
+SCCO,Southern Copper Corp,74.16,1,False,ninguno,ninguna,ninguna,17.72,0.55,0.23,0.4,0.08,65.03,False
+PG,Procter & Gamble,74.01,1,False,ninguno,ninguna,ninguna,4.22,-0.25,0.15,0.78,0.1,62.42,False
+TRVV,The Travelers Cos. Inc.,73.4,1,False,ninguno,alcista,ninguna,23.26,-0.29,-0.39,6.09,-0.12,45.62,False
+FCX,Freeport Mcmoran Copper & Gold Inc.,72.8,1,False,ninguno,ninguna,ninguna,16.56,-3.87,-0.39,2.27,0.03,47.98,False
+GE,General Electric Co.,72.19,1,False,ninguno,ninguna,ninguna,1.9,-3.77,0.39,1.37,0.17,43.67,False
