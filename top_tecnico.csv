@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-INTC,Intel Corporation,88.83,1,False,ninguno,ninguna,ninguna,54.85,34.11,0.73,1.93,0.24,67.04,False
-TRVV,The Travelers Cos. Inc.,87.11,1,False,ninguno,ninguna,ninguna,24.72,1.14,-0.28,9.68,0.37,55.09,False
-AMAT,Applied Materials Inc.,86.47,1,False,ninguno,alcista,alcista,30.7,24.66,2.22,1.6,0.43,74.77,False
-ITUB,Itaú Unibanco Holding S.A.,84.53,1,False,ninguno,bajista,bajista,9.87,5.16,0.17,1.39,0.34,57.25,False
-ADI,Analog Devices,83.78,1,False,ninguno,ninguna,ninguna,19.66,16.45,1.04,0.81,0.37,69.62,False
-AAPL,Apple Inc.,82.81,1,False,ninguno,ninguna,ninguna,21.18,2.99,-0.16,1.08,0.16,54.12,False
-TSM,Taiwan Semiconductor Manufacturing,82.28,1,False,ninguno,ninguna,ninguna,25.46,12.64,0.58,0.84,0.24,70.63,False
-CAT,Caterpillar Inc,81.53,1,False,ninguno,ninguna,ninguna,10.08,6.0,0.61,0.59,0.18,56.66,False
-MSFT,Microsoft Corp.,80.45,1,False,ninguno,ninguna,bajista,25.98,3.11,0.19,0.96,0.14,66.05,False
-GRMN,Garmin Ltd.,79.81,1,False,ninguno,ninguna,ninguna,22.05,4.66,0.35,0.06,0.7,55.93,False
-AMD,"Advanced Micro Devices, Inc.",78.52,1,False,ninguno,ninguna,ninguna,72.27,38.34,0.91,0.39,0.27,74.93,False
-MMM,3M Company,78.3,1,False,ninguno,ninguna,ninguna,7.8,-0.68,0.19,1.48,0.14,50.82,False
-GOOGL,Alphabet Inc.,78.2,1,False,ninguno,ninguna,ninguna,5.99,1.06,0.04,1.09,0.14,53.93,False
-SCCO,Southern Copper Corp,77.66,1,False,ninguno,ninguna,ninguna,16.0,1.3,0.11,0.85,0.1,62.05,False
-GLW,Corning Inc.,76.8,1,False,ninguno,ninguna,ninguna,13.04,12.74,0.58,1.32,-0.15,48.08,False
-TMO,Thermo Fisher Scientific Inc.,76.05,1,False,ninguno,ninguna,bajista,27.57,7.94,0.13,0.48,0.31,71.2,False
-PG,Procter & Gamble,74.22,1,False,ninguno,ninguna,ninguna,3.86,0.26,0.02,0.73,0.13,54.42,False
-XOM,Exxon Mobil Corporation,74.22,1,False,ninguno,ninguna,ninguna,17.15,3.18,0.02,0.76,-0.11,51.78,False
-ABBV,AbbVie Inc.,73.47,1,False,ninguno,ninguna,ninguna,19.53,2.37,-0.04,1.51,-0.01,70.0,False
-LLY,Eli Lilly and Company,73.25,1,False,ninguno,ninguna,ninguna,13.79,1.83,0.35,0.64,0.12,67.56,False
+ITUB,Itaú Unibanco Holding S.A.,84.86,1,False,ninguno,bajista,bajista,11.9,7.73,0.34,1.73,0.39,63.29,False
+DISN,The Walt Disney Co.,83.85,1,False,ninguno,ninguna,ninguna,32.37,32.58,1.57,20.0,0.27,100.0,False
+AMD,"Advanced Micro Devices, Inc.",83.26,1,False,ninguno,ninguna,ninguna,76.18,36.63,0.82,2.14,0.21,84.89,False
+INTC,Intel Corporation,83.16,1,False,ninguno,ninguna,ninguna,52.76,27.58,0.46,1.06,0.15,73.45,False
+AAPL,Apple Inc.,82.3,1,False,ninguno,ninguna,ninguna,21.92,6.54,-0.19,0.92,0.21,55.68,False
+AMAT,Applied Materials Inc.,81.88,1,False,ninguno,alcista,alcista,32.3,21.4,2.3,1.39,0.38,92.88,False
+MSFT,Microsoft Corp.,80.17,1,False,ninguno,ninguna,bajista,26.52,5.91,0.22,0.69,0.17,62.94,False
+TSM,Taiwan Semiconductor Manufacturing,79.42,1,False,ninguno,ninguna,ninguna,29.15,13.09,0.71,1.32,0.23,88.26,False
+ADI,Analog Devices,78.68,1,False,ninguno,ninguna,ninguna,22.93,18.7,1.16,0.93,0.35,90.67,False
+SCCO,Southern Copper Corp,77.72,1,False,ninguno,ninguna,ninguna,19.84,6.3,0.24,1.36,0.2,78.6,False
+AMZN,"Amazon.Com, Inc.",77.61,1,False,ninguno,ninguna,ninguna,10.62,-0.35,0.08,0.94,0.17,52.97,False
+XOM,Exxon Mobil Corporation,77.4,1,False,ninguno,ninguna,ninguna,17.1,5.54,0.09,0.79,-0.06,54.73,False
+COST,Costco Wholesale Corp,77.4,1,False,ninguno,ninguna,ninguna,1.83,2.77,0.46,0.77,0.25,57.84,False
+ABBV,AbbVie Inc.,77.29,1,False,ninguno,ninguna,ninguna,20.79,5.56,-0.01,1.14,0.1,67.35,False
+TXN,Texas Instruments Inc,76.87,1,False,ninguno,ninguna,ninguna,24.3,16.34,1.1,0.98,0.13,86.75,False
+CAT,Caterpillar Inc,76.76,1,False,ninguno,ninguna,ninguna,12.36,6.51,0.74,1.05,0.2,77.58,False
+GRMN,Garmin Ltd.,76.55,1,False,ninguno,ninguna,ninguna,21.09,3.94,0.16,0.06,0.7,56.49,False
+LLY,Eli Lilly and Company,76.28,1,False,ninguno,ninguna,ninguna,13.1,2.46,0.2,0.72,0.12,60.0,False
+GLW,Corning Inc.,76.12,1,False,ninguno,ninguna,ninguna,15.47,9.37,0.81,2.03,-0.11,72.56,False
+AMGN,Amgen Inc.,75.37,1,False,ninguno,ninguna,ninguna,17.14,-5.67,0.53,1.87,0.1,66.22,False
