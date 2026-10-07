@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-DISN,The Walt Disney Co.,85.04,1,False,ninguno,ninguna,ninguna,32.65,32.87,1.58,20.0,0.62,100.0,False
-GGB,Gerdau S.A.,82.26,1,False,ninguno,bajista,bajista,24.04,8.72,0.11,6.79,-0.16,55.58,False
-ITUB,Itaú Unibanco Holding S.A.,80.9,1,False,ninguno,ninguna,ninguna,27.77,21.87,1.17,5.48,0.05,78.31,False
-TSM,Taiwan Semiconductor Manufacturing,80.45,1,False,ninguno,ninguna,ninguna,30.73,13.13,0.83,1.99,0.26,94.94,False
-ABEV,Ambev S.A.,80.3,1,False,ninguno,bajista,ninguna,15.27,10.38,0.56,3.99,0.06,68.61,False
-TMO,Thermo Fisher Scientific Inc.,79.4,1,False,ninguno,ninguna,bajista,30.18,12.99,-0.12,1.03,0.38,68.01,False
-ARCO,Arcos Dorados Holdings Inc.,79.1,1,False,ninguno,ninguna,ninguna,3.68,1.41,0.29,6.18,0.1,57.2,False
-MSFT,Microsoft Corp.,78.2,1,False,ninguno,ninguna,ninguna,27.15,7.25,0.25,1.01,0.21,74.16,False
-INTC,Intel Corporation,78.05,1,False,ninguno,alcista,ninguna,46.41,22.99,-0.01,0.83,0.12,67.79,False
-CAT,Caterpillar Inc,76.24,1,False,ninguno,ninguna,ninguna,11.48,4.2,0.76,1.2,0.19,75.88,False
-AMZN,"Amazon.Com, Inc.",75.94,1,False,ninguno,ninguna,ninguna,9.56,-2.17,0.1,1.5,0.11,56.65,False
-ADI,Analog Devices,75.64,1,False,ninguno,ninguna,ninguna,21.24,14.62,1.12,0.76,0.36,85.26,False
-FCX,Freeport Mcmoran Copper & Gold Inc.,74.89,1,False,ninguno,ninguna,ninguna,19.68,1.94,-0.14,1.28,0.11,64.92,False
-GRMN,Garmin Ltd.,74.74,1,False,ninguno,ninguna,ninguna,21.32,2.05,0.05,0.05,0.7,59.38,False
-UGP,Ultrapar Participações S.A.,73.98,1,False,ninguno,bajista,bajista,45.64,12.04,-0.36,1.72,-0.08,62.45,False
-GOOGL,Alphabet Inc.,73.38,1,False,ninguno,ninguna,ninguna,7.08,1.85,0.06,0.63,0.18,53.46,False
-AMD,"Advanced Micro Devices, Inc.",72.33,1,False,ninguno,ninguna,ninguna,72.28,33.14,0.6,0.26,0.21,80.1,False
-SCCO,Southern Copper Corp,71.28,1,False,ninguno,ninguna,ninguna,18.46,5.25,0.24,0.54,0.19,73.74,False
-COST,Costco Wholesale Corp,71.13,1,False,ninguno,ninguna,ninguna,0.81,0.78,0.4,0.69,0.23,63.69,False
-MMM,3M Company,70.53,1,False,ninguno,ninguna,ninguna,6.54,-2.82,-0.08,1.14,0.17,47.89,False
+DISN,The Walt Disney Co.,84.16,1,False,ninguno,ninguna,ninguna,33.42,33.64,1.61,20.0,0.4,100.0,False
+ITUB,Itaú Unibanco Holding S.A.,78.75,1,False,ninguno,ninguna,ninguna,31.08,23.89,1.77,1.0,0.13,80.76,False
+AMD,"Advanced Micro Devices, Inc.",77.29,1,False,ninguno,bajista,ninguna,76.19,29.85,0.54,0.84,0.18,80.91,False
+ARCO,Arcos Dorados Holdings Inc.,76.01,1,False,ninguno,bajista,bajista,5.21,1.23,0.93,3.36,0.13,61.51,False
+ABBV,AbbVie Inc.,75.46,1,False,ninguno,ninguna,ninguna,20.91,8.52,-0.01,1.0,0.26,67.12,False
+TMO,Thermo Fisher Scientific Inc.,74.54,1,False,ninguno,ninguna,bajista,26.91,9.98,-0.33,0.37,0.39,55.71,False
+GOOGL,Alphabet Inc.,74.36,1,False,ninguno,ninguna,ninguna,7.71,4.03,0.09,0.85,0.16,56.31,False
+MELI,Mercadolibre Inc.,73.63,1,False,ninguno,ninguna,ninguna,6.43,-2.58,0.3,1.17,0.17,53.26,False
+AMZN,"Amazon.Com, Inc.",72.34,1,False,ninguno,ninguna,ninguna,11.5,0.97,0.22,1.41,0.17,65.03,False
+GRMN,Garmin Ltd.,71.79,1,False,ninguno,ninguna,ninguna,18.37,2.19,-0.18,0.48,0.71,53.2,False
+AAPL,Apple Inc.,71.25,1,False,ninguno,ninguna,ninguna,20.62,6.68,-0.33,0.35,0.26,54.02,False
+V,Visa Inc,70.88,1,False,ninguno,bajista,bajista,15.23,1.66,-0.01,0.7,0.13,53.33,False
+NVDA,Nvidia Corporation,69.6,1,False,ninguno,alcista,ninguna,24.94,7.62,0.6,2.63,-0.19,87.15,False
+SIEGY,Siemens Ag Adr,69.41,1,False,ninguno,ninguna,bajista,329.81,-2.76,-2.85,2.67,0.06,56.76,False
+BBD,Banco Bradesco S.A.,69.23,0,False,ninguno,ninguna,ninguna,32.2,28.76,2.15,2.61,0.47,83.3,False
+BSBR,Banco Santander (Brasil) S.A.,69.05,1,True,dorado,bajista,bajista,7.85,1.31,-0.07,0.51,0.33,56.59,False
+ADI,Analog Devices,68.13,1,False,ninguno,ninguna,ninguna,21.89,17.24,1.05,0.2,0.36,88.12,False
+XOM,Exxon Mobil Corporation,67.58,1,False,ninguno,ninguna,ninguna,15.89,3.6,0.03,0.39,-0.05,55.56,False
+ABEV,Ambev S.A.,67.58,1,False,ninguno,bajista,ninguna,14.36,6.3,0.86,1.08,-0.21,69.51,False
+URBN,Urban Outfitters INC.,67.58,1,False,ninguno,ninguna,bajista,16.27,2.27,0.73,4.36,-0.55,66.41,False
