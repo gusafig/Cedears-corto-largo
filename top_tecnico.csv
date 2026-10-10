@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-ETHA,ISHARES ETHEREUM TR ETF,90.93,1,False,ninguno,ninguna,ninguna,225.3,203.2,3.46,3.68,0.26,64.51,False
-ALAB,Astera Labs Inc,85.24,1,False,ninguno,ninguna,alcista,47.27,22.04,0.51,2.33,0.08,63.3,False
-DISN,The Walt Disney Co.,84.39,1,False,ninguno,ninguna,ninguna,38.08,38.34,1.77,20.0,0.82,100.0,False
-BB,Blackberry Limited,84.29,1,False,ninguno,bajista,ninguna,38.92,15.2,0.45,1.5,-0.03,56.34,False
-BBAS3,Banco do Brasil S.A.,83.34,1,True,dorado,ninguna,ninguna,18.22,10.51,1.03,0.7,0.28,57.86,False
-BBD,Banco Bradesco S.A.,82.13,1,True,dorado,ninguna,ninguna,23.63,19.65,2.25,1.21,0.34,72.59,False
-CLS,CELESTICA INC,81.99,1,False,ninguno,ninguna,alcista,13.24,10.14,0.0,3.96,0.24,58.12,False
-TEAM,ATLASSIAN CORPORATION,80.97,1,False,ninguno,ninguna,bajista,85.52,14.27,-0.07,1.11,0.19,59.31,False
-TSM,Taiwan Semiconductor Manufacturing,80.5,1,False,ninguno,ninguna,ninguna,23.27,7.41,0.24,2.29,0.15,64.88,False
-TMO,Thermo Fisher Scientific Inc.,80.23,1,False,ninguno,ninguna,bajista,25.26,8.86,-0.58,1.44,0.41,52.58,False
-ABBV,AbbVie Inc.,80.03,1,False,ninguno,bajista,bajista,16.91,5.66,0.11,0.71,0.42,55.0,False
-NOW,SERVICENOW INC,79.42,1,False,ninguno,bajista,bajista,26.58,7.79,-0.15,1.39,0.13,57.99,False
-MRVL,Marvell Technology Inc,79.01,1,False,ninguno,ninguna,ninguna,67.98,21.23,0.57,0.86,0.11,67.92,False
-PLTR,Palantir Technologies Inc,78.94,1,False,ninguno,ninguna,ninguna,36.89,20.92,0.19,2.02,0.41,77.96,False
-AMZN,"Amazon.Com, Inc.",78.88,1,False,ninguno,ninguna,ninguna,11.13,2.33,0.35,1.13,0.17,53.72,False
-DEO,Diageo PLC,78.88,1,False,ninguno,alcista,alcista,7.5,2.0,0.09,8.88,0.36,58.31,False
-PETR3,Petrobras - Petróleo Brasileiro S.A.,78.47,1,False,ninguno,ninguna,ninguna,45.14,17.11,1.31,1.04,0.4,82.16,False
-CSCO,Cisco Systems Inc,77.79,1,False,ninguno,alcista,alcista,22.78,7.74,1.0,1.33,-0.01,64.4,False
-VRSN,"Verisign, Inc.",76.98,1,False,ninguno,ninguna,ninguna,17.58,4.23,0.08,1.52,0.5,45.08,False
-LLY,Eli Lilly and Company,76.91,1,False,ninguno,ninguna,ninguna,14.22,4.92,0.11,0.94,0.15,56.49,False
+ETHA,ISHARES ETHEREUM TR ETF,91.32,1,False,ninguno,ninguna,ninguna,221.49,195.35,3.07,1.67,0.27,64.35,False
+TEAM,ATLASSIAN CORPORATION,86.97,1,False,ninguno,ninguna,bajista,88.25,16.43,0.23,1.69,0.2,59.56,False
+DISN,The Walt Disney Co.,84.49,1,False,ninguno,ninguna,ninguna,39.51,39.78,1.82,20.0,0.78,100.0,False
+BBAS3,Banco do Brasil S.A.,83.75,1,True,dorado,ninguna,ninguna,25.88,23.8,1.14,0.54,0.32,62.28,False
+BB,Blackberry Limited,82.63,1,False,ninguno,ninguna,ninguna,43.65,18.24,0.26,0.94,0.01,55.01,False
+PLTR,Palantir Technologies Inc,82.42,1,False,ninguno,ninguna,ninguna,43.43,25.58,0.53,1.98,0.45,80.1,False
+AMZN,"Amazon.Com, Inc.",81.79,1,False,ninguno,ninguna,ninguna,14.5,3.15,0.5,0.96,0.2,57.56,False
+CSCO,Cisco Systems Inc,80.46,1,False,ninguno,alcista,alcista,26.26,6.59,1.04,1.84,0.04,67.0,False
+VRSN,"Verisign, Inc.",80.25,1,False,ninguno,ninguna,ninguna,19.76,4.85,0.29,0.77,0.45,49.55,False
+SCCO,Southern Copper Corp,79.62,1,False,ninguno,bajista,bajista,20.42,9.12,0.07,1.12,0.37,64.57,False
+PETR3,Petrobras - Petróleo Brasileiro S.A.,79.41,1,False,ninguno,ninguna,ninguna,49.67,22.49,1.52,0.83,0.39,86.12,False
+DEO,Diageo PLC,77.8,1,False,ninguno,alcista,alcista,7.45,1.52,0.23,0.95,0.39,54.31,False
+BHP,Bhp Group Ltd,77.45,1,False,ninguno,ninguna,ninguna,14.51,0.5,0.21,1.22,0.17,57.34,False
+ALAB,Astera Labs Inc,76.89,1,False,ninguno,ninguna,ninguna,44.89,18.99,-0.15,0.69,0.11,51.46,False
+V,Visa Inc,76.89,1,False,ninguno,bajista,bajista,20.14,5.09,0.44,1.88,0.13,70.21,False
+ITUB,Itaú Unibanco Holding S.A.,76.4,1,False,ninguno,bajista,ninguna,31.21,24.04,1.83,0.81,0.05,74.28,False
+LLY,Eli Lilly and Company,76.19,1,False,ninguno,ninguna,ninguna,15.0,6.46,0.13,0.46,0.19,56.34,False
+CEG,CONSTELLATION ENERGY CORPORATION,75.49,1,True,dorado,ninguna,ninguna,9.74,5.22,1.4,1.8,0.1,69.07,False
+NOW,SERVICENOW INC,75.28,1,False,ninguno,bajista,ninguna,27.3,7.22,-0.02,0.45,0.13,57.19,False
+TSM,Taiwan Semiconductor Manufacturing,75.14,1,False,ninguno,ninguna,ninguna,22.0,5.52,-0.11,0.75,0.12,57.57,False
