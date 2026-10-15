@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-BBD,Banco Bradesco S.A.,86.55,1,True,dorado,ninguna,ninguna,22.25,20.48,1.72,1.39,0.34,67.0,False
-VRSN,"Verisign, Inc.",83.57,1,False,ninguno,ninguna,ninguna,18.91,2.11,0.37,2.02,0.35,56.15,False
-SCCO,Southern Copper Corp,82.32,1,False,ninguno,bajista,bajista,18.81,10.98,0.12,0.97,0.36,52.69,False
-BBAS3,Banco do Brasil S.A.,80.65,1,True,dorado,ninguna,alcista,17.72,13.03,0.78,0.33,0.29,57.23,False
-FMX,Fomento Economico Mexicano - Femsa,80.06,1,False,ninguno,bajista,ninguna,9.5,1.12,0.26,13.65,0.42,51.07,False
-CEG,CONSTELLATION ENERGY CORPORATION,79.76,1,True,dorado,ninguna,ninguna,8.67,12.39,1.39,1.13,0.2,66.43,False
-DEO,Diageo PLC,79.46,1,False,ninguno,alcista,alcista,11.14,2.97,0.52,1.43,0.33,61.69,False
-AMZN,"Amazon.Com, Inc.",79.05,1,False,ninguno,ninguna,ninguna,12.64,3.11,0.48,1.07,0.17,56.19,False
-NUE,Nucor Corp,78.21,1,False,ninguno,ninguna,ninguna,23.37,1.26,0.41,2.27,0.07,61.78,False
-MRVL,Marvell Technology Inc,77.8,1,False,ninguno,ninguna,ninguna,63.0,23.49,-0.05,0.42,0.14,54.35,False
-MRNA,Moderna Inc,77.5,1,False,ninguno,bajista,bajista,202.38,48.09,0.05,0.85,0.09,65.58,False
-ITUB,Itaú Unibanco Holding S.A.,77.44,1,False,ninguno,bajista,ninguna,27.11,21.34,1.62,0.62,0.04,68.82,False
-ABT,Abbott Labs,76.67,1,False,ninguno,ninguna,ninguna,5.25,1.76,0.31,2.79,0.19,51.07,False
-TEAM,ATLASSIAN CORPORATION,75.95,1,False,ninguno,ninguna,bajista,88.74,9.2,0.4,0.52,0.13,65.87,False
-UGP,Ultrapar Participações S.A.,75.83,1,False,ninguno,bajista,bajista,44.68,5.29,0.07,0.94,-0.03,54.44,False
-PFE,Pfizer Inc.,75.77,1,False,ninguno,ninguna,ninguna,12.86,3.35,-0.17,2.34,0.15,56.07,False
-PETR3,Petrobras - Petróleo Brasileiro S.A.,75.71,1,False,ninguno,ninguna,ninguna,47.48,21.33,1.51,0.41,0.37,83.9,False
-TSM,Taiwan Semiconductor Manufacturing,75.6,1,False,ninguno,ninguna,ninguna,19.46,7.05,-0.47,1.58,0.23,47.76,False
-AMAT,Applied Materials Inc.,75.36,1,False,ninguno,ninguna,ninguna,12.27,10.19,-0.22,1.34,0.22,48.39,False
-PLTR,Palantir Technologies Inc,75.36,1,False,ninguno,ninguna,ninguna,42.97,21.22,0.68,0.39,0.42,78.11,False
+BBAS3,Banco do Brasil S.A.,85.66,1,True,dorado,ninguna,alcista,18.33,12.94,0.47,1.86,0.28,59.11,False
+DISN,The Walt Disney Co.,84.89,1,False,ninguno,ninguna,ninguna,40.17,40.46,1.84,20.0,0.52,100.0,False
+AMGN,Amgen Inc.,84.55,1,False,ninguno,bajista,ninguna,22.35,14.94,0.34,2.43,0.29,62.69,False
+DEO,Diageo PLC,83.06,1,False,ninguno,alcista,alcista,13.79,7.82,0.81,8.26,0.56,69.69,False
+PETR3,Petrobras - Petróleo Brasileiro S.A.,82.79,1,False,ninguno,ninguna,ninguna,49.79,19.99,1.49,2.1,0.34,83.71,False
+PLTR,Palantir Technologies Inc,81.47,1,False,ninguno,ninguna,ninguna,37.59,17.65,0.49,0.42,0.46,60.78,False
+BBD,Banco Bradesco S.A.,80.83,1,True,dorado,ninguna,ninguna,20.63,19.91,1.27,0.78,0.34,68.69,False
+TEAM,ATLASSIAN CORPORATION,80.62,1,False,ninguno,ninguna,bajista,85.29,9.03,0.36,0.86,0.1,58.53,False
+BIIB,Biogen Inc.,80.46,1,False,ninguno,bajista,bajista,24.28,9.08,0.07,2.29,0.1,59.07,False
+CAH,Cardinal Health Inc,78.7,1,False,ninguno,ninguna,bajista,18.98,7.51,0.92,8.75,0.19,78.19,False
+LLY,Eli Lilly and Company,78.44,1,False,ninguno,bajista,ninguna,18.12,7.91,0.27,1.29,0.27,63.28,False
+CEG,CONSTELLATION ENERGY CORPORATION,77.91,1,True,dorado,ninguna,alcista,3.13,8.56,1.01,0.76,0.18,57.14,False
+PG,Procter & Gamble,77.48,1,False,ninguno,ninguna,ninguna,11.58,8.1,0.54,4.0,0.27,72.46,False
+PFE,Pfizer Inc.,77.27,1,False,ninguno,bajista,bajista,16.5,7.68,0.09,2.32,0.16,62.0,False
+ABBV,AbbVie Inc.,75.89,1,False,ninguno,ninguna,ninguna,27.91,9.83,0.48,1.24,0.22,78.25,False
+AAPL,Apple Inc.,75.84,1,False,ninguno,bajista,bajista,24.2,5.23,-0.01,0.92,0.18,59.05,False
+PYPL,"Paypal Holdings, Inc.",75.84,1,False,ninguno,ninguna,ninguna,17.45,5.6,0.72,1.47,0.15,68.47,False
+SYY,Sysco Corp.,75.73,1,False,ninguno,ninguna,ninguna,7.29,2.7,0.44,14.49,0.53,68.51,False
+CL,Colgate Palmolive Co,75.31,1,False,ninguno,ninguna,ninguna,10.39,7.55,0.82,6.78,0.22,81.79,False
+CIBR,First Trust NASDAQ Cybersecurity,75.25,1,False,ninguno,ninguna,ninguna,34.29,4.16,-0.05,0.68,0.23,51.47,False
