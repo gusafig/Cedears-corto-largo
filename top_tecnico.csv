@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-MRNA,Moderna Inc,84.23,1,False,ninguno,bajista,ninguna,192.51,38.65,0.31,1.61,0.07,56.11,False
-LLY,Eli Lilly and Company,81.14,1,False,ninguno,bajista,ninguna,22.58,10.73,0.78,0.96,0.22,64.55,False
-CVS,CVS Health,79.71,1,False,ninguno,ninguna,ninguna,12.3,4.49,1.04,1.86,0.15,60.33,False
-TEAM,ATLASSIAN CORPORATION,79.2,1,False,ninguno,ninguna,bajista,87.1,9.38,0.51,0.96,0.14,62.64,False
-FMX,Fomento Economico Mexicano - Femsa,78.86,1,False,ninguno,ninguna,ninguna,14.42,7.02,0.65,2.89,0.35,69.44,False
-BBAS3,Banco do Brasil S.A.,78.57,1,True,dorado,alcista,ninguna,15.23,8.9,-0.24,2.32,0.26,58.65,False
-AMGN,Amgen Inc.,78.0,1,False,ninguno,bajista,ninguna,24.01,15.8,0.65,0.38,0.31,60.3,False
-PLTR,Palantir Technologies Inc,77.6,1,False,ninguno,ninguna,ninguna,28.09,7.03,-0.34,2.84,0.26,46.49,False
-V,Visa Inc,77.31,1,False,ninguno,ninguna,ninguna,24.92,10.64,0.95,2.07,0.14,79.78,False
-PFE,Pfizer Inc.,77.26,1,False,ninguno,bajista,ninguna,17.83,8.74,0.42,1.39,0.09,59.79,False
-ADP,Automatic Data Processing Inc.,76.4,1,False,ninguno,alcista,ninguna,27.3,7.99,1.02,0.99,0.17,74.64,False
-PG,Procter & Gamble,76.23,1,False,ninguno,ninguna,ninguna,13.8,9.57,0.77,1.91,0.28,76.6,False
-ABBV,AbbVie Inc.,75.83,1,False,ninguno,ninguna,ninguna,28.86,9.72,0.62,5.57,0.12,80.21,False
-PYPL,"Paypal Holdings, Inc.",75.6,1,False,ninguno,ninguna,ninguna,18.7,9.37,0.77,0.19,0.21,56.45,False
-MSFT,Microsoft Corp.,75.54,1,False,ninguno,ninguna,ninguna,27.58,7.95,0.09,1.0,0.05,57.87,False
-COST,Costco Wholesale Corp,75.43,1,False,ninguno,ninguna,ninguna,8.65,12.19,0.81,1.38,0.25,73.57,False
-ACN,Accenture,75.43,1,True,dorado,ninguna,ninguna,25.53,21.87,1.5,1.4,-0.04,76.56,False
-MO,Altria Group Inc.,75.14,1,False,ninguno,ninguna,ninguna,17.2,9.67,0.88,1.96,0.09,75.29,False
-DEO,Diageo PLC,74.57,1,False,ninguno,alcista,alcista,17.23,11.45,1.24,0.33,0.52,71.4,False
-CVX,Chevron Corp.,74.4,1,False,ninguno,bajista,bajista,26.12,8.12,0.71,0.85,0.17,72.32,False
+MRNA,Moderna Inc,83.99,1,False,ninguno,ninguna,ninguna,204.56,49.69,0.24,1.75,0.15,60.34,False
+PLTR,Palantir Technologies Inc,83.93,1,False,ninguno,ninguna,ninguna,34.06,11.5,-0.44,2.12,0.25,55.89,False
+LLY,Eli Lilly and Company,79.49,1,False,ninguno,bajista,ninguna,21.49,9.41,0.82,0.58,0.19,61.41,False
+DISN,The Walt Disney Co.,78.66,1,False,ninguno,ninguna,ninguna,41.89,42.19,1.89,20.0,0.05,100.0,False
+TMO,Thermo Fisher Scientific Inc.,78.57,1,False,ninguno,bajista,bajista,30.49,5.95,-0.0,0.83,0.37,50.99,False
+FMX,Fomento Economico Mexicano - Femsa,78.0,1,False,ninguno,ninguna,ninguna,15.0,9.07,0.85,1.14,0.31,72.77,False
+AMGN,Amgen Inc.,77.48,1,False,ninguno,bajista,ninguna,22.06,11.88,0.59,0.24,0.28,53.55,False
+PFE,Pfizer Inc.,77.36,1,False,ninguno,bajista,ninguna,17.69,8.64,0.47,0.98,0.08,57.78,False
+PG,Procter & Gamble,77.25,1,False,ninguno,ninguna,ninguna,12.78,9.44,0.75,1.0,0.28,68.98,False
+DEO,Diageo PLC,76.73,1,False,ninguno,alcista,alcista,15.58,10.79,1.23,8.01,-0.01,70.96,False
+COST,Costco Wholesale Corp,76.5,1,False,ninguno,ninguna,ninguna,9.58,12.81,0.85,1.87,0.28,76.89,False
+ANF,Abercrombie & Fitch Co,76.38,1,False,ninguno,alcista,bajista,65.01,21.14,1.06,1.87,0.02,84.44,False
+CVS,CVS Health,76.04,1,False,ninguno,ninguna,ninguna,12.4,5.69,1.11,0.8,0.17,64.94,False
+BIIB,Biogen Inc.,76.04,1,False,ninguno,bajista,bajista,24.9,9.06,0.34,0.74,0.02,55.79,False
+USO,United States Oil Fund,76.04,1,False,ninguno,ninguna,ninguna,43.69,5.26,0.65,0.58,0.15,63.1,False
+NUE,Nucor Corp,75.75,1,False,ninguno,ninguna,ninguna,26.42,5.91,0.75,1.73,0.03,67.17,False
+XOM,Exxon Mobil Corporation,75.32,1,False,ninguno,ninguna,ninguna,25.1,11.32,0.79,1.18,0.13,76.25,False
+SYY,Sysco Corp.,75.17,1,False,ninguno,ninguna,ninguna,8.16,6.23,0.8,0.69,0.46,64.87,False
+CVX,Chevron Corp.,75.17,1,False,ninguno,bajista,bajista,25.78,9.42,0.77,0.52,0.2,70.65,False
+ABT,Abbott Labs,75.06,1,False,ninguno,ninguna,ninguna,6.69,2.68,0.83,1.07,0.15,58.31,False
