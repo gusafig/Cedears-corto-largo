@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-MRNA,Moderna Inc,83.99,1,False,ninguno,ninguna,ninguna,204.56,49.69,0.24,1.75,0.15,60.34,False
-PLTR,Palantir Technologies Inc,83.93,1,False,ninguno,ninguna,ninguna,34.06,11.5,-0.44,2.12,0.25,55.89,False
-LLY,Eli Lilly and Company,79.49,1,False,ninguno,bajista,ninguna,21.49,9.41,0.82,0.58,0.19,61.41,False
-DISN,The Walt Disney Co.,78.66,1,False,ninguno,ninguna,ninguna,41.89,42.19,1.89,20.0,0.05,100.0,False
-TMO,Thermo Fisher Scientific Inc.,78.57,1,False,ninguno,bajista,bajista,30.49,5.95,-0.0,0.83,0.37,50.99,False
-FMX,Fomento Economico Mexicano - Femsa,78.0,1,False,ninguno,ninguna,ninguna,15.0,9.07,0.85,1.14,0.31,72.77,False
-AMGN,Amgen Inc.,77.48,1,False,ninguno,bajista,ninguna,22.06,11.88,0.59,0.24,0.28,53.55,False
-PFE,Pfizer Inc.,77.36,1,False,ninguno,bajista,ninguna,17.69,8.64,0.47,0.98,0.08,57.78,False
-PG,Procter & Gamble,77.25,1,False,ninguno,ninguna,ninguna,12.78,9.44,0.75,1.0,0.28,68.98,False
-DEO,Diageo PLC,76.73,1,False,ninguno,alcista,alcista,15.58,10.79,1.23,8.01,-0.01,70.96,False
-COST,Costco Wholesale Corp,76.5,1,False,ninguno,ninguna,ninguna,9.58,12.81,0.85,1.87,0.28,76.89,False
-ANF,Abercrombie & Fitch Co,76.38,1,False,ninguno,alcista,bajista,65.01,21.14,1.06,1.87,0.02,84.44,False
-CVS,CVS Health,76.04,1,False,ninguno,ninguna,ninguna,12.4,5.69,1.11,0.8,0.17,64.94,False
-BIIB,Biogen Inc.,76.04,1,False,ninguno,bajista,bajista,24.9,9.06,0.34,0.74,0.02,55.79,False
-USO,United States Oil Fund,76.04,1,False,ninguno,ninguna,ninguna,43.69,5.26,0.65,0.58,0.15,63.1,False
-NUE,Nucor Corp,75.75,1,False,ninguno,ninguna,ninguna,26.42,5.91,0.75,1.73,0.03,67.17,False
-XOM,Exxon Mobil Corporation,75.32,1,False,ninguno,ninguna,ninguna,25.1,11.32,0.79,1.18,0.13,76.25,False
-SYY,Sysco Corp.,75.17,1,False,ninguno,ninguna,ninguna,8.16,6.23,0.8,0.69,0.46,64.87,False
-CVX,Chevron Corp.,75.17,1,False,ninguno,bajista,bajista,25.78,9.42,0.77,0.52,0.2,70.65,False
-ABT,Abbott Labs,75.06,1,False,ninguno,ninguna,ninguna,6.69,2.68,0.83,1.07,0.15,58.31,False
+AMGN,Amgen Inc.,85.37,1,False,ninguno,bajista,ninguna,25.92,13.42,0.69,1.24,0.32,58.94,False
+DISN,The Walt Disney Co.,85.23,1,False,ninguno,ninguna,ninguna,44.83,45.16,1.99,20.0,0.68,100.0,False
+PINS,Pinterest,84.47,1,False,ninguno,ninguna,ninguna,14.44,19.89,2.02,4.93,0.33,74.79,False
+LLY,Eli Lilly and Company,81.86,1,False,ninguno,bajista,ninguna,25.83,12.52,0.98,1.97,0.16,69.51,False
+MRNA,Moderna Inc,81.75,1,False,ninguno,bajista,ninguna,222.16,42.91,0.55,1.44,0.12,63.15,False
+FMX,Fomento Economico Mexicano - Femsa,79.93,1,False,ninguno,ninguna,ninguna,16.89,9.58,1.03,4.7,0.26,74.57,False
+MMM,3M Company,79.2,1,False,ninguno,alcista,alcista,12.76,5.62,0.45,3.03,0.32,56.67,False
+CVX,Chevron Corp.,78.68,1,False,ninguno,ninguna,bajista,26.53,13.05,0.8,1.79,0.23,77.57,False
+TMO,Thermo Fisher Scientific Inc.,77.89,1,False,ninguno,bajista,bajista,32.84,6.84,0.08,0.72,0.27,55.33,False
+V,Visa Inc,77.1,1,False,ninguno,ninguna,ninguna,26.64,12.2,0.98,2.06,0.21,84.1,False
+ITUB3,Banco Itaú Unibanco S.A,76.98,1,False,ninguno,ninguna,ninguna,32.19,16.11,-0.08,6.13,0.04,62.78,False
+PETR3,Petrobras - Petróleo Brasileiro S.A.,76.7,1,False,ninguno,ninguna,ninguna,48.62,27.12,1.04,0.47,0.31,78.82,False
+BIIB,Biogen Inc.,76.64,1,False,ninguno,bajista,ninguna,30.12,13.1,0.58,2.69,0.06,70.29,False
+NVS,Novartis Ag,75.91,1,False,ninguno,bajista,ninguna,8.12,10.96,1.03,2.07,0.16,70.59,False
+PG,Procter & Gamble,75.17,1,False,ninguno,ninguna,ninguna,14.27,11.13,0.77,1.35,0.31,75.98,False
+CVS,CVS Health,75.17,1,False,ninguno,ninguna,ninguna,15.05,10.54,1.23,0.91,0.21,76.03,False
+TRVV,The Travelers Cos. Inc.,74.89,1,False,ninguno,ninguna,ninguna,34.65,7.55,0.63,10.0,0.5,95.35,False
+KMB,Kimberly-Clark Corp.,74.55,1,False,ninguno,alcista,alcista,12.06,13.1,1.47,0.89,0.19,76.28,False
+PFE,Pfizer Inc.,74.49,1,False,ninguno,bajista,ninguna,20.88,11.03,0.63,1.11,0.12,67.98,False
+TEAM,ATLASSIAN CORPORATION,74.26,1,False,ninguno,ninguna,ninguna,99.59,15.43,0.72,0.72,0.15,77.76,False
