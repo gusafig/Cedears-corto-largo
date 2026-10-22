@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-AMGN,Amgen Inc.,85.37,1,False,ninguno,bajista,ninguna,25.92,13.42,0.69,1.24,0.32,58.94,False
-DISN,The Walt Disney Co.,85.23,1,False,ninguno,ninguna,ninguna,44.83,45.16,1.99,20.0,0.68,100.0,False
-PINS,Pinterest,84.47,1,False,ninguno,ninguna,ninguna,14.44,19.89,2.02,4.93,0.33,74.79,False
-LLY,Eli Lilly and Company,81.86,1,False,ninguno,bajista,ninguna,25.83,12.52,0.98,1.97,0.16,69.51,False
-MRNA,Moderna Inc,81.75,1,False,ninguno,bajista,ninguna,222.16,42.91,0.55,1.44,0.12,63.15,False
-FMX,Fomento Economico Mexicano - Femsa,79.93,1,False,ninguno,ninguna,ninguna,16.89,9.58,1.03,4.7,0.26,74.57,False
-MMM,3M Company,79.2,1,False,ninguno,alcista,alcista,12.76,5.62,0.45,3.03,0.32,56.67,False
-CVX,Chevron Corp.,78.68,1,False,ninguno,ninguna,bajista,26.53,13.05,0.8,1.79,0.23,77.57,False
-TMO,Thermo Fisher Scientific Inc.,77.89,1,False,ninguno,bajista,bajista,32.84,6.84,0.08,0.72,0.27,55.33,False
-V,Visa Inc,77.1,1,False,ninguno,ninguna,ninguna,26.64,12.2,0.98,2.06,0.21,84.1,False
-ITUB3,Banco Itaú Unibanco S.A,76.98,1,False,ninguno,ninguna,ninguna,32.19,16.11,-0.08,6.13,0.04,62.78,False
-PETR3,Petrobras - Petróleo Brasileiro S.A.,76.7,1,False,ninguno,ninguna,ninguna,48.62,27.12,1.04,0.47,0.31,78.82,False
-BIIB,Biogen Inc.,76.64,1,False,ninguno,bajista,ninguna,30.12,13.1,0.58,2.69,0.06,70.29,False
-NVS,Novartis Ag,75.91,1,False,ninguno,bajista,ninguna,8.12,10.96,1.03,2.07,0.16,70.59,False
-PG,Procter & Gamble,75.17,1,False,ninguno,ninguna,ninguna,14.27,11.13,0.77,1.35,0.31,75.98,False
-CVS,CVS Health,75.17,1,False,ninguno,ninguna,ninguna,15.05,10.54,1.23,0.91,0.21,76.03,False
-TRVV,The Travelers Cos. Inc.,74.89,1,False,ninguno,ninguna,ninguna,34.65,7.55,0.63,10.0,0.5,95.35,False
-KMB,Kimberly-Clark Corp.,74.55,1,False,ninguno,alcista,alcista,12.06,13.1,1.47,0.89,0.19,76.28,False
-PFE,Pfizer Inc.,74.49,1,False,ninguno,bajista,ninguna,20.88,11.03,0.63,1.11,0.12,67.98,False
-TEAM,ATLASSIAN CORPORATION,74.26,1,False,ninguno,ninguna,ninguna,99.59,15.43,0.72,0.72,0.15,77.76,False
+DISN,The Walt Disney Co.,85.12,1,False,ninguno,ninguna,ninguna,45.5,45.83,2.01,20.0,0.69,100.0,False
+BB,Blackberry Limited,81.22,1,False,ninguno,alcista,ninguna,50.15,12.07,0.15,1.64,0.12,54.52,False
+PETR3,Petrobras - Petróleo Brasileiro S.A.,80.59,1,False,ninguno,ninguna,ninguna,49.74,29.18,0.77,1.6,0.29,78.77,False
+MRNA,Moderna Inc,79.62,1,False,ninguno,ninguna,ninguna,227.14,39.47,0.81,1.1,0.11,69.63,False
+TMO,Thermo Fisher Scientific Inc.,79.51,1,False,ninguno,bajista,bajista,34.29,8.14,0.19,1.64,0.24,59.65,False
+ITUB3,Banco Itaú Unibanco S.A,78.14,1,False,ninguno,ninguna,ninguna,33.32,16.9,-0.11,1.38,0.1,56.37,False
+BBAS3,Banco do Brasil S.A.,77.97,1,True,dorado,alcista,ninguna,20.13,13.19,-0.21,1.4,0.27,58.23,False
+USO,United States Oil Fund,76.49,1,False,ninguno,ninguna,ninguna,42.47,13.8,0.67,1.04,0.18,73.84,False
+PATH,UIPATH INC,76.27,1,False,ninguno,alcista,alcista,16.24,5.74,1.0,1.88,0.1,62.46,False
+V,Visa Inc,76.15,1,False,ninguno,ninguna,ninguna,27.31,14.97,0.97,1.46,0.27,95.06,False
+GRMN,Garmin Ltd.,75.92,1,False,ninguno,alcista,ninguna,24.09,4.73,0.51,0.91,0.25,57.01,False
+ADI,Analog Devices,75.58,1,False,ninguno,ninguna,ninguna,18.46,6.64,-0.41,1.72,0.33,58.23,False
+TRVV,The Travelers Cos. Inc.,75.47,1,False,ninguno,ninguna,ninguna,35.68,8.65,0.67,10.16,0.51,95.77,False
+ACN,Accenture,74.67,1,True,dorado,ninguna,ninguna,34.88,34.55,1.84,0.93,0.04,79.5,False
+AMGN,Amgen Inc.,74.56,1,False,ninguno,bajista,ninguna,26.48,9.43,0.75,0.27,0.31,61.67,False
+BBD,Banco Bradesco S.A.,74.45,1,True,dorado,ninguna,ninguna,19.58,16.41,-0.26,1.41,0.24,65.83,False
+ADBE,Adobe Systems Incorporated,74.45,1,False,ninguno,ninguna,ninguna,6.66,9.35,1.12,0.69,0.29,64.1,False
+SYY,Sysco Corp.,74.39,1,False,ninguno,ninguna,ninguna,9.23,6.56,0.85,0.99,0.45,66.67,False
+NOW,SERVICENOW INC,73.88,1,False,ninguno,ninguna,ninguna,40.35,13.76,0.83,0.56,0.14,71.94,False
+LLY,Eli Lilly and Company,73.42,1,False,ninguno,bajista,ninguna,24.73,10.61,1.0,0.67,0.16,72.15,False
