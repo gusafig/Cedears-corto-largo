@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_financiero,n_metricas,pe,ev_ebitda,roe,deuda_ebitda,crecimiento_ingresos
-SMSN,Samsung Electronics Co. Ltd.,92.42,5,3.05,-0.67,0.31,0.1,1.3
-HMY,Harmony Gold Mining Company Ltd.,92.09,5,6.25,0.26,0.48,0.21,0.49
-MU,Micron Technology Inc,87.9,5,11.82,8.78,0.88,0.05,3.79
-KGC,Kinross Gold Corp,86.44,5,9.13,4.96,0.37,0.14,0.3
-GFI,Gold Fields Ltd.,86.33,5,7.7,9.49,0.59,0.37,0.79
-B,Barrick Gold Corp,83.6,5,10.55,5.85,0.27,0.36,0.44
-PBR,Petrobras (ADR),82.14,5,6.57,1.98,0.3,1.51,0.42
-PETR3,Petrobras - Petróleo Brasileiro S.A.,81.34,5,6.56,4.82,0.3,1.51,0.42
-VIST,Vista Energy S.A.B. de C.V.,79.93,5,9.52,5.29,0.3,1.75,1.02
-PDD,PDD HOLDINGS INC,78.47,5,9.11,-3.41,0.23,0.05,0.08
-EQNR,Equinor Asa,77.54,5,12.84,5.66,0.21,0.77,0.37
-PAAS,Pan American Silver Corp.,76.83,5,13.08,8.28,0.22,0.4,0.38
-TSM,Taiwan Semiconductor Manufacturing,76.66,5,26.74,3.86,0.42,0.23,0.51
-AEM,Agnico Eagle Mines Limited,75.02,5,16.21,9.14,0.23,0.03,0.35
-UN,NU Holdings Ltd/Cayman Islands,74.36,3,19.95,,0.32,,0.52
-SHEL,Royal Dutch Shell Plc,73.54,5,11.77,5.9,0.14,1.27,0.45
-NEM,Newmont Corporation,73.4,5,14.96,7.14,0.26,0.33,0.15
-HL,Hecla Mining Co .,73.16,5,19.87,10.12,0.22,0.02,0.52
-ADBE,Adobe Systems Incorporated,73.13,5,13.69,9.74,0.62,0.68,0.13
-GPRK,Geopark Ltd.,72.91,5,8.11,3.63,0.29,2.45,0.2
+SMSN,Samsung Electronics Co. Ltd.,92.46,5,3.05,-0.67,0.31,0.1,1.3
+HMY,Harmony Gold Mining Company Ltd.,92.02,5,5.78,0.24,0.48,0.21,0.49
+MU,Micron Technology Inc,87.57,5,11.81,8.77,0.88,0.05,3.79
+KGC,Kinross Gold Corp,87.08,5,8.49,4.59,0.37,0.14,0.3
+GFI,Gold Fields Ltd.,87.03,5,7.09,8.74,0.59,0.37,0.79
+B,Barrick Gold Corp,83.99,5,9.86,5.51,0.27,0.36,0.44
+PBR,Petrobras (ADR),82.39,5,6.61,1.98,0.3,1.51,0.42
+PETR3,Petrobras - Petróleo Brasileiro S.A.,81.52,5,6.22,4.75,0.3,1.51,0.42
+VIST,Vista Energy S.A.B. de C.V.,79.77,5,9.9,5.44,0.3,1.75,1.02
+PDD,PDD HOLDINGS INC,78.76,5,8.89,-3.44,0.23,0.05,0.08
+PAAS,Pan American Silver Corp.,78.42,5,11.88,7.48,0.22,0.4,0.38
+AEM,Agnico Eagle Mines Limited,77.07,5,14.88,8.37,0.23,0.03,0.35
+EQNR,Equinor Asa,76.71,5,13.34,5.88,0.21,0.77,0.37
+TSM,Taiwan Semiconductor Manufacturing,76.2,5,27.12,3.92,0.42,0.23,0.51
+NEM,Newmont Corporation,76.18,5,12.63,6.25,0.27,0.32,0.15
+HL,Hecla Mining Co .,74.67,5,17.99,9.12,0.22,0.02,0.52
+CDE,Coeur Mining Inc.,74.5,5,11.5,8.28,0.13,0.44,1.26
+UN,NU Holdings Ltd/Cayman Islands,73.23,3,20.77,,0.32,,0.52
+GPRK,Geopark Ltd.,72.86,5,8.12,3.64,0.29,2.45,0.2
+SHEL,Royal Dutch Shell Plc,72.68,5,11.94,5.97,0.14,1.27,0.45
