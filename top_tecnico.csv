@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-DISN,The Walt Disney Co.,85.0,1,False,ninguno,ninguna,ninguna,48.26,48.62,2.09,20.0,0.6,100.0,False
-MGLU3,Magazine Luiza S.A.,84.46,1,True,dorado,bajista,ninguna,101.27,131.03,1.98,3.33,0.04,73.41,False
-BBAS3,Banco do Brasil S.A.,83.04,1,False,ninguno,alcista,ninguna,23.68,23.96,-0.05,2.56,0.3,59.69,False
-E,Eni Spa,81.05,1,False,ninguno,ninguna,ninguna,31.32,15.73,1.01,10.04,0.35,85.77,False
-BBD,Banco Bradesco S.A.,80.88,1,True,dorado,ninguna,ninguna,20.75,23.16,-0.37,3.84,0.37,62.92,False
-ACN,Accenture,80.82,1,True,dorado,ninguna,ninguna,40.21,44.55,1.93,1.43,0.12,80.99,False
-ADBE,Adobe Systems Incorporated,79.97,1,False,ninguno,ninguna,ninguna,11.46,12.86,1.54,1.24,0.25,68.95,False
-SBUX,Starbucks Corporation,78.43,1,False,ninguno,alcista,alcista,9.31,10.1,1.27,0.93,0.37,67.0,False
-LMT,Lockheed Martin Corporation,77.69,1,False,ninguno,alcista,ninguna,14.83,16.99,1.81,3.2,0.21,85.17,False
-NOW,SERVICENOW INC,77.12,1,False,ninguno,ninguna,ninguna,46.34,17.03,1.24,0.88,0.13,80.09,False
-ITUB,Itaú Unibanco Holding S.A.,77.01,1,False,ninguno,ninguna,alcista,25.25,22.62,-0.19,2.73,0.12,65.99,False
-PETR3,Petrobras - Petróleo Brasileiro S.A.,76.84,1,False,ninguno,ninguna,ninguna,51.71,28.07,0.35,1.05,0.22,76.13,False
-ABNB,Airbnb Inc,76.84,1,False,ninguno,ninguna,ninguna,26.77,16.18,0.98,0.49,0.27,70.03,False
-BIIB,Biogen Inc.,76.66,1,False,ninguno,bajista,ninguna,35.35,13.23,1.11,1.96,0.13,83.13,False
-PATH,UIPATH INC,76.55,1,False,ninguno,alcista,alcista,20.23,13.5,1.36,0.61,0.12,64.62,False
-ANF,Abercrombie & Fitch Co,76.44,1,False,ninguno,alcista,bajista,59.98,17.68,0.89,1.27,0.01,75.14,False
-AI,C3.AI INC,76.32,1,False,ninguno,bajista,ninguna,32.32,20.19,0.64,1.44,0.04,71.64,False
-HOG,Harley-Davidson Inc.,75.41,1,False,ninguno,ninguna,ninguna,30.81,16.64,1.15,3.0,0.02,83.46,False
-DD,Dupont de Nemours Inc.,75.41,1,False,ninguno,bajista,ninguna,6.8,7.43,0.73,3.81,0.79,70.45,False
-ADP,Automatic Data Processing Inc.,75.3,1,False,ninguno,alcista,ninguna,35.7,18.12,1.44,1.42,0.11,93.6,False
+BB,Blackberry Limited,81.62,1,False,ninguno,ninguna,ninguna,48.07,17.55,0.57,0.86,0.2,54.04,False
+ADBE,Adobe Systems Incorporated,80.19,1,False,ninguno,ninguna,ninguna,10.79,13.1,1.46,2.41,0.24,68.72,False
+PATH,UIPATH INC,80.19,1,False,ninguno,alcista,alcista,23.99,18.53,1.58,0.87,0.18,69.89,False
+NOW,SERVICENOW INC,79.97,1,False,ninguno,ninguna,ninguna,47.93,19.98,1.34,1.26,0.18,80.41,False
+TXN,Texas Instruments Inc,79.91,1,False,ninguno,bajista,bajista,26.9,10.81,0.34,1.46,0.41,62.07,False
+SLB,Schlumberger Ltd,79.74,1,False,ninguno,ninguna,ninguna,13.7,6.46,1.37,4.56,0.33,70.03,False
+BIIB,Biogen Inc.,78.14,1,False,ninguno,bajista,ninguna,37.65,14.7,1.21,2.75,0.17,84.23,False
+LMT,Lockheed Martin Corporation,77.97,1,False,ninguno,alcista,ninguna,23.05,26.49,2.22,1.51,0.28,90.47,False
+HPQ,Hp Inc,77.92,1,False,ninguno,ninguna,ninguna,51.92,12.74,1.14,3.44,-0.1,69.64,False
+RTX,Raytheon Technologies Corp,76.38,1,False,ninguno,ninguna,ninguna,10.46,7.86,1.12,3.32,0.3,73.75,False
+ADP,Automatic Data Processing Inc.,76.27,1,False,ninguno,alcista,ninguna,36.26,18.17,1.41,3.98,0.11,94.65,False
+TEAM,ATLASSIAN CORPORATION,76.21,1,False,ninguno,ninguna,ninguna,104.26,23.48,0.85,0.76,0.14,73.59,False
+PETR3,Petrobras - Petróleo Brasileiro S.A.,76.04,1,False,ninguno,ninguna,ninguna,31.93,15.05,-0.65,5.84,0.08,47.68,False
+GRMN,Garmin Ltd.,75.92,1,False,ninguno,alcista,ninguna,26.83,2.93,0.83,1.52,0.26,68.82,False
+SBUX,Starbucks Corporation,75.75,1,False,ninguno,alcista,alcista,13.02,12.3,1.42,0.93,0.39,75.99,False
+MSI,"Motorola Solutions, Inc.",75.18,1,False,ninguno,ninguna,ninguna,21.73,10.31,1.08,2.61,0.23,82.75,False
+CRM,Salesforce Inc.,74.9,1,False,ninguno,ninguna,ninguna,34.54,9.46,0.76,2.43,0.19,79.77,False
+USO,United States Oil Fund,74.56,1,False,ninguno,ninguna,ninguna,50.14,15.83,1.05,2.35,0.15,94.17,False
+KMB,Kimberly-Clark Corp.,74.1,1,False,ninguno,alcista,alcista,16.43,15.12,1.61,1.83,0.2,89.66,False
+ACN,Accenture,73.59,1,True,dorado,ninguna,ninguna,41.43,46.26,1.74,0.69,0.16,87.61,False
