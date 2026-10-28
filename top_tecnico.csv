@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-BB,Blackberry Limited,81.62,1,False,ninguno,ninguna,ninguna,48.07,17.55,0.57,0.86,0.2,54.04,False
-ADBE,Adobe Systems Incorporated,80.19,1,False,ninguno,ninguna,ninguna,10.79,13.1,1.46,2.41,0.24,68.72,False
-PATH,UIPATH INC,80.19,1,False,ninguno,alcista,alcista,23.99,18.53,1.58,0.87,0.18,69.89,False
-NOW,SERVICENOW INC,79.97,1,False,ninguno,ninguna,ninguna,47.93,19.98,1.34,1.26,0.18,80.41,False
-TXN,Texas Instruments Inc,79.91,1,False,ninguno,bajista,bajista,26.9,10.81,0.34,1.46,0.41,62.07,False
-SLB,Schlumberger Ltd,79.74,1,False,ninguno,ninguna,ninguna,13.7,6.46,1.37,4.56,0.33,70.03,False
-BIIB,Biogen Inc.,78.14,1,False,ninguno,bajista,ninguna,37.65,14.7,1.21,2.75,0.17,84.23,False
-LMT,Lockheed Martin Corporation,77.97,1,False,ninguno,alcista,ninguna,23.05,26.49,2.22,1.51,0.28,90.47,False
-HPQ,Hp Inc,77.92,1,False,ninguno,ninguna,ninguna,51.92,12.74,1.14,3.44,-0.1,69.64,False
-RTX,Raytheon Technologies Corp,76.38,1,False,ninguno,ninguna,ninguna,10.46,7.86,1.12,3.32,0.3,73.75,False
-ADP,Automatic Data Processing Inc.,76.27,1,False,ninguno,alcista,ninguna,36.26,18.17,1.41,3.98,0.11,94.65,False
-TEAM,ATLASSIAN CORPORATION,76.21,1,False,ninguno,ninguna,ninguna,104.26,23.48,0.85,0.76,0.14,73.59,False
-PETR3,Petrobras - Petróleo Brasileiro S.A.,76.04,1,False,ninguno,ninguna,ninguna,31.93,15.05,-0.65,5.84,0.08,47.68,False
-GRMN,Garmin Ltd.,75.92,1,False,ninguno,alcista,ninguna,26.83,2.93,0.83,1.52,0.26,68.82,False
-SBUX,Starbucks Corporation,75.75,1,False,ninguno,alcista,alcista,13.02,12.3,1.42,0.93,0.39,75.99,False
-MSI,"Motorola Solutions, Inc.",75.18,1,False,ninguno,ninguna,ninguna,21.73,10.31,1.08,2.61,0.23,82.75,False
-CRM,Salesforce Inc.,74.9,1,False,ninguno,ninguna,ninguna,34.54,9.46,0.76,2.43,0.19,79.77,False
-USO,United States Oil Fund,74.56,1,False,ninguno,ninguna,ninguna,50.14,15.83,1.05,2.35,0.15,94.17,False
-KMB,Kimberly-Clark Corp.,74.1,1,False,ninguno,alcista,alcista,16.43,15.12,1.61,1.83,0.2,89.66,False
-ACN,Accenture,73.59,1,True,dorado,ninguna,ninguna,41.43,46.26,1.74,0.69,0.16,87.61,False
+TXN,Texas Instruments Inc,86.77,1,False,ninguno,bajista,bajista,28.83,12.83,0.72,1.7,0.46,63.61,False
+NOW,SERVICENOW INC,82.76,1,False,ninguno,ninguna,ninguna,43.29,20.36,1.16,1.69,0.1,71.18,False
+E,Eni Spa,81.03,1,False,ninguno,ninguna,ninguna,23.69,8.33,0.75,1.42,0.59,70.12,False
+ACN,Accenture,79.19,1,True,dorado,ninguna,ninguna,32.83,38.73,1.17,1.82,0.04,74.98,False
+PATH,UIPATH INC,79.19,1,False,ninguno,ninguna,ninguna,19.68,16.33,1.49,0.49,0.12,63.08,False
+ADP,Automatic Data Processing Inc.,78.01,1,False,ninguno,ninguna,ninguna,30.29,14.32,1.08,1.0,0.2,76.42,False
+XLE,ENERGY SELECT SECTOR SPDR FUND,77.96,1,False,ninguno,ninguna,ninguna,27.2,12.12,0.59,1.03,0.23,70.39,False
+MSI,"Motorola Solutions, Inc.",77.73,1,False,ninguno,ninguna,ninguna,19.45,9.42,1.06,2.62,0.17,74.64,False
+ADBE,Adobe Systems Incorporated,77.57,1,False,ninguno,ninguna,ninguna,5.22,9.16,1.05,0.99,0.17,58.3,False
+HOG,Harley-Davidson Inc.,77.12,1,False,ninguno,ninguna,ninguna,32.75,21.59,1.35,1.8,0.04,78.42,False
+ADI,Analog Devices,77.01,1,False,ninguno,bajista,ninguna,23.91,8.95,0.18,0.68,0.25,56.83,False
+BIIB,Biogen Inc.,76.73,1,False,ninguno,bajista,ninguna,35.54,12.11,1.13,1.32,0.14,79.41,False
+ABNB,Airbnb Inc,76.67,1,False,ninguno,ninguna,ninguna,23.95,10.45,0.56,2.32,0.09,69.0,False
+SPOT,Spotify Technology S.A.,76.12,1,False,ninguno,ninguna,ninguna,19.78,13.84,1.38,0.91,0.12,74.23,False
+NUE,Nucor Corp,75.89,1,False,ninguno,ninguna,ninguna,31.06,12.99,0.83,1.43,0.1,75.28,False
+CRM,Salesforce Inc.,75.78,1,False,ninguno,ninguna,ninguna,29.16,8.22,0.52,1.43,0.18,71.01,False
+LMT,Lockheed Martin Corporation,75.61,1,False,ninguno,ninguna,ninguna,18.9,22.39,2.29,0.74,0.26,80.94,False
+ANF,Abercrombie & Fitch Co,75.22,1,False,ninguno,alcista,bajista,69.69,25.73,1.03,0.81,0.07,75.98,False
+SBUX,Starbucks Corporation,74.83,1,False,ninguno,alcista,alcista,11.47,10.29,1.4,0.37,0.39,69.01,False
+XOM,Exxon Mobil Corporation,74.5,1,False,ninguno,ninguna,ninguna,25.88,11.82,0.64,0.59,0.34,73.46,False
