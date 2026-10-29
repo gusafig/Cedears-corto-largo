@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-TXN,Texas Instruments Inc,86.77,1,False,ninguno,bajista,bajista,28.83,12.83,0.72,1.7,0.46,63.61,False
-NOW,SERVICENOW INC,82.76,1,False,ninguno,ninguna,ninguna,43.29,20.36,1.16,1.69,0.1,71.18,False
-E,Eni Spa,81.03,1,False,ninguno,ninguna,ninguna,23.69,8.33,0.75,1.42,0.59,70.12,False
-ACN,Accenture,79.19,1,True,dorado,ninguna,ninguna,32.83,38.73,1.17,1.82,0.04,74.98,False
-PATH,UIPATH INC,79.19,1,False,ninguno,ninguna,ninguna,19.68,16.33,1.49,0.49,0.12,63.08,False
-ADP,Automatic Data Processing Inc.,78.01,1,False,ninguno,ninguna,ninguna,30.29,14.32,1.08,1.0,0.2,76.42,False
-XLE,ENERGY SELECT SECTOR SPDR FUND,77.96,1,False,ninguno,ninguna,ninguna,27.2,12.12,0.59,1.03,0.23,70.39,False
-MSI,"Motorola Solutions, Inc.",77.73,1,False,ninguno,ninguna,ninguna,19.45,9.42,1.06,2.62,0.17,74.64,False
-ADBE,Adobe Systems Incorporated,77.57,1,False,ninguno,ninguna,ninguna,5.22,9.16,1.05,0.99,0.17,58.3,False
-HOG,Harley-Davidson Inc.,77.12,1,False,ninguno,ninguna,ninguna,32.75,21.59,1.35,1.8,0.04,78.42,False
-ADI,Analog Devices,77.01,1,False,ninguno,bajista,ninguna,23.91,8.95,0.18,0.68,0.25,56.83,False
-BIIB,Biogen Inc.,76.73,1,False,ninguno,bajista,ninguna,35.54,12.11,1.13,1.32,0.14,79.41,False
-ABNB,Airbnb Inc,76.67,1,False,ninguno,ninguna,ninguna,23.95,10.45,0.56,2.32,0.09,69.0,False
-SPOT,Spotify Technology S.A.,76.12,1,False,ninguno,ninguna,ninguna,19.78,13.84,1.38,0.91,0.12,74.23,False
-NUE,Nucor Corp,75.89,1,False,ninguno,ninguna,ninguna,31.06,12.99,0.83,1.43,0.1,75.28,False
-CRM,Salesforce Inc.,75.78,1,False,ninguno,ninguna,ninguna,29.16,8.22,0.52,1.43,0.18,71.01,False
-LMT,Lockheed Martin Corporation,75.61,1,False,ninguno,ninguna,ninguna,18.9,22.39,2.29,0.74,0.26,80.94,False
-ANF,Abercrombie & Fitch Co,75.22,1,False,ninguno,alcista,bajista,69.69,25.73,1.03,0.81,0.07,75.98,False
-SBUX,Starbucks Corporation,74.83,1,False,ninguno,alcista,alcista,11.47,10.29,1.4,0.37,0.39,69.01,False
-XOM,Exxon Mobil Corporation,74.5,1,False,ninguno,ninguna,ninguna,25.88,11.82,0.64,0.59,0.34,73.46,False
+UL,Unilever PLC - Sponsored,85.88,1,False,ninguno,ninguna,ninguna,877.15,922.14,5.76,20.0,0.71,100.0,False
+TXN,Texas Instruments Inc,84.92,1,False,ninguno,bajista,ninguna,29.39,12.67,0.94,1.94,0.52,71.13,False
+NOW,SERVICENOW INC,81.48,1,False,ninguno,ninguna,ninguna,38.8,18.26,0.75,1.68,0.07,64.61,False
+HPQ,Hp Inc,80.29,1,False,ninguno,ninguna,ninguna,42.41,8.21,0.95,2.53,-0.08,54.91,False
+NUE,Nucor Corp,80.01,1,False,ninguno,ninguna,ninguna,31.91,17.66,0.92,4.8,0.29,82.85,False
+PBI,Pitney Bowes Inc,77.98,1,False,ninguno,ninguna,ninguna,26.41,10.62,0.59,1.08,0.53,72.4,False
+XLE,ENERGY SELECT SECTOR SPDR FUND,77.13,1,False,ninguno,ninguna,ninguna,27.72,14.15,0.45,1.77,0.24,72.55,False
+TMO,Thermo Fisher Scientific Inc.,77.02,1,False,ninguno,bajista,bajista,37.15,6.41,0.29,12.31,0.52,71.85,False
+OXY,Occidental Petroleum Corp.,76.68,1,False,ninguno,ninguna,ninguna,23.19,18.37,0.58,1.01,0.4,75.3,False
+SIEGY,Siemens Ag Adr,76.68,1,False,ninguno,ninguna,ninguna,239.4,-1.72,-1.39,14.15,0.59,54.55,False
+ACN,Accenture,76.45,1,True,dorado,ninguna,ninguna,38.37,42.88,0.85,1.56,0.09,76.46,False
+MSI,"Motorola Solutions, Inc.",76.17,1,False,ninguno,ninguna,ninguna,19.62,11.4,0.99,2.17,0.27,80.06,False
+ADI,Analog Devices,76.12,1,False,ninguno,ninguna,ninguna,24.9,10.33,0.46,0.55,0.37,63.46,False
+ADBE,Adobe Systems Incorporated,75.83,1,False,ninguno,ninguna,ninguna,6.55,9.81,0.75,1.71,0.21,63.24,False
+TEM,TEMPUS AI INC,75.72,1,False,ninguno,alcista,ninguna,44.34,-3.99,0.54,3.17,0.21,61.05,False
+RTX,Raytheon Technologies Corp,75.32,1,False,ninguno,ninguna,ninguna,8.71,7.5,1.0,3.81,0.28,71.78,False
+TEAM,ATLASSIAN CORPORATION,74.48,1,False,ninguno,ninguna,ninguna,98.14,28.41,0.33,0.84,0.07,70.06,False
+ADP,Automatic Data Processing Inc.,74.08,1,False,ninguno,ninguna,ninguna,27.29,11.96,0.62,0.59,0.17,69.55,False
+SHEL,Royal Dutch Shell Plc,73.86,1,False,ninguno,ninguna,ninguna,29.88,13.78,0.28,9.58,0.2,75.94,False
+DD,Dupont de Nemours Inc.,73.8,1,False,ninguno,ninguna,ninguna,8.42,9.39,0.91,3.6,0.66,80.06,False
