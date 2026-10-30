@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-UL,Unilever PLC - Sponsored,85.88,1,False,ninguno,ninguna,ninguna,877.15,922.14,5.76,20.0,0.71,100.0,False
-TXN,Texas Instruments Inc,84.92,1,False,ninguno,bajista,ninguna,29.39,12.67,0.94,1.94,0.52,71.13,False
-NOW,SERVICENOW INC,81.48,1,False,ninguno,ninguna,ninguna,38.8,18.26,0.75,1.68,0.07,64.61,False
-HPQ,Hp Inc,80.29,1,False,ninguno,ninguna,ninguna,42.41,8.21,0.95,2.53,-0.08,54.91,False
-NUE,Nucor Corp,80.01,1,False,ninguno,ninguna,ninguna,31.91,17.66,0.92,4.8,0.29,82.85,False
-PBI,Pitney Bowes Inc,77.98,1,False,ninguno,ninguna,ninguna,26.41,10.62,0.59,1.08,0.53,72.4,False
-XLE,ENERGY SELECT SECTOR SPDR FUND,77.13,1,False,ninguno,ninguna,ninguna,27.72,14.15,0.45,1.77,0.24,72.55,False
-TMO,Thermo Fisher Scientific Inc.,77.02,1,False,ninguno,bajista,bajista,37.15,6.41,0.29,12.31,0.52,71.85,False
-OXY,Occidental Petroleum Corp.,76.68,1,False,ninguno,ninguna,ninguna,23.19,18.37,0.58,1.01,0.4,75.3,False
-SIEGY,Siemens Ag Adr,76.68,1,False,ninguno,ninguna,ninguna,239.4,-1.72,-1.39,14.15,0.59,54.55,False
-ACN,Accenture,76.45,1,True,dorado,ninguna,ninguna,38.37,42.88,0.85,1.56,0.09,76.46,False
-MSI,"Motorola Solutions, Inc.",76.17,1,False,ninguno,ninguna,ninguna,19.62,11.4,0.99,2.17,0.27,80.06,False
-ADI,Analog Devices,76.12,1,False,ninguno,ninguna,ninguna,24.9,10.33,0.46,0.55,0.37,63.46,False
-ADBE,Adobe Systems Incorporated,75.83,1,False,ninguno,ninguna,ninguna,6.55,9.81,0.75,1.71,0.21,63.24,False
-TEM,TEMPUS AI INC,75.72,1,False,ninguno,alcista,ninguna,44.34,-3.99,0.54,3.17,0.21,61.05,False
-RTX,Raytheon Technologies Corp,75.32,1,False,ninguno,ninguna,ninguna,8.71,7.5,1.0,3.81,0.28,71.78,False
-TEAM,ATLASSIAN CORPORATION,74.48,1,False,ninguno,ninguna,ninguna,98.14,28.41,0.33,0.84,0.07,70.06,False
-ADP,Automatic Data Processing Inc.,74.08,1,False,ninguno,ninguna,ninguna,27.29,11.96,0.62,0.59,0.17,69.55,False
-SHEL,Royal Dutch Shell Plc,73.86,1,False,ninguno,ninguna,ninguna,29.88,13.78,0.28,9.58,0.2,75.94,False
-DD,Dupont de Nemours Inc.,73.8,1,False,ninguno,ninguna,ninguna,8.42,9.39,0.91,3.6,0.66,80.06,False
+PATH,UIPATH INC,86.67,1,False,ninguno,ninguna,ninguna,17.42,9.07,1.11,1.52,1.66,56.78,False
+TXN,Texas Instruments Inc,83.96,1,False,ninguno,bajista,ninguna,29.62,13.5,1.04,1.84,0.55,73.43,False
+ADI,Analog Devices,83.29,1,False,ninguno,ninguna,ninguna,24.98,10.71,0.61,2.56,0.4,65.93,False
+HOG,Harley-Davidson Inc.,80.18,1,False,ninguno,ninguna,ninguna,35.79,25.91,1.28,3.39,0.15,81.22,False
+XOM,Exxon Mobil Corporation,80.01,1,False,ninguno,ninguna,ninguna,27.97,14.5,0.44,3.54,0.31,72.81,False
+MSI,"Motorola Solutions, Inc.",78.94,1,False,ninguno,ninguna,ninguna,21.2,12.81,0.97,7.68,0.49,82.87,False
+SLB,Schlumberger Ltd,78.94,1,False,ninguno,ninguna,ninguna,11.4,11.28,1.38,1.44,0.51,71.56,False
+MMM,3M Company,78.77,1,False,ninguno,alcista,alcista,18.04,10.32,0.87,3.65,0.45,74.75,False
+TEAM,ATLASSIAN CORPORATION,77.13,1,False,ninguno,ninguna,ninguna,83.61,17.13,-0.38,1.57,0.07,53.74,False
+JNJ,Johnson & Johnson,76.91,1,False,ninguno,alcista,ninguna,20.14,6.24,0.98,2.47,0.2,69.65,False
+RTX,Raytheon Technologies Corp,76.85,1,False,ninguno,ninguna,ninguna,10.59,10.53,1.02,5.02,0.23,71.43,False
+KMB,Kimberly-Clark Corp.,76.74,1,False,ninguno,alcista,alcista,15.04,15.29,0.99,2.65,0.3,80.65,False
+CVX,Chevron Corp.,76.57,1,False,ninguno,ninguna,ninguna,28.8,15.11,0.5,1.97,0.3,78.69,False
+SPOT,Spotify Technology S.A.,76.51,1,False,ninguno,ninguna,ninguna,19.67,16.28,0.74,0.68,0.14,62.8,False
+BCS,Barclays Bank Plc,76.28,1,False,ninguno,ninguna,ninguna,-0.43,-2.55,0.83,7.59,0.41,57.59,False
+GILD,"Gilead Sciences, Inc.",75.21,1,False,ninguno,bajista,ninguna,27.12,12.83,0.69,1.1,0.22,74.33,False
+TEM,TEMPUS AI INC,74.93,1,False,ninguno,alcista,ninguna,45.0,-3.44,1.04,0.78,0.23,63.96,False
+DE,Deere & Co.,74.93,1,False,ninguno,ninguna,ninguna,17.52,0.29,0.28,5.78,0.19,58.04,False
+XLE,ENERGY SELECT SECTOR SPDR FUND,74.87,1,False,ninguno,ninguna,ninguna,26.96,13.88,0.3,0.63,0.3,67.56,False
+AI,C3.AI INC,74.76,1,False,ninguno,ninguna,ninguna,27.46,12.47,0.38,1.54,-0.04,58.9,False
