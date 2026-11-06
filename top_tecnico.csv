@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-MRNA,Moderna Inc,82.55,1,False,ninguno,bajista,bajista,202.21,39.53,0.14,1.41,0.23,57.04,False
-SPOT,Spotify Technology S.A.,82.1,1,False,ninguno,bajista,ninguna,36.51,33.93,1.38,1.88,0.3,75.79,False
-DISN,The Walt Disney Co.,81.08,1,False,ninguno,ninguna,ninguna,58.33,58.79,2.36,20.0,0.17,100.0,False
-TEM,TEMPUS AI INC,80.97,1,False,ninguno,ninguna,ninguna,43.95,10.66,1.34,0.78,0.3,59.6,False
-MDT,Medtronic Public Limited Company,80.41,1,False,ninguno,ninguna,ninguna,30.19,26.83,1.02,1.53,0.42,75.79,False
-GE,General Electric Co.,80.01,1,False,ninguno,ninguna,ninguna,11.97,11.84,1.39,3.83,0.34,66.54,False
-ABT,Abbott Labs,79.56,1,False,ninguno,ninguna,ninguna,13.23,16.69,0.95,4.09,0.34,69.05,False
-TGT,Target Corporation,78.2,1,False,ninguno,ninguna,ninguna,31.8,10.07,0.73,2.73,0.09,62.82,False
-UL,Unilever PLC - Sponsored,78.15,1,False,ninguno,ninguna,ninguna,931.02,981.55,5.79,20.0,0.02,100.0,False
-NEM,Newmont Corporation,77.58,1,False,ninguno,ninguna,ninguna,14.78,5.75,0.3,6.51,0.42,58.94,False
-ACN,Accenture,77.41,1,False,ninguno,bajista,ninguna,49.28,41.44,0.48,1.25,0.27,72.58,False
-PFE,Pfizer Inc.,77.24,1,False,ninguno,bajista,ninguna,24.78,16.47,0.31,5.27,0.33,72.02,False
-MDLZ,Mondelez,76.79,1,False,ninguno,bajista,ninguna,23.41,18.73,0.74,2.35,0.18,71.31,False
-MMM,3M Company,76.28,1,False,ninguno,alcista,alcista,30.22,22.9,1.15,1.18,0.47,83.49,False
-DD,Dupont de Nemours Inc.,76.23,1,False,ninguno,ninguna,ninguna,19.53,18.92,1.41,4.59,0.29,93.93,False
-RACE,Ferrari,76.12,1,False,ninguno,ninguna,ninguna,27.44,16.64,1.02,1.58,0.43,79.29,False
-BCS,Barclays Bank Plc,75.72,1,False,ninguno,ninguna,ninguna,3.99,4.29,1.01,4.81,0.46,64.2,False
-DAL,Delta Air Lines,75.72,1,False,ninguno,ninguna,alcista,25.75,10.77,1.24,1.84,0.29,73.71,False
-TMO,Thermo Fisher Scientific Inc.,75.32,1,False,ninguno,bajista,bajista,38.0,11.94,0.12,0.97,0.5,62.76,False
-IBN,Icici Bank Ltd.,74.87,1,False,ninguno,bajista,ninguna,19.32,16.26,0.71,3.71,0.2,73.54,False
+NEM,Newmont Corporation,84.14,1,False,ninguno,ninguna,ninguna,16.64,10.15,0.79,3.98,0.38,57.56,False
+IBN,Icici Bank Ltd.,81.95,1,False,ninguno,bajista,ninguna,23.15,20.77,1.02,7.15,0.33,75.48,False
+GE,General Electric Co.,81.38,1,False,ninguno,ninguna,ninguna,5.82,7.77,1.27,2.54,0.24,54.94,False
+AEM,Agnico Eagle Mines Limited,81.21,1,False,ninguno,bajista,ninguna,9.69,9.65,0.62,4.73,0.21,55.02,False
+ABT,Abbott Labs,79.81,1,False,ninguno,ninguna,ninguna,20.87,19.08,1.27,1.57,0.17,67.23,False
+MDT,Medtronic Public Limited Company,79.64,1,False,ninguno,ninguna,ninguna,26.73,25.58,1.06,0.97,0.48,70.93,False
+HOG,Harley-Davidson Inc.,78.97,1,False,ninguno,ninguna,ninguna,45.07,26.26,1.75,2.75,0.09,79.08,False
+TM,Toyota Motor Corporation,77.95,1,True,dorado,ninguna,ninguna,19.57,23.96,0.83,8.05,0.31,83.17,False
+SPOT,Spotify Technology S.A.,77.67,1,False,ninguno,bajista,ninguna,33.46,24.64,1.34,0.62,0.26,72.4,False
+MSI,"Motorola Solutions, Inc.",77.62,1,False,ninguno,ninguna,ninguna,27.35,19.45,0.8,3.2,0.34,83.37,False
+RACE,Ferrari,76.88,1,False,ninguno,ninguna,ninguna,23.89,13.57,1.07,1.16,0.4,70.71,False
+MDLZ,Mondelez,76.6,1,False,ninguno,bajista,ninguna,21.11,16.5,0.72,1.91,0.08,64.66,False
+TXN,Texas Instruments Inc,75.76,1,False,ninguno,ninguna,ninguna,17.04,0.86,0.07,2.98,0.31,56.39,False
+TEM,TEMPUS AI INC,75.7,1,False,ninguno,alcista,alcista,32.83,4.08,0.73,0.92,0.31,59.71,False
+V,Visa Inc,75.25,1,False,ninguno,ninguna,ninguna,32.81,17.7,0.52,1.25,0.18,69.19,False
+BRKB,Berkshire Hathaway Inc.,74.97,1,False,ninguno,ninguna,ninguna,24.76,17.32,0.67,1.78,0.29,75.59,False
+KO,The Coca Cola Company,74.92,1,False,ninguno,bajista,ninguna,26.52,16.26,0.44,1.55,0.17,67.15,False
+GILD,"Gilead Sciences, Inc.",74.75,1,False,ninguno,ninguna,ninguna,30.07,18.99,0.88,0.51,0.23,67.24,False
+ACN,Accenture,74.69,1,False,ninguno,bajista,ninguna,53.21,42.38,0.54,0.73,0.27,73.41,False
+MMM,3M Company,74.52,1,False,ninguno,ninguna,ninguna,25.35,19.69,1.19,0.49,0.44,73.87,False
