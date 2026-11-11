@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-MRNA,Moderna Inc,86.39,1,False,ninguno,ninguna,ninguna,199.1,35.23,0.69,0.77,0.18,61.67,False
-NEM,Newmont Corporation,85.04,1,False,ninguno,ninguna,ninguna,17.06,8.99,1.08,0.93,0.38,58.28,False
-AEM,Agnico Eagle Mines Limited,84.83,1,False,ninguno,ninguna,ninguna,10.69,8.13,1.01,1.89,0.28,56.22,False
-HOG,Harley-Davidson Inc.,84.53,1,False,ninguno,ninguna,ninguna,45.91,26.58,1.42,2.59,0.31,79.87,False
-IBN,Icici Bank Ltd.,83.61,1,False,ninguno,ninguna,ninguna,28.11,25.67,1.37,2.41,0.43,82.89,False
-MDT,Medtronic Public Limited Company,83.41,1,False,ninguno,ninguna,ninguna,24.06,19.14,0.88,0.95,0.39,69.73,False
-TEM,TEMPUS AI INC,83.3,1,False,ninguno,alcista,alcista,41.79,13.7,0.62,0.91,0.31,64.16,False
-GE,General Electric Co.,80.68,1,False,ninguno,ninguna,ninguna,8.56,9.69,1.23,0.9,0.19,58.61,False
-ABT,Abbott Labs,80.18,1,False,ninguno,ninguna,ninguna,16.96,15.5,1.06,0.62,0.14,62.16,False
-DAL,Delta Air Lines,79.18,1,False,ninguno,ninguna,ninguna,27.06,11.0,1.44,1.49,0.21,76.5,False
-ADP,Automatic Data Processing Inc.,79.02,1,False,ninguno,bajista,bajista,35.98,16.48,0.36,2.0,0.12,68.31,False
-V,Visa Inc,78.41,1,False,ninguno,ninguna,ninguna,32.61,16.5,0.38,0.93,0.21,68.8,False
-ABNB,Airbnb Inc,77.98,1,False,ninguno,ninguna,ninguna,38.46,20.07,0.73,1.21,-0.16,64.16,False
-BRKB,Berkshire Hathaway Inc.,77.79,1,False,ninguno,ninguna,ninguna,23.9,15.49,0.58,1.09,0.28,73.44,False
-TMO,Thermo Fisher Scientific Inc.,77.61,1,False,ninguno,bajista,bajista,34.68,10.32,-0.16,0.49,0.45,59.51,False
-VRTX,VERTEX PHARMACEUTICALS INC,77.51,1,False,ninguno,ninguna,ninguna,22.68,12.19,0.54,3.13,0.14,68.48,False
-MMM,3M Company,77.21,1,False,ninguno,ninguna,ninguna,23.62,17.08,1.03,0.32,0.41,72.53,False
-SPOT,Spotify Technology S.A.,77.18,1,False,ninguno,bajista,ninguna,29.99,18.06,1.07,0.22,0.25,69.87,False
-HMY,Harmony Gold Mining Company Ltd.,77.13,1,False,ninguno,alcista,alcista,4.36,5.51,1.29,1.37,0.09,57.43,False
-BB,Blackberry Limited,76.09,1,False,ninguno,alcista,ninguna,36.28,6.19,-0.41,0.68,0.22,57.85,False
+MRNA,Moderna Inc,86.03,1,False,ninguno,ninguna,ninguna,199.1,35.23,0.69,0.77,0.18,61.67,False
+NEM,Newmont Corporation,84.54,1,False,ninguno,ninguna,ninguna,17.06,8.99,1.08,0.93,0.38,58.28,False
+AEM,Agnico Eagle Mines Limited,84.31,1,False,ninguno,ninguna,ninguna,10.69,8.13,1.01,1.89,0.28,56.22,False
+HOG,Harley-Davidson Inc.,84.09,1,False,ninguno,ninguna,ninguna,45.91,26.58,1.42,2.59,0.31,79.87,False
+IBN,Icici Bank Ltd.,83.12,1,False,ninguno,ninguna,ninguna,28.11,25.67,1.37,2.41,0.43,82.89,False
+MDT,Medtronic Public Limited Company,82.96,1,False,ninguno,ninguna,ninguna,24.06,19.14,0.88,0.95,0.39,69.73,False
+TEM,TEMPUS AI INC,82.89,1,False,ninguno,alcista,alcista,41.79,13.7,0.62,0.91,0.31,64.16,False
+UL,Unilever PLC - Sponsored,82.1,1,False,ninguno,ninguna,ninguna,909.61,957.9,5.78,20.0,0.14,100.0,False
+GE,General Electric Co.,80.27,1,False,ninguno,ninguna,ninguna,8.56,9.69,1.23,0.9,0.19,58.61,False
+ABT,Abbott Labs,79.81,1,False,ninguno,ninguna,ninguna,16.96,15.5,1.06,0.62,0.14,62.16,False
+DISN,The Walt Disney Co.,79.02,1,False,ninguno,ninguna,ninguna,54.72,55.15,2.27,20.0,0.02,100.0,False
+DAL,Delta Air Lines,78.82,1,False,ninguno,ninguna,ninguna,27.06,11.0,1.44,1.49,0.21,76.5,False
+ADP,Automatic Data Processing Inc.,78.65,1,False,ninguno,bajista,bajista,35.98,16.48,0.36,2.0,0.12,68.31,False
+V,Visa Inc,78.1,1,False,ninguno,ninguna,ninguna,32.61,16.5,0.38,0.93,0.21,68.8,False
+ABNB,Airbnb Inc,77.55,1,False,ninguno,ninguna,ninguna,38.46,20.07,0.73,1.21,-0.16,64.16,False
+BRKB,Berkshire Hathaway Inc.,77.43,1,False,ninguno,ninguna,ninguna,23.9,15.49,0.58,1.09,0.28,73.44,False
+TMO,Thermo Fisher Scientific Inc.,77.15,1,False,ninguno,bajista,bajista,34.68,10.32,-0.16,0.49,0.45,59.51,False
+VRTX,VERTEX PHARMACEUTICALS INC,77.14,1,False,ninguno,ninguna,ninguna,22.68,12.19,0.54,3.13,0.14,68.48,False
+SPOT,Spotify Technology S.A.,76.92,1,False,ninguno,bajista,ninguna,29.99,18.06,1.07,0.22,0.25,69.87,False
+MMM,3M Company,76.83,1,False,ninguno,ninguna,ninguna,23.62,17.08,1.03,0.32,0.41,72.53,False
