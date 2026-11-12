@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-MRNA,Moderna Inc,86.03,1,False,ninguno,ninguna,ninguna,199.1,35.23,0.69,0.77,0.18,61.67,False
-NEM,Newmont Corporation,84.54,1,False,ninguno,ninguna,ninguna,17.06,8.99,1.08,0.93,0.38,58.28,False
-AEM,Agnico Eagle Mines Limited,84.31,1,False,ninguno,ninguna,ninguna,10.69,8.13,1.01,1.89,0.28,56.22,False
-HOG,Harley-Davidson Inc.,84.09,1,False,ninguno,ninguna,ninguna,45.91,26.58,1.42,2.59,0.31,79.87,False
-IBN,Icici Bank Ltd.,83.12,1,False,ninguno,ninguna,ninguna,28.11,25.67,1.37,2.41,0.43,82.89,False
-MDT,Medtronic Public Limited Company,82.96,1,False,ninguno,ninguna,ninguna,24.06,19.14,0.88,0.95,0.39,69.73,False
-TEM,TEMPUS AI INC,82.89,1,False,ninguno,alcista,alcista,41.79,13.7,0.62,0.91,0.31,64.16,False
-UL,Unilever PLC - Sponsored,82.1,1,False,ninguno,ninguna,ninguna,909.61,957.9,5.78,20.0,0.14,100.0,False
-GE,General Electric Co.,80.27,1,False,ninguno,ninguna,ninguna,8.56,9.69,1.23,0.9,0.19,58.61,False
-ABT,Abbott Labs,79.81,1,False,ninguno,ninguna,ninguna,16.96,15.5,1.06,0.62,0.14,62.16,False
-DISN,The Walt Disney Co.,79.02,1,False,ninguno,ninguna,ninguna,54.72,55.15,2.27,20.0,0.02,100.0,False
-DAL,Delta Air Lines,78.82,1,False,ninguno,ninguna,ninguna,27.06,11.0,1.44,1.49,0.21,76.5,False
-ADP,Automatic Data Processing Inc.,78.65,1,False,ninguno,bajista,bajista,35.98,16.48,0.36,2.0,0.12,68.31,False
-V,Visa Inc,78.1,1,False,ninguno,ninguna,ninguna,32.61,16.5,0.38,0.93,0.21,68.8,False
-ABNB,Airbnb Inc,77.55,1,False,ninguno,ninguna,ninguna,38.46,20.07,0.73,1.21,-0.16,64.16,False
-BRKB,Berkshire Hathaway Inc.,77.43,1,False,ninguno,ninguna,ninguna,23.9,15.49,0.58,1.09,0.28,73.44,False
-TMO,Thermo Fisher Scientific Inc.,77.15,1,False,ninguno,bajista,bajista,34.68,10.32,-0.16,0.49,0.45,59.51,False
-VRTX,VERTEX PHARMACEUTICALS INC,77.14,1,False,ninguno,ninguna,ninguna,22.68,12.19,0.54,3.13,0.14,68.48,False
-SPOT,Spotify Technology S.A.,76.92,1,False,ninguno,bajista,ninguna,29.99,18.06,1.07,0.22,0.25,69.87,False
-MMM,3M Company,76.83,1,False,ninguno,ninguna,ninguna,23.62,17.08,1.03,0.32,0.41,72.53,False
+DISN,The Walt Disney Co.,85.67,1,False,ninguno,ninguna,ninguna,58.9,59.37,2.38,20.0,0.84,100.0,False
+TRVV,The Travelers Cos. Inc.,84.31,1,False,ninguno,ninguna,ninguna,32.35,11.87,0.74,9.33,0.1,55.81,False
+IBN,Icici Bank Ltd.,83.48,1,False,ninguno,ninguna,ninguna,30.88,25.76,1.63,3.48,0.52,86.01,False
+NEM,Newmont Corporation,80.68,1,False,ninguno,ninguna,ninguna,13.82,5.79,1.1,3.04,0.22,54.8,False
+GLOB,Globant S.A.,79.6,1,True,dorado,bajista,ninguna,19.62,29.09,0.21,0.94,0.33,60.33,False
+ADP,Automatic Data Processing Inc.,75.56,1,False,ninguno,bajista,bajista,35.55,14.79,0.21,1.05,0.15,63.4,False
+GE,General Electric Co.,73.99,1,False,ninguno,ninguna,ninguna,14.19,14.52,1.31,0.98,0.2,71.08,False
+BRKB,Berkshire Hathaway Inc.,73.74,1,False,ninguno,ninguna,ninguna,27.32,16.83,0.53,0.73,0.3,74.27,False
+AMZN,"Amazon.Com, Inc.",73.66,1,False,ninguno,bajista,bajista,17.38,5.85,0.56,1.26,0.06,55.75,False
+TXN,Texas Instruments Inc,73.41,1,False,ninguno,ninguna,ninguna,27.44,11.76,-0.41,1.12,0.29,61.14,False
+TM,Toyota Motor Corporation,73.33,1,False,ninguno,ninguna,ninguna,16.28,16.49,1.02,1.36,0.13,73.38,False
+MMM,3M Company,73.16,1,False,ninguno,ninguna,ninguna,25.65,20.2,0.77,0.21,0.43,67.7,False
+UL,Unilever PLC - Sponsored,72.96,1,False,ninguno,ninguna,ninguna,905.42,953.28,5.78,20.0,-0.36,100.0,False
+SONY,Sony Group Corporation,72.42,1,False,ninguno,bajista,ninguna,27.23,12.47,0.39,1.03,0.04,63.12,False
+BAYN,Bayer AG,72.34,1,False,ninguno,ninguna,ninguna,158.53,6.9,1.11,0.73,-0.23,56.93,False
+MSI,"Motorola Solutions, Inc.",72.09,1,False,ninguno,ninguna,ninguna,30.88,22.95,0.92,0.38,0.34,86.33,False
+SBUX,Starbucks Corporation,72.01,1,False,ninguno,ninguna,ninguna,18.49,23.32,0.56,0.71,0.22,73.66,False
+AEM,Agnico Eagle Mines Limited,72.01,1,False,ninguno,ninguna,ninguna,6.87,3.61,1.1,3.42,0.08,51.35,False
+COST,Costco Wholesale Corp,71.84,1,False,ninguno,bajista,ninguna,21.04,17.77,0.54,0.95,0.19,74.8,False
+HMC,Honda Motor Co. Ltd,71.43,1,False,ninguno,bajista,ninguna,24.22,4.29,0.01,3.46,0.11,51.79,False
