@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_tecnico,tendencia,cruce_reciente,tipo_cruce,divergencia_rsi,divergencia_macd,distancia_media_pct,roc_20d_pct,macd_hist_pct,volumen_relativo,ad_normalizado,rsi_actual,patron_piso
-UL,Unilever PLC - Sponsored,85.84,1,False,ninguno,ninguna,ninguna,909.13,957.38,5.78,20.0,0.61,100.0,False
-TGT,Target Corporation,84.02,1,False,ninguno,ninguna,ninguna,37.03,17.09,0.89,1.66,0.23,74.65,False
-HOG,Harley-Davidson Inc.,83.09,1,False,ninguno,bajista,bajista,46.77,27.32,-0.01,1.5,0.22,65.93,False
-GILD,"Gilead Sciences, Inc.",82.67,1,False,ninguno,ninguna,ninguna,32.09,15.49,0.07,0.89,0.25,61.39,False
-DISN,The Walt Disney Co.,82.21,1,False,ninguno,ninguna,ninguna,66.97,67.53,2.57,20.0,0.13,100.0,False
-IBN,Icici Bank Ltd.,81.4,1,False,ninguno,ninguna,ninguna,36.67,26.09,1.08,1.53,0.54,98.16,False
-MMM,3M Company,81.4,1,False,ninguno,ninguna,ninguna,22.96,9.0,-0.15,3.05,0.29,60.97,False
-GE,General Electric Co.,81.07,1,False,ninguno,ninguna,ninguna,10.51,14.64,0.5,0.97,0.15,59.44,False
-JNJ,Johnson & Johnson,79.12,1,False,ninguno,ninguna,ninguna,19.39,10.13,0.04,1.72,-0.05,55.56,False
-TRVV,The Travelers Cos. Inc.,78.02,1,False,ninguno,ninguna,ninguna,32.43,4.82,-0.62,10.83,0.24,60.57,False
-TMO,Thermo Fisher Scientific Inc.,76.67,1,False,ninguno,bajista,bajista,38.16,5.57,-0.06,0.22,0.46,55.18,False
-MDT,Medtronic Public Limited Company,75.82,1,False,ninguno,ninguna,ninguna,27.05,14.8,0.05,1.11,0.15,72.99,False
-SONY,Sony Group Corporation,75.82,1,False,ninguno,bajista,ninguna,35.85,15.5,0.32,1.15,0.01,76.38,False
-WMT,Walmart Inc.,74.81,1,True,dorado,bajista,bajista,19.19,13.98,-0.0,1.24,0.24,73.97,False
-HON,Honeywell International Inc.,74.73,1,True,dorado,bajista,bajista,8.86,7.57,0.05,0.51,0.33,55.11,False
-SBUX,Starbucks Corporation,74.73,1,False,ninguno,bajista,ninguna,17.71,13.14,0.22,0.53,0.06,60.05,False
-KO,The Coca Cola Company,74.56,1,False,ninguno,ninguna,ninguna,28.83,10.3,0.24,1.49,0.21,83.57,False
-BIIB,Biogen Inc.,74.13,1,False,ninguno,bajista,bajista,34.96,9.58,-0.13,1.03,-0.09,59.95,False
-MO,Altria Group Inc.,73.96,1,False,ninguno,ninguna,ninguna,20.07,7.43,-0.19,0.96,0.13,59.48,False
-ABBV,AbbVie Inc.,73.37,1,False,ninguno,ninguna,ninguna,30.86,5.86,-0.25,0.67,0.11,58.97,False
+TGT,Target Corporation,83.34,1,False,ninguno,ninguna,ninguna,39.72,15.23,1.11,1.5,0.21,74.93,False
+GILD,"Gilead Sciences, Inc.",81.57,1,False,ninguno,bajista,bajista,35.49,16.35,0.22,0.43,0.26,59.14,False
+SYY,Sysco Corp.,80.93,1,False,ninguno,bajista,bajista,13.59,3.16,0.59,7.93,-0.02,55.73,False
+SONY,Sony Group Corporation,80.87,1,False,ninguno,ninguna,ninguna,41.6,15.49,0.66,3.6,0.1,82.61,False
+RTX,Raytheon Technologies Corp,79.45,1,False,ninguno,bajista,ninguna,13.66,7.59,0.29,1.0,0.16,56.29,False
+HOG,Harley-Davidson Inc.,79.1,1,False,ninguno,bajista,bajista,51.89,22.94,0.11,0.67,0.18,67.37,False
+GE,General Electric Co.,78.24,1,False,ninguno,ninguna,ninguna,10.51,15.53,0.37,1.14,0.12,65.11,False
+ABBV,AbbVie Inc.,78.09,1,False,ninguno,ninguna,ninguna,37.15,10.69,0.02,1.02,0.12,66.39,False
+IBN,Icici Bank Ltd.,77.58,1,False,ninguno,ninguna,ninguna,42.41,30.53,1.2,0.66,0.58,98.39,False
+TMO,Thermo Fisher Scientific Inc.,76.95,1,False,ninguno,bajista,bajista,38.69,8.73,0.02,0.29,0.53,59.22,False
+KO,The Coca Cola Company,76.14,1,False,ninguno,ninguna,ninguna,33.89,11.6,0.39,1.13,0.22,86.23,False
+VZ,Verizon Communications Inc.,76.1,1,False,ninguno,ninguna,ninguna,15.17,13.0,0.84,2.93,0.18,90.64,False
+VRSN,"Verisign, Inc.",75.68,1,False,ninguno,ninguna,bajista,30.52,12.14,0.22,0.87,0.6,76.05,False
+MO,Altria Group Inc.,75.41,1,False,ninguno,bajista,ninguna,24.51,8.51,-0.05,1.01,0.12,63.57,False
+ABT,Abbott Labs,74.7,1,False,ninguno,ninguna,ninguna,17.73,9.87,-0.21,0.84,0.19,59.01,False
+WMT,Walmart Inc.,74.49,1,True,dorado,bajista,ninguna,25.48,16.45,0.3,0.87,0.22,77.82,False
+AMZN,"Amazon.Com, Inc.",73.86,1,False,ninguno,bajista,ninguna,16.28,7.81,0.27,1.03,0.06,66.76,False
+KMB,Kimberly-Clark Corp.,73.15,1,False,ninguno,bajista,bajista,19.54,4.44,0.04,1.38,0.02,64.97,False
+BRKB,Berkshire Hathaway Inc.,72.92,1,False,ninguno,ninguna,ninguna,31.21,14.2,0.24,0.85,0.18,82.31,False
+JNJ,Johnson & Johnson,72.82,1,False,ninguno,bajista,bajista,24.96,10.21,0.19,1.08,-0.11,66.15,False
