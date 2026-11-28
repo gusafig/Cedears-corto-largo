@@ -1,21 +1,21 @@
 ticker_byma,nombre_empresa,puntaje_financiero,n_metricas,pe,ev_ebitda,roe,deuda_ebitda,crecimiento_ingresos
-SMSN,Samsung Electronics Co. Ltd.,94.59,5,2.4,-0.58,0.42,0.05,1.27
-HMY,Harmony Gold Mining Company Ltd.,92.67,5,4.68,0.2,0.48,0.21,0.49
-MU,Micron Technology Inc,91.94,5,8.0,5.83,0.88,0.05,3.79
-TXR,Ternium S.A.,87.66,5,5.95,3.06,0.29,0.08,0.33
-GFI,Gold Fields Ltd.,87.3,5,6.47,7.99,0.59,0.37,0.79
-PBR,Petrobras (ADR),83.48,5,3.79,1.5,0.3,1.34,0.32
-PETR3,Petrobras - Petróleo Brasileiro S.A.,82.36,5,4.42,3.44,0.3,1.34,0.32
-VIST,Vista Energy S.A.B. de C.V.,82.26,5,6.99,3.39,0.27,1.47,0.83
-B,Barrick Gold Corp,82.17,5,8.07,4.45,0.27,0.35,0.22
-EQNR,Equinor Asa,81.77,5,8.16,4.0,0.28,0.62,0.27
-PSX,Phillips 66,81.53,5,7.68,6.97,0.4,1.2,0.46
-LAC,Lithium Americas Corp,80.57,3,3.63,-21.88,0.16,,
-NVDA,Nvidia Corporation,80.54,5,13.48,12.19,1.17,0.16,1.03
-PRIO3,Petro Rio S.A.,79.74,5,7.89,4.05,0.22,1.52,1.35
-TSM,Taiwan Semiconductor Manufacturing,78.94,5,20.66,2.87,0.42,0.3,0.51
-PAAS,Pan American Silver Corp.,78.85,5,8.05,5.31,0.22,0.38,0.18
-HL,Hecla Mining Co .,78.32,5,12.52,6.2,0.23,0.02,0.25
-UGP,Ultrapar Participações S.A.,78.3,5,5.26,1.8,0.29,1.69,0.2
-UN,NU Holdings Ltd/Cayman Islands,77.37,3,14.09,,0.31,,0.34
-NEM,Newmont Corporation,76.79,5,10.98,5.41,0.27,0.32,0.15
+SMSN,Samsung Electronics Co. Ltd.,94.45,5,2.16,-0.58,0.42,0.05,1.27
+HMY,Harmony Gold Mining Company Ltd.,92.6,5,5.33,0.23,0.48,0.21,0.49
+MU,Micron Technology Inc,91.77,5,8.09,6.37,0.88,0.05,3.79
+TXR,Ternium S.A.,86.86,5,7.2,3.73,0.29,0.08,0.33
+GFI,Gold Fields Ltd.,85.89,5,6.97,9.19,0.59,0.37,0.79
+PBR,Petrobras (ADR),83.56,5,4.03,1.52,0.3,1.34,0.32
+PETR3,Petrobras - Petróleo Brasileiro S.A.,82.71,5,4.32,3.39,0.3,1.34,0.32
+EQNR,Equinor Asa,82.49,5,8.04,3.95,0.28,0.62,0.27
+VIST,Vista Energy S.A.B. de C.V.,82.36,5,7.3,3.49,0.27,1.47,0.83
+PSX,Phillips 66,82.0,5,7.57,7.04,0.4,1.2,0.46
+B,Barrick Gold Corp,81.36,5,8.83,5.06,0.27,0.35,0.22
+LAC,Lithium Americas Corp,80.34,3,3.8,-22.24,0.16,,
+PRIO3,Petro Rio S.A.,79.67,5,8.12,4.13,0.22,1.52,1.35
+TSM,Taiwan Semiconductor Manufacturing,78.74,5,22.18,3.27,0.42,0.3,0.51
+UGP,Ultrapar Participações S.A.,78.3,5,5.46,1.85,0.29,1.69,0.2
+NVDA,Nvidia Corporation,77.98,5,16.04,14.67,1.17,0.16,1.03
+PAAS,Pan American Silver Corp.,77.77,5,9.21,6.13,0.22,0.38,0.18
+HL,Hecla Mining Co .,76.99,5,14.43,7.26,0.23,0.02,0.25
+SHEL,Royal Dutch Shell Plc,76.74,5,8.29,4.65,0.17,1.13,0.36
+UN,NU Holdings Ltd/Cayman Islands,76.63,3,15.55,,0.31,,0.34
